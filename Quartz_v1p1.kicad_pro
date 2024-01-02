@@ -1,0 +1,484 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.2,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "other_line_width": 0.15,
+        "silk_line_width": 0.15,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15
+      },
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "rules": {
+        "min_copper_edge_clearance": 0.0,
+        "solder_mask_clearance": 0.0,
+        "solder_mask_min_width": 0.0
+      },
+      "track_widths": [],
+      "via_dimensions": []
+    },
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "similar_labels": "warning",
+      "simulation_model_issue": "ignore",
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "meta": {
+    "filename": "Quartz_v1p1.kicad_pro",
+    "version": 1
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      }
+    ],
+    "meta": {
+      "version": 3
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": []
+  },
+  "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "specctra_dsn": "",
+      "step": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "page_layout_descr_file": "",
+    "plot_directory": "./",
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "40baf21a-c5b6-4126-86f5-a663d00e8f52",
+      "Channel1"
+    ],
+    [
+      "7e45dfd5-96a0-4e3a-9c69-58c6fab792b7",
+      "Channel2"
+    ],
+    [
+      "b5fa603a-d021-461a-a044-1f5fe22cbd61",
+      "Channel3"
+    ],
+    [
+      "b86ee175-3daa-45e2-a046-982e98f6ea02",
+      "Channel4"
+    ],
+    [
+      "93e49527-182f-473c-85eb-fb7742a97aa5",
+      "Channel5"
+    ],
+    [
+      "f25cbdd2-5a8f-4fcd-9da7-4f4cec2bd11d",
+      "Channel6"
+    ],
+    [
+      "f57d6de8-8ab3-43f3-9c18-2b11507ac7b9",
+      "Channel7"
+    ],
+    [
+      "d0a9b03e-b870-429c-a8e1-085a5f551f54",
+      "Channel8"
+    ],
+    [
+      "48e03d95-374a-4f54-ac6f-bd6e76eb18da",
+      "Channel9"
+    ],
+    [
+      "584dd913-b9ab-488c-8d1a-a2471b0bdf01",
+      "Channel10"
+    ],
+    [
+      "bc709dd6-c29d-400e-a659-f6f5d000abbc",
+      "Channel11"
+    ],
+    [
+      "a2a590f6-d0ed-427a-b180-7eea9a936f9f",
+      "Channel12"
+    ],
+    [
+      "ef8a7054-d686-441f-b696-94c7b2a2accc",
+      "Channel13"
+    ],
+    [
+      "c5e3abd2-3434-4fa9-a137-7499da2a8b07",
+      "Channel14"
+    ],
+    [
+      "a1374c20-bb70-4447-8ca1-159f7221a3ad",
+      "Channel15"
+    ],
+    [
+      "ab0e4ea4-7254-486d-8665-2302fad5542d",
+      "Channel16"
+    ],
+    [
+      "e87a4e39-080a-4d72-8246-86ab7fa196b0",
+      "Channel17"
+    ],
+    [
+      "820faa6f-6ed6-453f-925e-ec41198c03c9",
+      "Channel18"
+    ],
+    [
+      "a4e0242c-e619-4f39-99c0-e785bb8bd671",
+      "Channel19"
+    ],
+    [
+      "bf593819-7430-4695-b409-817323853d6e",
+      "Channel20"
+    ],
+    [
+      "a6e9a316-ad84-4606-ad45-4b6c92a12f21",
+      "Channel21"
+    ],
+    [
+      "9bd27918-b94b-40a1-99a2-0f05f90abf51",
+      "Channel22"
+    ],
+    [
+      "231a54c2-d0d5-4a96-a3fd-bb5574eb8fa3",
+      "Channel23"
+    ],
+    [
+      "53726f2e-a6c6-4354-91e8-0ed88510e7f0",
+      "Channel24"
+    ],
+    [
+      "65a7fa13-f7b2-4e49-8c2f-7b31d7197864",
+      "Channel25"
+    ],
+    [
+      "260cab32-aadf-4209-b487-1166ccf45941",
+      "Channel26"
+    ],
+    [
+      "badcabba-4181-4aa6-bfc9-0e7b02518f2b",
+      "Channel27"
+    ],
+    [
+      "0ba611f9-a676-41d7-8110-6b5e45e00858",
+      "Channel28"
+    ],
+    [
+      "8800a60b-1b95-4308-83a9-6a8c22e07b7e",
+      "Channel29"
+    ],
+    [
+      "96dd7ae3-2a0a-4761-be7b-e447d9312df9",
+      "Channel30"
+    ],
+    [
+      "a71ded15-d0e2-474e-abed-b4ab22aada07",
+      "Channel31"
+    ],
+    [
+      "5474617d-006f-42be-a2cb-582169772b04",
+      "Channel32"
+    ],
+    [
+      "c1293333-1878-4cba-a3bd-0c7884de1f1a",
+      "ADC1"
+    ],
+    [
+      "251466fe-e526-4adb-bbc2-eb1d73d1b551",
+      "ADC2"
+    ],
+    [
+      "0ce8dd27-3d28-4d77-999d-d67e3ca0072c",
+      "ADC3"
+    ],
+    [
+      "e4125c6f-e3c7-4b41-b6ac-00488e534f63",
+      "ADC4"
+    ],
+    [
+      "db3c7ba2-982f-432b-8742-662861d58c3e",
+      "Housekeeping"
+    ],
+    [
+      "9fe24aff-0307-4354-b185-f0174f24220c",
+      "FMC"
+    ],
+    [
+      "674e1e7f-67ba-4e85-a926-dcd5f6a22021",
+      ""
+    ]
+  ],
+  "text_variables": {}
+}
