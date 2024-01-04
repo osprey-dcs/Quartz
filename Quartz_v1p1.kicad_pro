@@ -244,7 +244,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "AD7768_Digitizer_SLib"
+    ]
   },
   "meta": {
     "filename": "Quartz_v1p1.kicad_pro",
@@ -456,15 +458,15 @@
       "ADC1"
     ],
     [
-      "251466fe-e526-4adb-bbc2-eb1d73d1b551",
+      "0ad4247f-0bc9-46d8-8592-1ad068754e52",
       "ADC2"
     ],
     [
-      "0ce8dd27-3d28-4d77-999d-d67e3ca0072c",
+      "034c4ec3-7306-4a2d-9f0e-d4698fafacde",
       "ADC3"
     ],
     [
-      "e4125c6f-e3c7-4b41-b6ac-00488e534f63",
+      "bfc16abb-8eb5-4f14-85a3-701b0b16e6f9",
       "ADC4"
     ],
     [
@@ -490,6 +492,10 @@
     [
       "8f26b4a6-6006-4cb9-b746-b2201f266715",
       "Temp_Bridge4"
+    ],
+    [
+      "ac1e64b2-1a26-4ac8-9188-8b2d840a4cd2",
+      "Power"
     ],
     [
       "674e1e7f-67ba-4e85-a926-dcd5f6a22021",

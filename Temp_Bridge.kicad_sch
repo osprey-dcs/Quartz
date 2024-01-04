@@ -404,16 +404,16 @@
           (reference "R3201") (unit 1)
         )
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e/d7db0f74-5999-4270-8275-abfa9dfa973c"
-          (reference "R35") (unit 1)
+          (reference "R39") (unit 1)
         )
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e/f7f024de-9e48-471e-a5a7-6e2bb622e9f9"
           (reference "R37") (unit 1)
         )
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e/d1abd682-c78c-41d4-bc40-7db923db14b5"
-          (reference "R39") (unit 1)
+          (reference "R41") (unit 1)
         )
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e/8f26b4a6-6006-4cb9-b746-b2201f266715"
-          (reference "R41") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -422,7 +422,7 @@
   (symbol (lib_id "Device:Thermistor_NTC") (at 88.9 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e45da4c-2f92-4ea4-bcb7-0b076df49dc4)
-    (property "Reference" "TH1" (at 91.44 46.0375 0)
+    (property "Reference" "TH3" (at 91.44 46.0375 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 91.44 48.5775 0)
@@ -442,16 +442,16 @@
     (instances
       (project "Quartz_v1p1"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e/d7db0f74-5999-4270-8275-abfa9dfa973c"
-          (reference "TH1") (unit 1)
+          (reference "TH3") (unit 1)
         )
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e/f7f024de-9e48-471e-a5a7-6e2bb622e9f9"
-          (reference "TH4") (unit 1)
+          (reference "TH1") (unit 1)
         )
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e/d1abd682-c78c-41d4-bc40-7db923db14b5"
-          (reference "TH6") (unit 1)
+          (reference "TH5") (unit 1)
         )
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e/8f26b4a6-6006-4cb9-b746-b2201f266715"
-          (reference "TH8") (unit 1)
+          (reference "TH7") (unit 1)
         )
       )
     )
@@ -587,16 +587,16 @@
           (reference "R3201") (unit 1)
         )
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e/d7db0f74-5999-4270-8275-abfa9dfa973c"
-          (reference "R36") (unit 1)
+          (reference "R40") (unit 1)
         )
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e/f7f024de-9e48-471e-a5a7-6e2bb622e9f9"
           (reference "R38") (unit 1)
         )
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e/d1abd682-c78c-41d4-bc40-7db923db14b5"
-          (reference "R40") (unit 1)
+          (reference "R42") (unit 1)
         )
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e/8f26b4a6-6006-4cb9-b746-b2201f266715"
-          (reference "R42") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -605,7 +605,7 @@
   (symbol (lib_id "Device:Thermistor_NTC") (at 76.2 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef2bd7f8-f014-4d86-b979-607e0b282e05)
-    (property "Reference" "TH2" (at 78.74 58.7375 0)
+    (property "Reference" "TH4" (at 78.74 58.7375 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 78.74 61.2775 0)
@@ -625,16 +625,16 @@
     (instances
       (project "Quartz_v1p1"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e/d7db0f74-5999-4270-8275-abfa9dfa973c"
-          (reference "TH2") (unit 1)
+          (reference "TH4") (unit 1)
         )
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e/f7f024de-9e48-471e-a5a7-6e2bb622e9f9"
-          (reference "TH3") (unit 1)
+          (reference "TH2") (unit 1)
         )
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e/d1abd682-c78c-41d4-bc40-7db923db14b5"
-          (reference "TH5") (unit 1)
+          (reference "TH6") (unit 1)
         )
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e/8f26b4a6-6006-4cb9-b746-b2201f266715"
-          (reference "TH7") (unit 1)
+          (reference "TH8") (unit 1)
         )
       )
     )
