@@ -5586,7 +5586,7 @@
     (property "Sheetname" "Channel1" (at 109.22 23.4184 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "input_filter_channel.kicad_sch" (at 109.22 38.6846 0)
+    (property "Sheetfile" "input_filter_channel_INA851.kicad_sch" (at 109.22 38.6846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "Relay_SetCoil" input (at 140.97 34.29 0)
