@@ -2675,6 +2675,11 @@
     (uuid ffc91dc9-370c-4605-9801-9ed2e1b13ddb)
   )
 
+  (text "NEEDS REVISION TO Change AFE POWER RAILS" (at 29.21 217.17 0)
+    (effects (font (size 10 10) (thickness 2) bold) (justify left bottom))
+    (uuid 5c9b638e-547b-4437-a230-3d1699c0fd38)
+  )
+
   (global_label "V12P0V_bus" (shape input) (at 111.76 54.61 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 4818f2c1-6243-43ee-b748-8c4ecb72ffd2)
