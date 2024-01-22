@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.2032,
+          "height": 0.499999,
+          "width": 0.499999
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -54,6 +54,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2286,
+          "via_gap": 0.508,
+          "width": 0.1524
         }
       ],
       "drc_exclusions": [],
@@ -116,7 +121,7 @@
         "max_error": 0.005,
         "min_clearance": 0.15239999999999998,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.508,
+        "min_copper_edge_clearance": 0.254,
         "min_hole_clearance": 0.4064,
         "min_hole_to_hole": 0.762,
         "min_microvia_diameter": 0.254,
@@ -175,12 +180,25 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.1524,
+        0.254,
+        0.3048,
+        0.5588,
+        0.762
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.2032
+        },
+        {
+          "diameter": 0.5588,
+          "drill": 0.254
         }
       ],
       "zones_allow_external_fillets": false,
@@ -488,44 +506,40 @@
   },
   "sheets": [
     [
-      "674e1e7f-67ba-4e85-a926-dcd5f6a22021",
-      ""
-    ],
-    [
       "40baf21a-c5b6-4126-86f5-a663d00e8f52",
-      "Channel1"
+      "Channel01"
     ],
     [
       "7a7ed4f7-921a-4f32-8e2d-241fb320a230",
-      "Channel2"
+      "Channel02"
     ],
     [
       "91bbc27d-4717-4880-9e76-243d4fa8aa4b",
-      "Channel3"
+      "Channel03"
     ],
     [
       "f768f964-283f-46e1-8059-15116fdd095b",
-      "Channel4"
+      "Channel04"
     ],
     [
       "ab8df538-0b4e-4243-8dc3-2c0a7bb3462b",
-      "Channel5"
+      "Channel05"
     ],
     [
       "6a379344-0d59-43ad-ad63-e636096dff22",
-      "Channel6"
+      "Channel06"
     ],
     [
       "557b5b97-efe8-4c5d-b0c1-1121382f68b6",
-      "Channel7"
+      "Channel07"
     ],
     [
       "22e8fa14-9357-4835-ada2-695b1507fa24",
-      "Channel8"
+      "Channel08"
     ],
     [
       "55d7a9eb-ae8b-4245-9741-1902928f1d17",
-      "Channel9"
+      "Channel09"
     ],
     [
       "a8a6f810-6964-4acc-b194-daebeb6d9cde",
@@ -646,6 +660,10 @@
     [
       "ac1e64b2-1a26-4ac8-9188-8b2d840a4cd2",
       "Power"
+    ],
+    [
+      "674e1e7f-67ba-4e85-a926-dcd5f6a22021",
+      ""
     ]
   ],
   "text_variables": {}
