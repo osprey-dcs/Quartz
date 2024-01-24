@@ -3270,9 +3270,6 @@
         )
       )
       (project "Quartz_v1p1"
-        (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
-          (reference "R60") (unit 1)
-        )
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/c1293333-1878-4cba-a3bd-0c7884de1f1a"
           (reference "R8") (unit 1)
         )
