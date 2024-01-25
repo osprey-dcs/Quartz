@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -184,6 +184,7 @@
         0.1524,
         0.254,
         0.3048,
+        0.4572,
         0.5588,
         0.762
       ],
@@ -506,6 +507,10 @@
   },
   "sheets": [
     [
+      "674e1e7f-67ba-4e85-a926-dcd5f6a22021",
+      ""
+    ],
+    [
       "40baf21a-c5b6-4126-86f5-a663d00e8f52",
       "Channel01"
     ],
@@ -660,10 +665,6 @@
     [
       "ac1e64b2-1a26-4ac8-9188-8b2d840a4cd2",
       "Power"
-    ],
-    [
-      "674e1e7f-67ba-4e85-a926-dcd5f6a22021",
-      ""
     ]
   ],
   "text_variables": {}
