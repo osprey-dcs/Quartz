@@ -1467,6 +1467,7 @@
     )
   )
 
+
   (junction (at 312.42 213.36) (diameter 0) (color 0 0 0 0)
     (uuid 01ab57a2-1661-44d2-be90-d1321a9e6f98)
   )
@@ -1787,6 +1788,7 @@
   (no_connect (at 124.46 229.87) (uuid 38228bb1-ca95-419c-b292-195fa6b098ca))
   (no_connect (at 254.635 220.98) (uuid 4642f31f-8d30-4307-b294-d3470a890ac4))
   (no_connect (at 91.44 214.63) (uuid 59fb8ee0-db61-4483-9f48-c86cbd700ac6))
+  (no_connect (at 233.68 50.8) (uuid bb8a7077-b35d-4121-9ea4-a3bdcdd68d25))
   (no_connect (at 68.58 128.27) (uuid d3dfb81c-52f1-4e66-9715-212de2f22f3f))
 
   (wire (pts (xy 73.66 203.2) (xy 91.44 203.2))
@@ -3425,17 +3427,17 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "I_Mon" (shape input) (at 86.36 52.07 0) (fields_autoplaced)
+  (global_label "I_MON" (shape input) (at 86.36 52.07 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7e773f05-0383-4f0a-8a4f-03a5db0f538a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 94.5876 52.07 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 94.9506 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
   (global_label "+12V" (shape input) (at 123.19 20.32 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid b060fe14-e90a-4fc5-82d8-3e901c28f588)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 131.2552 20.32 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 131.1758 20.32 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -4297,36 +4299,6 @@
       (project "Quartz_v1p1"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/ac1e64b2-1a26-4ac8-9188-8b2d840a4cd2"
           (reference "TP9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 292.1 92.71 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 35eaa0b3-616e-4927-866c-7d2a40aa9f6d)
-    (property "Reference" "#PWR044" (at 292.1 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 292.1 97.79 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 292.1 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 292.1 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7dc7c5b0-058c-4ba8-9367-be450b769cd4))
-    (instances
-      (project "Zest_MPEX_v1p3"
-        (path "/00cb7cb7-8be2-4970-8959-a06932b2fa76/bd960755-3e45-476f-84b6-fdf0c21cce40"
-          (reference "#PWR044") (unit 1)
-        )
-      )
-      (project "Quartz_v1p1"
-        (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/ac1e64b2-1a26-4ac8-9188-8b2d840a4cd2"
-          (reference "#PWR0192") (unit 1)
         )
       )
     )

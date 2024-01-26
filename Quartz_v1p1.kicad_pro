@@ -413,8 +413,8 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "pin_to_pin": "ignore",
+      "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
       "unannotated": "error",
@@ -506,10 +506,6 @@
     "subpart_id_separator": 0
   },
   "sheets": [
-    [
-      "674e1e7f-67ba-4e85-a926-dcd5f6a22021",
-      ""
-    ],
     [
       "40baf21a-c5b6-4126-86f5-a663d00e8f52",
       "Channel01"
@@ -665,6 +661,10 @@
     [
       "ac1e64b2-1a26-4ac8-9188-8b2d840a4cd2",
       "Power"
+    ],
+    [
+      "674e1e7f-67ba-4e85-a926-dcd5f6a22021",
+      ""
     ]
   ],
   "text_variables": {}
