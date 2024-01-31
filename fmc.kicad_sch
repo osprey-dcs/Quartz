@@ -4446,7 +4446,7 @@
     (property "Value" "ASP-134604-01" (at 116.84 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "AD7768_Digitizer:SAMTEC_ASP-134604-01" (at 41.91 259.08 0)
+    (property "Footprint" "QuartzFootprints:SAMTEC_ASP-134604-01" (at 41.91 259.08 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 124.46 242.57 0)
@@ -4630,15 +4630,15 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 365.125 31.115 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0bd99ae1-7ccd-4f17-ab74-63f5c5003aa5)
-    (property "Reference" "H4" (at 368.3 29.21 0)
+    (property "Reference" "H7" (at 368.3 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 368.3 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "footprints:Mounting Hole 3mm hole 5mm ring" (at 365.125 31.115 0)
+    (property "Footprint" "QuartzFootprints:Mounting Hole 3mm hole 5mm ring" (at 365.125 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 365.125 31.115 0)
@@ -4647,9 +4647,6 @@
     (pin "1" (uuid 6489606a-aa87-465c-a1e8-db73bfc408c6))
     (instances
       (project "Quartz_v1p1"
-        (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021"
-          (reference "H4") (unit 1)
-        )
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/9fe24aff-0307-4354-b185-f0174f24220c"
           (reference "H7") (unit 1)
         )
@@ -4736,15 +4733,15 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 365.125 20.32 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21afb54b-8644-436c-9822-31800326330b)
-    (property "Reference" "H4" (at 368.3 18.415 0)
+    (property "Reference" "H5" (at 368.3 18.415 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 368.3 20.955 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "footprints:Mounting Hole 3mm hole 5mm ring" (at 365.125 20.32 0)
+    (property "Footprint" "QuartzFootprints:Mounting Hole 3mm hole 5mm ring" (at 365.125 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 365.125 20.32 0)
@@ -4753,9 +4750,6 @@
     (pin "1" (uuid 3decbe85-4e57-43ce-b5ac-cf5cf101fc28))
     (instances
       (project "Quartz_v1p1"
-        (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021"
-          (reference "H4") (unit 1)
-        )
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/9fe24aff-0307-4354-b185-f0174f24220c"
           (reference "H5") (unit 1)
         )
@@ -4889,7 +4883,7 @@
     (property "Value" "ASP-134604-01" (at 116.84 17.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "AD7768_Digitizer:SAMTEC_ASP-134604-01" (at 41.91 139.7 0)
+    (property "Footprint" "QuartzFootprints:SAMTEC_ASP-134604-01" (at 41.91 139.7 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 124.46 123.19 0)
@@ -5073,7 +5067,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 338.455 20.32 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 503eb492-9f7a-4af6-8f6c-2f5ab71e9ecb)
     (property "Reference" "H4" (at 341.63 18.415 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5081,7 +5075,7 @@
     (property "Value" "MountingHole_Pad" (at 341.63 20.955 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "footprints:Mounting Hole 3mm hole 5mm ring" (at 338.455 20.32 0)
+    (property "Footprint" "QuartzFootprints:Mounting Hole 3mm hole 5mm ring" (at 338.455 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 338.455 20.32 0)
@@ -5090,9 +5084,6 @@
     (pin "1" (uuid 88207c06-afa7-4264-ad32-447358a33992))
     (instances
       (project "Quartz_v1p1"
-        (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021"
-          (reference "H4") (unit 1)
-        )
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/9fe24aff-0307-4354-b185-f0174f24220c"
           (reference "H4") (unit 1)
         )
@@ -5109,7 +5100,7 @@
     (property "Value" "ASP-134604-01" (at 262.89 193.04 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "AD7768_Digitizer:SAMTEC_ASP-134604-01" (at 180.34 260.35 0)
+    (property "Footprint" "QuartzFootprints:SAMTEC_ASP-134604-01" (at 180.34 260.35 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 262.89 243.84 0)
@@ -5340,7 +5331,7 @@
     (property "Value" "ASP-134604-01" (at 194.31 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "AD7768_Digitizer:SAMTEC_ASP-134604-01" (at 111.76 139.7 0)
+    (property "Footprint" "QuartzFootprints:SAMTEC_ASP-134604-01" (at 111.76 139.7 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 194.31 123.19 0)
@@ -5532,7 +5523,7 @@
     (property "Value" "ASP-134604-01" (at 194.31 193.04 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "AD7768_Digitizer:SAMTEC_ASP-134604-01" (at 111.76 260.35 0)
+    (property "Footprint" "QuartzFootprints:SAMTEC_ASP-134604-01" (at 111.76 260.35 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 194.31 243.84 0)
@@ -5724,7 +5715,7 @@
     (property "Value" "ASP-134604-01" (at 262.89 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "AD7768_Digitizer:SAMTEC_ASP-134604-01" (at 180.34 139.7 0)
+    (property "Footprint" "QuartzFootprints:SAMTEC_ASP-134604-01" (at 180.34 139.7 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 262.89 123.19 0)
@@ -5955,7 +5946,7 @@
     (property "Value" "ASP-134604-01" (at 330.2 194.31 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "AD7768_Digitizer:SAMTEC_ASP-134604-01" (at 247.65 261.62 0)
+    (property "Footprint" "QuartzFootprints:SAMTEC_ASP-134604-01" (at 247.65 261.62 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 330.2 245.11 0)
@@ -6178,15 +6169,15 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 338.455 31.115 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b173101c-9a6d-41f7-a8c8-09d2601d2e8a)
-    (property "Reference" "H4" (at 341.63 29.21 0)
+    (property "Reference" "H6" (at 341.63 29.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 341.63 31.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "footprints:Mounting Hole 3mm hole 5mm ring" (at 338.455 31.115 0)
+    (property "Footprint" "QuartzFootprints:Mounting Hole 3mm hole 5mm ring" (at 338.455 31.115 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 338.455 31.115 0)
@@ -6195,9 +6186,6 @@
     (pin "1" (uuid 87d44126-70b2-493b-aef7-b0673fea74d2))
     (instances
       (project "Quartz_v1p1"
-        (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021"
-          (reference "H4") (unit 1)
-        )
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/9fe24aff-0307-4354-b185-f0174f24220c"
           (reference "H6") (unit 1)
         )
@@ -6214,7 +6202,7 @@
     (property "Value" "ASP-134604-01" (at 330.2 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "AD7768_Digitizer:SAMTEC_ASP-134604-01" (at 247.65 139.7 0)
+    (property "Footprint" "QuartzFootprints:SAMTEC_ASP-134604-01" (at 247.65 139.7 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 330.2 123.19 0)
