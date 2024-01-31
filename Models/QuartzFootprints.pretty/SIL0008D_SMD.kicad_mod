@@ -143,7 +143,7 @@
   (pad "9" thru_hole circle (at 0 0) (size 0.51 0.51) (drill 0.2) (layers "*.Cu" "*.Mask") (tstamp e94c9746-f58c-421f-a74c-5f904e9519e3))
   (pad "9" smd rect (at 0 0) (size 1.1 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9797958a-8674-4f3e-a12e-78f170af85e0))
   (pad "9" thru_hole circle (at 0 0.75) (size 0.51 0.51) (drill 0.2) (layers "*.Cu" "*.Mask") (tstamp 6c3b9c46-f081-479d-b5a2-afe69a34ad02))
-  (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/SIL0008D.stp"
+  (model "${KIPRJMOD}/Models/3dModels/SIL0008D.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

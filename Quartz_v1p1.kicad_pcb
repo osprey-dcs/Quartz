@@ -3836,12 +3836,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -4399,12 +4399,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -5092,12 +5092,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -10629,12 +10629,12 @@
       (net 2 "GND") (pinfunction "H39") (pintype "passive") (solder_mask_margin 0.102) (tstamp 2d43462e-ad55-4b7a-a8cb-2407970c44e9))
     (pad "H40" smd circle locked (at -24.765 3.175) (size 0.64 0.64) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 724 "P1_VADJ") (pinfunction "H40") (pintype "passive") (solder_mask_margin 0.102) (tstamp 466b4d52-9cbe-434c-9bb9-8e58110c5a99))
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/ASP-134604-01/ASP-134604-01.step"
+    (model "${KIPRJMOD}/Models/3dModels/ASP-134604-01.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/ASP-134604-01.stp"
+    (model "${KIPRJMOD}/Models/3dModels/ASP-134604-01.stp"
       (offset (xyz 0 0 3.4))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -12183,12 +12183,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -15215,12 +15215,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -15556,12 +15556,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -16496,12 +16496,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -16837,12 +16837,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -17847,12 +17847,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -18296,12 +18296,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -19122,7 +19122,7 @@
       (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp a83fab24-4db6-4e43-87be-dd5033da71ad))
     (pad "9" thru_hole circle (at 0 0.75 270) (size 0.51 0.51) (drill 0.2) (layers "*.Cu" "*.Mask")
       (net 2 "GND") (pinfunction "GND") (pintype "passive") (tstamp ccb5f1c5-022e-441c-bf6c-b3c595b51ad4))
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/SIL0008D.stp"
+    (model "${KIPRJMOD}/Models/3dModels/SIL0008D.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -20315,7 +20315,7 @@
       (net 2 "GND") (pinfunction "PadA") (pintype "passive") (tstamp abf878fc-ecd3-4fad-9395-49dad1d90d58))
     (pad "24" smd rect (at 0 1.47 270) (size 1.7018 2.4638) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1019 "/Power/-16V") (pinfunction "PadB") (pintype "passive") (tstamp 379cb837-4352-4a69-a744-d060e3d9df63))
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/LT3097ADJC.iges"
+    (model "${KIPRJMOD}/Models/3dModels/LT3097ADJC.iges"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -20814,12 +20814,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -25073,12 +25073,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -26791,12 +26791,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -29779,12 +29779,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -30362,12 +30362,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -31856,12 +31856,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -33627,12 +33627,12 @@
       (net 2 "GND") (pinfunction "H39") (pintype "passive") (solder_mask_margin 0.102) (tstamp fec95557-fea3-4a83-9449-d6fdf2dfd152))
     (pad "H40" smd circle locked (at -24.765 3.175) (size 0.64 0.64) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 26 "P2_VADJ") (pinfunction "H40") (pintype "passive") (solder_mask_margin 0.102) (tstamp f70d6b10-287a-4f5e-a31f-29e49cdae092))
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/ASP-134604-01/ASP-134604-01.step"
+    (model "${KIPRJMOD}/Models/3dModels/ASP-134604-01.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/ASP-134604-01.stp"
+    (model "${KIPRJMOD}/Models/3dModels/ASP-134604-01.stp"
       (offset (xyz 0 0 3.4))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -35364,7 +35364,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/901-144-8RFX.stp"
+    (model "${KIPRJMOD}/Models/3dModels/901-144-8RFX.stp"
       (offset (xyz 0 0 9.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 -90 0))
@@ -35586,12 +35586,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -35675,7 +35675,7 @@
       (net 1027 "/Power/LT8582_VIN") (pinfunction "1") (pintype "passive") (tstamp 4c852475-3798-4ab4-92a5-d3a4c3294f5e))
     (pad "2" smd rect (at 2.02 0) (size 1.43 5.5) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 951 "Net-(D7-A)") (pinfunction "2") (pintype "passive") (tstamp b47444dc-dab5-4d1a-bbeb-7c8098f902f6))
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/Coilcraft-XAL6060.IGS"
+    (model "${KIPRJMOD}/Models/3dModels/Coilcraft-XAL6060.IGS"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -36501,12 +36501,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -38719,12 +38719,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -39327,12 +39327,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -41160,12 +41160,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -44484,7 +44484,7 @@
       (net 951 "Net-(D7-A)") (pinfunction "A") (pintype "passive") (tstamp 400acdc6-e926-45de-bf4e-16e868de24e0))
     (pad "2" smd rect (at 2.862 0.92 90) (size 1.4 1.39) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 951 "Net-(D7-A)") (pinfunction "A") (pintype "passive") (tstamp f43f6d86-b1f1-4117-8069-a7ace824ff05))
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/PDS360Q-13.stp"
+    (model "${KIPRJMOD}/Models/3dModels/PDS360Q-13.stp"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
@@ -46211,12 +46211,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -46830,12 +46830,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -47539,7 +47539,7 @@
       (net 1116 "Net-(D7-K)") (pinfunction "S") (pintype "passive") (tstamp dd669d3d-8bcd-4342-baa1-7722e90621a9))
     (pad "3" smd rect (at -1.6002 0.325001) (size 0.3556 0.9652) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 1116 "Net-(D7-K)") (pinfunction "S") (pintype "passive") (tstamp 4360c4d4-9621-4040-9766-02c53604ecd6))
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/FDMC510P.stp"
+    (model "${KIPRJMOD}/Models/3dModels/FDMC510P.stp"
       (offset (xyz 0 0 0.75))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 -90))
@@ -49366,7 +49366,7 @@
       (net 1131 "Net-(J1-Pad38)") (pinfunction "38") (pintype "passive") (tstamp 07b63022-3237-4675-97b3-e256f098ca3c))
     (pad "39" thru_hole circle locked (at 31.6738 1.4224 180) (size 3.683 3.683) (drill 3.302) (layers "*.Cu" "*.Mask")
       (net 1132 "Net-(J1-Pad39)") (pinfunction "39") (pintype "passive") (tstamp 3d5e50a3-f0cb-4fd6-8ecb-e79009d620c7))
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/c-5747847-06-o-3d.igs"
+    (model "${KIPRJMOD}/Models/3dModels/c-5747847-06-o-3d.igs"
       (offset (xyz -0.1174 17 6.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
@@ -51237,12 +51237,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -60821,12 +60821,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -61932,12 +61932,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -65599,12 +65599,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -74407,12 +74407,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -75369,12 +75369,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -76199,12 +76199,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -76367,12 +76367,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -79314,7 +79314,7 @@
       (net 1083 "Net-(U35-SWA2)") (pinfunction "3") (pintype "passive") (tstamp 32af0235-1c41-40c0-85a1-207540c5e9b3))
     (pad "4" smd rect (at 1.75 -4.25 90) (size 2 4) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 905 "Net-(D8-A)") (pinfunction "4") (pintype "passive") (tstamp 1ecbfe2d-1c02-4e4d-b0ca-9045ec2f90b1))
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/Coilcraft-MSD1260-DEFAULT.IGS"
+    (model "${KIPRJMOD}/Models/3dModels/Coilcraft-MSD1260-DEFAULT.IGS"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -79717,7 +79717,7 @@
       (net 1133 "Net-(J2-Pad38)") (pinfunction "38") (pintype "passive") (tstamp 46c42cb1-14b2-4b05-8d18-a965b997fc67))
     (pad "39" thru_hole circle locked (at 31.6738 1.4224 180) (size 3.683 3.683) (drill 3.302) (layers "*.Cu" "*.Mask")
       (net 1134 "Net-(J2-Pad39)") (pinfunction "39") (pintype "passive") (tstamp a4df032b-7732-40f4-a38a-bf1eb8eb7989))
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/c-5747847-06-o-3d.igs"
+    (model "${KIPRJMOD}/Models/3dModels/c-5747847-06-o-3d.igs"
       (offset (xyz -0.1174 17 6.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
@@ -80328,12 +80328,12 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
       (offset (xyz -4 7.5 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
     )
-    (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+    (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))

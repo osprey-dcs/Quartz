@@ -192,7 +192,7 @@
   (pad "3" smd rect (at -1.6002 -0.325001 270) (size 0.3556 0.9652) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0683f043-9e04-4ce1-90c2-895ab4f9802a))
   (pad "3" smd rect (at -1.6002 0.325001 270) (size 0.3556 0.9652) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9191967b-1d5b-407f-b846-841355f4b83a))
   (pad "3" smd rect (at -1.6002 0.974999 270) (size 0.3556 0.9652) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 4f8438be-9b2a-45e3-a479-ca2aee40bc73))
-  (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/FDMC510P.stp"
+  (model "${KIPRJMOD}/Models/3dModels/FDMC510P.stp"
     (offset (xyz 0 0 0.75))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

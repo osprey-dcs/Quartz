@@ -71,7 +71,7 @@
     (stroke (width 0.0254) (type solid)) (fill none) (layer "F.Fab") (tstamp 9d338b1d-c4ed-4ece-b23e-9eb7685d81a0))
   (pad "1" smd rect (at -2.02 0 180) (size 1.43 5.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 972ebea0-ac36-4f6f-af11-cf50664a1c5d))
   (pad "2" smd rect (at 2.02 0 180) (size 1.43 5.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 167037c9-fcf1-48be-849e-6dc7cb837e04))
-  (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/Coilcraft-XAL6060.IGS"
+  (model "${KIPRJMOD}/Models/3dModels/Coilcraft-XAL6060.IGS"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
