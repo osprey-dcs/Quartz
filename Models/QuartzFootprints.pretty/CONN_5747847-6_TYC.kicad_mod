@@ -132,8 +132,8 @@
   (pad "35" thru_hole circle (at 17.9959 -2.8448 180) (size 1.651 1.651) (drill 1.143) (layers "*.Cu" "*.Mask") (tstamp 38b8721f-4457-4d6f-87aa-9f5b01fc2aae))
   (pad "36" thru_hole circle (at 20.7645 -2.8448 180) (size 1.651 1.651) (drill 1.143) (layers "*.Cu" "*.Mask") (tstamp 38940b2f-7873-451c-886b-24c0b9bdcda1))
   (pad "37" thru_hole circle (at 23.5331 -2.8448 180) (size 1.651 1.651) (drill 1.143) (layers "*.Cu" "*.Mask") (tstamp de05321a-8e7f-4e9e-8a70-146d8fd7fdbe))
-  (pad "38" thru_hole circle (at -31.877 -1.4224 180) (size 3.683 3.683) (drill 3.302) (layers "*.Cu" "*.Mask") (tstamp 269444e9-9e08-4f25-a832-640948837e8b))
-  (pad "39" thru_hole circle (at 31.877 -1.4224 180) (size 3.683 3.683) (drill 3.302) (layers "*.Cu" "*.Mask") (tstamp cb7b870e-3201-4cc4-9a61-e4c720daac5b))
+  (pad "38" thru_hole circle (at -31.8262 -1.4224 180) (size 3.683 3.683) (drill 3.302) (layers "*.Cu" "*.Mask") (tstamp 269444e9-9e08-4f25-a832-640948837e8b))
+  (pad "39" thru_hole circle (at 31.6738 -1.4224 180) (size 3.683 3.683) (drill 3.302) (layers "*.Cu" "*.Mask") (tstamp cb7b870e-3201-4cc4-9a61-e4c720daac5b))
   (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/c-5747847-06-o-3d.igs"
     (offset (xyz -0.1174 17 6.5))
     (scale (xyz 1 1 1))

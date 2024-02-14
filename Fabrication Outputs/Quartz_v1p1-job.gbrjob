@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(7.0.0)"
     },
-    "CreationDate": "2024-01-31T08:06:41-08:00"
+    "CreationDate": "2024-01-31T23:53:52-08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -102,6 +102,16 @@
       "Path": "Quartz_v1p1-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Quartz_v1p1-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Quartz_v1p1-B_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Bot",
+      "FilePolarity": "Positive"
     }
   ],
   "MaterialStackup": [

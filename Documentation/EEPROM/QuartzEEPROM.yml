@@ -15,7 +15,7 @@ MultirecordArea:
   max_voltage: 12600
   max_noise_pk2pk: 0
   min_current_load: 0
-  max_current_load: 1200
+  max_current_load: 1500
 
 - type: DCLoad
   output_number: P1_3P3V
@@ -33,7 +33,7 @@ MultirecordArea:
   max_voltage: 1890
   max_noise_pk2pk: 0
   min_current_load: 0
-  max_current_load: 1500
+  max_current_load: 500
 
 - type: FmcMainDefinition
   module_size: double_width
