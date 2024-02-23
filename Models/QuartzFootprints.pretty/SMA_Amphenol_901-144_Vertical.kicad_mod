@@ -56,7 +56,7 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/901-144-8RFX.stp"
+  (model "${KIPRJMOD}/Models/3dModels/901-144-8RFX.stp"
     (offset (xyz 0 0 9.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 -90 0))

@@ -305,7 +305,7 @@
   (pad "22" smd rect (at 1.4986 -2.5 90) (size 0.254 0.9144) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6d5a008f-44d4-4b51-863d-1e76c138617f))
   (pad "23" smd rect (at 0 -1.47) (size 1.7018 2.4638) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1e60e503-945b-475e-bd7b-a8f892db3dff))
   (pad "24" smd rect (at 0 1.47) (size 1.7018 2.4638) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8f8b2e0c-3565-486d-8532-35b3d1cf3b46))
-  (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/LT3097ADJC.iges"
+  (model "${KIPRJMOD}/Models/3dModels/LT3097ADJC.iges"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
