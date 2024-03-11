@@ -60,7 +60,7 @@
   (pad "2" smd rect (at -1.75 -4.25 180) (size 2 4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 17394229-6dbe-4911-85cb-b26e9f7f1dad))
   (pad "3" smd rect (at -1.75 4.25 180) (size 2 4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f00792cf-a936-4445-800f-77d5c96b15dc))
   (pad "4" smd rect (at 1.75 4.25 180) (size 2 4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 254cc68d-1609-46ef-8b92-13ef351d0ef5))
-  (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/Coilcraft-MSD1260-DEFAULT.IGS"
+  (model "${KIPRJMOD}/Models/3dModels/Coilcraft-MSD1260-DEFAULT.IGS"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

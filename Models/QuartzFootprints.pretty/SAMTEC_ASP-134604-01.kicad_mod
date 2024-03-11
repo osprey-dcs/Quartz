@@ -388,12 +388,12 @@
     (solder_mask_margin 0.102) (tstamp ea670535-67bc-40a7-a5b6-13c20b6c860e))
   (pad "H40" smd circle (at -24.765 3.175) (size 0.64 0.64) (layers "F.Cu" "F.Paste" "F.Mask")
     (solder_mask_margin 0.102) (tstamp bb04582c-2b56-4fea-b32d-70b2543ca371))
-  (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/ASP-134604-01/ASP-134604-01.step"
-    (offset (xyz 0 0 0))
+  (model "${KIPRJMOD}/Models/3dModels/ASP-134604-01.stp"
+    (offset (xyz 0 0 3.4))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
-  (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/ASP-134604-01.stp"
+  (model "${KIPRJMOD}/Models/3dModels/ASP-134604-01.stp"
     (offset (xyz 0 0 3.4))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -95,12 +95,12 @@
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/EE2-3TNU-L.stp"
+  (model "${KIPRJMOD}/Models/3dModels/EE2-3TNU-L.stp"
     (offset (xyz -4 7.5 1))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 90))
   )
-  (model "G:/My Drive/Nasa development/AD7768 Board/Downloaded Models/3dModels/EE2-12TNU-L.step"
+  (model "${KIPRJMOD}/Models/3dModels/EE2-12TNU-L.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))

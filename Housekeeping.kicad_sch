@@ -2938,6 +2938,9 @@
   (junction (at 179.705 52.07) (diameter 0) (color 0 0 0 0)
     (uuid f51dae82-8076-48cb-9884-a7001b9130dc)
   )
+  (junction (at 69.85 71.755) (diameter 0) (color 0 0 0 0)
+    (uuid f88fa4f7-b2d7-4354-a5d4-e2ab82bac6a7)
+  )
   (junction (at 260.985 128.27) (diameter 0) (color 0 0 0 0)
     (uuid fc1b3298-c4c1-4496-b3d8-d129bd9f9596)
   )
@@ -3451,10 +3454,6 @@
   (wire (pts (xy 51.435 200.025) (xy 51.435 201.93))
     (stroke (width 0) (type default))
     (uuid 1262b5cc-79ba-4cd2-8796-d98eddf67ed8)
-  )
-  (wire (pts (xy 104.775 77.47) (xy 121.285 77.47))
-    (stroke (width 0) (type default))
-    (uuid 12821d20-d683-4aef-aa3b-89d3de7ce179)
   )
   (wire (pts (xy 73.025 96.52) (xy 76.835 96.52))
     (stroke (width 0) (type default))
@@ -4042,6 +4041,10 @@
     (stroke (width 0) (type default))
     (uuid 3c7b518e-639a-4ad9-adbc-109e1f9a4ad8)
   )
+  (wire (pts (xy 69.85 79.375) (xy 69.85 81.915))
+    (stroke (width 0) (type default))
+    (uuid 3c890307-7932-4c5b-a63e-692c1aad7baa)
+  )
   (wire (pts (xy 185.42 369.57) (xy 185.42 381))
     (stroke (width 0) (type default))
     (uuid 3ccc6e51-b22b-4405-987a-70eab1971242)
@@ -4090,6 +4093,10 @@
   (wire (pts (xy 362.585 71.755) (xy 367.665 71.755))
     (stroke (width 0) (type default))
     (uuid 3f8d6f57-4c5d-4a65-985a-18c869b62feb)
+  )
+  (wire (pts (xy 69.85 71.755) (xy 79.375 71.755))
+    (stroke (width 0) (type default))
+    (uuid 4012a5e1-6c10-4503-b17d-a0d3aea9c0f5)
   )
   (wire (pts (xy 90.17 39.37) (xy 99.06 39.37))
     (stroke (width 0) (type default))
@@ -4204,6 +4211,10 @@
   (wire (pts (xy 189.865 46.99) (xy 197.485 46.99))
     (stroke (width 0) (type default))
     (uuid 4b8471cf-96d1-4ff0-ac2d-ba717b57f8e1)
+  )
+  (wire (pts (xy 69.85 59.055) (xy 71.12 59.055))
+    (stroke (width 0) (type default))
+    (uuid 4be2ea60-9640-4aaf-b2bd-0afcc8383147)
   )
   (wire (pts (xy 69.85 46.99) (xy 69.85 49.53))
     (stroke (width 0) (type default))
@@ -4757,6 +4768,10 @@
   (wire (pts (xy 85.09 370.84) (xy 88.9 370.84))
     (stroke (width 0) (type default))
     (uuid 7c6078a8-1638-48b8-a6f3-d027c3ea8f83)
+  )
+  (wire (pts (xy 69.85 64.135) (xy 69.85 59.055))
+    (stroke (width 0) (type default))
+    (uuid 7c6d67ea-82fe-4c76-89b5-b5220e925c60)
   )
   (wire (pts (xy 435.61 303.53) (xy 453.39 303.53))
     (stroke (width 0) (type default))
@@ -5528,6 +5543,10 @@
     (stroke (width 0) (type default))
     (uuid bf6ccf3a-992b-4c74-887c-ad61d56291ee)
   )
+  (wire (pts (xy 69.85 71.755) (xy 69.85 74.295))
+    (stroke (width 0) (type default))
+    (uuid bfe995d2-dc6e-4840-a6d9-b55e0b50e75a)
+  )
   (wire (pts (xy 181.61 350.52) (xy 181.61 325.12))
     (stroke (width 0) (type default))
     (uuid c01b7cea-0490-4c8c-9185-1e230b4d24a9)
@@ -5696,6 +5715,10 @@
     (stroke (width 0) (type default))
     (uuid cc5c099a-8895-42cd-89a1-774f53f63aa1)
   )
+  (wire (pts (xy 69.85 69.215) (xy 69.85 71.755))
+    (stroke (width 0) (type default))
+    (uuid cc5fafb8-f1be-4a42-b3aa-1e695826dc38)
+  )
   (wire (pts (xy 51.435 201.93) (xy 58.42 201.93))
     (stroke (width 0) (type default))
     (uuid cc88ee2a-b8bb-45c2-848f-2f80655aa6d4)
@@ -5803,6 +5826,10 @@
   (wire (pts (xy 421.64 262.89) (xy 420.37 262.89))
     (stroke (width 0) (type default))
     (uuid d41ad5bb-c0c6-493f-998d-c5cf4b845828)
+  )
+  (wire (pts (xy 113.665 77.47) (xy 121.285 77.47))
+    (stroke (width 0) (type default))
+    (uuid d43b19d5-79da-415b-9471-a559eaa28e38)
   )
   (wire (pts (xy 187.96 369.57) (xy 185.42 369.57))
     (stroke (width 0) (type default))
@@ -6597,6 +6624,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2197890b-238c-4c37-af3c-e3360a496654)
   )
+  (label "AD7" (at 79.375 71.755 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 2217b1c7-430e-4a19-954b-1bd421e2f2b9)
+  )
   (label "GPIO0" (at 201.295 118.11 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2231654a-539d-479d-9a62-b9873f508008)
@@ -7228,13 +7259,6 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 104d67f9-a8b0-4f3b-97f4-fb89432c0b73)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 406.9226 69.215 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "I_MON" (shape input) (at 104.775 77.47 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 12c0a140-416d-4c47-b7b3-f7bbe49d81a5)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 96.1844 77.47 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -7931,6 +7955,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "I_MON" (shape input) (at 71.12 59.055 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid e39fc1f7-0d73-4b98-88ac-33423f8fbbbf)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 79.7106 59.055 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "MAX4896_~{Flag}" (shape output) (at 255.27 294.64 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid e672ecf2-0447-4b60-929f-5196f7f8ccb3)
@@ -8044,7 +8075,7 @@
           (reference "R6_1") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R52") (unit 1)
         )
@@ -8087,7 +8118,7 @@
           (reference "C414") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C131") (unit 1)
         )
@@ -8126,7 +8157,7 @@
           (reference "#PWR0142") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0158") (unit 1)
         )
@@ -8165,7 +8196,7 @@
           (reference "#PWR0145") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0146") (unit 1)
         )
@@ -8207,7 +8238,7 @@
           (reference "D1") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "D1") (unit 1)
         )
@@ -8237,7 +8268,7 @@
           (reference "#PWR0562") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR098") (unit 1)
         )
@@ -8281,7 +8312,7 @@
           (reference "#PWR0375") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR089") (unit 1)
         )
@@ -8311,7 +8342,7 @@
           (reference "#PWR0562") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0119") (unit 1)
         )
@@ -8351,7 +8382,7 @@
           (reference "C9_1") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C94") (unit 1)
         )
@@ -8395,7 +8426,7 @@
           (reference "#PWR0375") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0193") (unit 1)
         )
@@ -8434,7 +8465,7 @@
           (reference "#PWR0139") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0148") (unit 1)
         )
@@ -8478,7 +8509,7 @@
           (reference "#PWR0361") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0110") (unit 1)
         )
@@ -8518,7 +8549,7 @@
           (reference "C9_1") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C117") (unit 1)
         )
@@ -8560,7 +8591,7 @@
           (reference "R252") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R33") (unit 1)
         )
@@ -8617,7 +8648,7 @@
           (reference "J4") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "J4") (unit 1)
         )
@@ -8642,7 +8673,7 @@
     )
     (pin "1" (uuid 7c8c1e79-770c-4514-a472-ff726bcca592))
     (instances
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0157") (unit 1)
         )
@@ -8671,7 +8702,7 @@
     (pin "1" (uuid 7f6a0f42-aa7f-48cc-ba7e-9799af66efe8))
     (pin "2" (uuid 3fa8650d-d9da-4dbf-944f-b87a4470c382))
     (instances
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "J6") (unit 1)
         )
@@ -8713,7 +8744,7 @@
           (reference "R253") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R36") (unit 1)
         )
@@ -8757,7 +8788,7 @@
           (reference "#PWR0376") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0156") (unit 1)
         )
@@ -8801,7 +8832,7 @@
           (reference "#PWR0379") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0166") (unit 1)
         )
@@ -8843,7 +8874,7 @@
           (reference "R250") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R29") (unit 1)
         )
@@ -8891,7 +8922,7 @@
           (reference "U19") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "U26") (unit 1)
         )
@@ -8921,7 +8952,7 @@
           (reference "#PWR0562") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0140") (unit 1)
         )
@@ -8969,7 +9000,7 @@
           (reference "C385") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C91") (unit 1)
         )
@@ -9011,7 +9042,7 @@
           (reference "R249") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R44") (unit 1)
         )
@@ -9055,9 +9086,51 @@
           (reference "#PWR0375") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0194") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small_US") (at 69.85 76.835 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 31903dba-1154-4d10-942b-53e1866e6eda)
+    (property "Reference" "R?" (at 73.025 76.2 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "4.75k" (at 73.66 78.105 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 69.85 76.835 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 69.85 76.835 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "RC0603FR-074K75L" (at 69.85 76.835 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 08d4edda-5747-4a8c-a36b-a7a860d72f2a))
+    (pin "2" (uuid 335171cc-9eff-40e6-93f4-0fd33683668d))
+    (instances
+      (project "Zest_MPEX_v1p3"
+        (path "/00cb7cb7-8be2-4970-8959-a06932b2fa76/bd960755-3e45-476f-84b6-fdf0c21cce40"
+          (reference "R?") (unit 1)
+        )
+        (path "/00cb7cb7-8be2-4970-8959-a06932b2fa76/ebe44a9a-cfc0-4697-bfa8-1ef6479032fe"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "AD7768_Digitizer"
+        (path "/22331033-57f4-4030-9571-3120e4a10c04/cabee33d-5948-42dc-bddd-7c103978152c"
+          (reference "R250") (unit 1)
+        )
+      )
+      (project "Quartz_v1p2"
+        (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
+          (reference "R119") (unit 1)
         )
       )
     )
@@ -9095,7 +9168,7 @@
           (reference "C9_1") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C122") (unit 1)
         )
@@ -9139,7 +9212,7 @@
           (reference "#PWR0375") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0177") (unit 1)
         )
@@ -9183,7 +9256,7 @@
           (reference "#PWR0361") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR02") (unit 1)
         )
@@ -9225,7 +9298,7 @@
           (reference "R249") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R90") (unit 1)
         )
@@ -9278,7 +9351,7 @@
           (reference "U123") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "U20") (unit 1)
         )
@@ -9320,7 +9393,7 @@
           (reference "R249") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R54") (unit 1)
         )
@@ -9364,7 +9437,7 @@
           (reference "#PWR0364") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0114") (unit 1)
         )
@@ -9403,7 +9476,7 @@
           (reference "#PWR0145") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0152") (unit 1)
         )
@@ -9464,7 +9537,7 @@
           (reference "U102") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "U29") (unit 1)
         )
@@ -9506,7 +9579,7 @@
           (reference "R250") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R87") (unit 1)
         )
@@ -9554,7 +9627,7 @@
           (reference "C385") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C100") (unit 1)
         )
@@ -9596,7 +9669,7 @@
           (reference "R249") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R85") (unit 1)
         )
@@ -9640,7 +9713,7 @@
           (reference "#PWR0372") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0127") (unit 1)
         )
@@ -9670,7 +9743,7 @@
           (reference "#PWR0562") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0129") (unit 1)
         )
@@ -9704,7 +9777,7 @@
           (reference "D3") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "D2") (unit 1)
         )
@@ -9741,7 +9814,7 @@
           (reference "R102") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R35") (unit 1)
         )
@@ -9784,7 +9857,7 @@
           (reference "C126") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C133") (unit 1)
         )
@@ -9814,7 +9887,7 @@
           (reference "H1") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "H1") (unit 1)
         )
@@ -9854,7 +9927,7 @@
           (reference "C9_1") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C121") (unit 1)
         )
@@ -9902,7 +9975,7 @@
           (reference "C385") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C97") (unit 1)
         )
@@ -9946,7 +10019,7 @@
           (reference "#PWR0361") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0224") (unit 1)
         )
@@ -9976,7 +10049,7 @@
           (reference "#PWR0562") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0121") (unit 1)
         )
@@ -10005,7 +10078,7 @@
     (pin "1" (uuid a6e207d3-c032-4f84-89ea-4478c0f8fa6b))
     (pin "2" (uuid 58f50ffa-f1b7-43fa-aee8-a7cecf286a89))
     (instances
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "J5") (unit 1)
         )
@@ -10053,7 +10126,7 @@
           (reference "C385") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C92") (unit 1)
         )
@@ -10083,7 +10156,7 @@
           (reference "#PWR0562") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0120") (unit 1)
         )
@@ -10125,7 +10198,7 @@
           (reference "R250") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R16") (unit 1)
         )
@@ -10162,7 +10235,7 @@
           (reference "R102") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R43") (unit 1)
         )
@@ -10264,7 +10337,7 @@
           (reference "U101") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "U13") (unit 1)
         )
@@ -10317,7 +10390,7 @@
           (reference "U123") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "U14") (unit 1)
         )
@@ -10359,7 +10432,7 @@
           (reference "R250") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R34") (unit 1)
         )
@@ -10389,7 +10462,7 @@
           (reference "#PWR0562") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0128") (unit 1)
         )
@@ -10431,7 +10504,7 @@
           (reference "R249") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R56") (unit 1)
         )
@@ -10471,7 +10544,7 @@
           (reference "C9_1") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C126") (unit 1)
         )
@@ -10513,7 +10586,7 @@
           (reference "R249") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R23") (unit 1)
         )
@@ -10557,7 +10630,7 @@
           (reference "#PWR0364") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0117") (unit 1)
         )
@@ -10610,7 +10683,7 @@
           (reference "U123") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "U19") (unit 1)
         )
@@ -10652,7 +10725,7 @@
           (reference "R249") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R57") (unit 1)
         )
@@ -10696,7 +10769,7 @@
           (reference "#PWR0361") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR093") (unit 1)
         )
@@ -10735,7 +10808,7 @@
           (reference "#PWR0139") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0133") (unit 1)
         )
@@ -10769,7 +10842,7 @@
           (reference "D3") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "D3") (unit 1)
         )
@@ -10817,7 +10890,7 @@
           (reference "C385") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C173") (unit 1)
         )
@@ -10859,7 +10932,7 @@
           (reference "R250") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R100") (unit 1)
         )
@@ -10907,7 +10980,7 @@
           (reference "C385") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C120") (unit 1)
         )
@@ -10937,7 +11010,7 @@
           (reference "#PWR0562") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0139") (unit 1)
         )
@@ -10981,7 +11054,7 @@
           (reference "#PWR0364") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0100") (unit 1)
         )
@@ -11025,7 +11098,7 @@
           (reference "#PWR0365") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0115") (unit 1)
         )
@@ -11069,7 +11142,7 @@
           (reference "#PWR0364") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0112") (unit 1)
         )
@@ -11101,7 +11174,7 @@
     (pin "4" (uuid 9fcddc0f-880b-476b-a409-cf207a33c3de))
     (pin "5" (uuid 5b2808b4-67c0-419c-a1b5-8fa84d832ce0))
     (instances
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "U36") (unit 1)
         )
@@ -11140,7 +11213,7 @@
           (reference "#PWR0145") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0142") (unit 1)
         )
@@ -11170,7 +11243,7 @@
           (reference "#PWR0562") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0130") (unit 1)
         )
@@ -11210,7 +11283,7 @@
           (reference "C9_1") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C127") (unit 1)
         )
@@ -11252,7 +11325,7 @@
           (reference "R249") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R30") (unit 1)
         )
@@ -11305,7 +11378,7 @@
           (reference "U123") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "U18") (unit 1)
         )
@@ -11349,7 +11422,7 @@
           (reference "#PWR0361") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0102") (unit 1)
         )
@@ -11388,7 +11461,7 @@
           (reference "#PWR0145") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0135") (unit 1)
         )
@@ -11436,7 +11509,7 @@
           (reference "C385") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C114") (unit 1)
         )
@@ -11475,7 +11548,7 @@
           (reference "#PWR0139") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0198") (unit 1)
         )
@@ -11505,7 +11578,7 @@
           (reference "#PWR0562") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR096") (unit 1)
         )
@@ -11550,7 +11623,7 @@
           (reference "R255") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R40") (unit 1)
         )
@@ -11575,7 +11648,7 @@
     )
     (pin "1" (uuid e3a90caa-4cb0-4eed-a304-0ce0d31f8ac3))
     (instances
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR090") (unit 1)
         )
@@ -11605,7 +11678,7 @@
           (reference "#PWR0562") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR099") (unit 1)
         )
@@ -11650,7 +11723,7 @@
           (reference "R255") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R42") (unit 1)
         )
@@ -11695,7 +11768,7 @@
           (reference "R255") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R41") (unit 1)
         )
@@ -11737,7 +11810,7 @@
           (reference "R249") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R51") (unit 1)
         )
@@ -11781,7 +11854,7 @@
           (reference "#PWR0361") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR01") (unit 1)
         )
@@ -11824,7 +11897,7 @@
           (reference "C125") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C130") (unit 1)
         )
@@ -11876,7 +11949,7 @@
     (pin "8" (uuid c60b7a12-20d8-4c5d-b764-e2f162cd5de1))
     (pin "9" (uuid d6e86e5a-7505-42f5-afb0-b03ac7024a72))
     (instances
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "U16") (unit 1)
         )
@@ -11920,7 +11993,7 @@
           (reference "#PWR0382") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0168") (unit 1)
         )
@@ -11959,7 +12032,7 @@
     (pin "2" (uuid 96b6b4e0-69e5-4bc4-8cb7-2fb433872220))
     (pin "3" (uuid 78d76280-80b2-4807-b5cc-405b6511fc9d))
     (instances
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "Q1") (unit 1)
         )
@@ -12003,7 +12076,7 @@
           (reference "#PWR0376") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0149") (unit 1)
         )
@@ -12051,7 +12124,7 @@
           (reference "C385") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C99") (unit 1)
         )
@@ -12084,7 +12157,7 @@
     (pin "5" (uuid fe371c70-c6d6-4b11-a9ed-86dae792a069))
     (pin "6" (uuid cef9eab9-2530-40d1-9cde-06e5efdfac9a))
     (instances
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "U37") (unit 1)
         )
@@ -12123,7 +12196,7 @@
           (reference "#PWR0145") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR091") (unit 1)
         )
@@ -12153,7 +12226,7 @@
           (reference "H2") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "H2") (unit 1)
         )
@@ -12195,7 +12268,7 @@
           (reference "R254") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R37") (unit 1)
         )
@@ -12237,7 +12310,7 @@
           (reference "R249") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R49") (unit 1)
         )
@@ -12285,7 +12358,7 @@
           (reference "C386") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C137") (unit 1)
         )
@@ -12325,7 +12398,7 @@
           (reference "R6_1") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R53") (unit 1)
         )
@@ -12365,7 +12438,7 @@
           (reference "C9_1") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C116") (unit 1)
         )
@@ -12405,7 +12478,7 @@
           (reference "C9_1") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C95") (unit 1)
         )
@@ -12449,7 +12522,7 @@
           (reference "#PWR0376") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0159") (unit 1)
         )
@@ -12492,7 +12565,7 @@
           (reference "C126") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C124") (unit 1)
         )
@@ -12536,7 +12609,7 @@
           (reference "#PWR0375") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0178") (unit 1)
         )
@@ -12580,7 +12653,7 @@
           (reference "#PWR0361") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0124") (unit 1)
         )
@@ -12633,9 +12706,51 @@
           (reference "U123") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "U23") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small_US") (at 69.85 66.675 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a8b323f8-33fc-4aaa-8a76-42359ac9389a)
+    (property "Reference" "R?" (at 71.12 66.04 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "22k" (at 71.12 67.945 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 69.85 66.675 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 69.85 66.675 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "RC0603FR-0722KL" (at 69.85 66.675 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f30b36af-7572-4d96-bf06-36da4bd490ca))
+    (pin "2" (uuid 34211c2f-d1f6-46ca-8798-6a0fb507ded8))
+    (instances
+      (project "Zest_MPEX_v1p3"
+        (path "/00cb7cb7-8be2-4970-8959-a06932b2fa76/bd960755-3e45-476f-84b6-fdf0c21cce40"
+          (reference "R?") (unit 1)
+        )
+        (path "/00cb7cb7-8be2-4970-8959-a06932b2fa76/ebe44a9a-cfc0-4697-bfa8-1ef6479032fe"
+          (reference "R?") (unit 1)
+        )
+      )
+      (project "AD7768_Digitizer"
+        (path "/22331033-57f4-4030-9571-3120e4a10c04/cabee33d-5948-42dc-bddd-7c103978152c"
+          (reference "R249") (unit 1)
+        )
+      )
+      (project "Quartz_v1p2"
+        (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
+          (reference "R118") (unit 1)
         )
       )
     )
@@ -12675,7 +12790,7 @@
           (reference "R250") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R48") (unit 1)
         )
@@ -12717,7 +12832,7 @@
           (reference "R250") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R95") (unit 1)
         )
@@ -12761,7 +12876,7 @@
           (reference "#PWR0363") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR095") (unit 1)
         )
@@ -12791,9 +12906,53 @@
           (reference "H2") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 69.85 81.915 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b3679cbd-3aba-4005-bfb8-5f3c39640bc2)
+    (property "Reference" "#PWR?" (at 69.85 88.265 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 69.85 85.725 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 69.85 81.915 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 69.85 81.915 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5fd43cbc-e6e0-445f-ba04-977539cc26c5))
+    (instances
+      (project "Zest_MPEX_v1p3"
+        (path "/00cb7cb7-8be2-4970-8959-a06932b2fa76/bd960755-3e45-476f-84b6-fdf0c21cce40"
+          (reference "#PWR?") (unit 1)
+        )
+        (path "/00cb7cb7-8be2-4970-8959-a06932b2fa76/8647ce70-8aba-475f-944c-70d4a910c7fc"
+          (reference "#PWR?") (unit 1)
+        )
+        (path "/00cb7cb7-8be2-4970-8959-a06932b2fa76/c11d515c-2130-4ad8-92a3-0ab7b2f1fbc7"
+          (reference "#PWR?") (unit 1)
+        )
+        (path "/00cb7cb7-8be2-4970-8959-a06932b2fa76/ebe44a9a-cfc0-4697-bfa8-1ef6479032fe"
+          (reference "#PWR?") (unit 1)
+        )
+      )
+      (project "AD7768_Digitizer"
+        (path "/22331033-57f4-4030-9571-3120e4a10c04/cabee33d-5948-42dc-bddd-7c103978152c"
+          (reference "#PWR0361") (unit 1)
+        )
+      )
+      (project "Quartz_v1p2"
+        (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
+          (reference "#PWR0186") (unit 1)
         )
       )
     )
@@ -12839,7 +12998,7 @@
           (reference "C385") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C90") (unit 1)
         )
@@ -12883,7 +13042,7 @@
           (reference "#PWR0376") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0154") (unit 1)
         )
@@ -12922,7 +13081,7 @@
     (pin "2" (uuid a7677750-1648-4221-b3e4-b90bae1c0fc4))
     (pin "3" (uuid 28b0cf75-e5d1-499b-aa5d-de845f044c5f))
     (instances
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "Q2") (unit 1)
         )
@@ -12966,7 +13125,7 @@
           (reference "#PWR0376") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0164") (unit 1)
         )
@@ -12996,7 +13155,7 @@
           (reference "#PWR0562") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR097") (unit 1)
         )
@@ -13036,7 +13195,7 @@
           (reference "R6_1") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R46") (unit 1)
         )
@@ -13084,7 +13243,7 @@
           (reference "C383") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C135") (unit 1)
         )
@@ -13132,7 +13291,7 @@
           (reference "C385") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C96") (unit 1)
         )
@@ -13171,7 +13330,7 @@
           (reference "#PWR0139") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0199") (unit 1)
         )
@@ -13213,7 +13372,7 @@
           (reference "R250") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R94") (unit 1)
         )
@@ -13255,7 +13414,7 @@
           (reference "R250") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R31") (unit 1)
         )
@@ -13285,7 +13444,7 @@
           (reference "#PWR0562") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0141") (unit 1)
         )
@@ -13333,7 +13492,7 @@
           (reference "C385") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C89") (unit 1)
         )
@@ -13381,7 +13540,7 @@
           (reference "C385") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C172") (unit 1)
         )
@@ -13425,7 +13584,7 @@
           (reference "#PWR0375") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0113") (unit 1)
         )
@@ -13467,7 +13626,7 @@
           (reference "R249") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R28") (unit 1)
         )
@@ -13506,7 +13665,7 @@
           (reference "#PWR0140") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0136") (unit 1)
         )
@@ -13531,7 +13690,7 @@
     )
     (pin "1" (uuid be872a52-d637-4c14-a61d-d27b0242627e))
     (instances
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0153") (unit 1)
         )
@@ -13584,7 +13743,7 @@
           (reference "U123") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "U17") (unit 1)
         )
@@ -13637,7 +13796,7 @@
           (reference "U123") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "U21") (unit 1)
         )
@@ -13681,7 +13840,7 @@
           (reference "#PWR0361") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR092") (unit 1)
         )
@@ -13708,7 +13867,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "Logo1") (unit 1)
         )
@@ -13752,7 +13911,7 @@
           (reference "#PWR0376") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0151") (unit 1)
         )
@@ -13792,7 +13951,7 @@
           (reference "R6_1") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R55") (unit 1)
         )
@@ -13840,7 +13999,7 @@
           (reference "C385") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C171") (unit 1)
         )
@@ -13882,7 +14041,7 @@
           (reference "R249") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R47") (unit 1)
         )
@@ -13924,7 +14083,7 @@
           (reference "R249") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R11") (unit 1)
         )
@@ -13964,7 +14123,7 @@
           (reference "U15") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "U27") (unit 1)
         )
@@ -13994,7 +14153,7 @@
           (reference "#PWR0562") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0122") (unit 1)
         )
@@ -14036,7 +14195,7 @@
           (reference "R251") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R32") (unit 1)
         )
@@ -14089,7 +14248,7 @@
           (reference "U123") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "U15") (unit 1)
         )
@@ -14118,7 +14277,7 @@
     (pin "1" (uuid 083c7ef1-14e0-4463-881c-96e7b6fc37a3))
     (pin "2" (uuid a2fbd6f2-f484-422d-b976-6cdecf5a7307))
     (instances
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R58") (unit 1)
         )
@@ -14162,7 +14321,7 @@
           (reference "#PWR0376") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0160") (unit 1)
         )
@@ -14206,7 +14365,7 @@
           (reference "#PWR0375") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR088") (unit 1)
         )
@@ -14236,7 +14395,7 @@
           (reference "#PWR0562") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0138") (unit 1)
         )
@@ -14284,7 +14443,7 @@
           (reference "C385") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C98") (unit 1)
         )
@@ -14326,7 +14485,7 @@
           (reference "R260") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R60") (unit 1)
         )
@@ -14365,7 +14524,7 @@
           (reference "#PWR0140") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0155") (unit 1)
         )
@@ -14407,7 +14566,7 @@
           (reference "R262") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R4") (unit 1)
         )
@@ -14447,7 +14606,7 @@
           (reference "R6_1") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R45") (unit 1)
         )
@@ -14477,7 +14636,7 @@
           (reference "#PWR0562") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0131") (unit 1)
         )
@@ -14522,7 +14681,7 @@
           (reference "R255") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "R39") (unit 1)
         )
@@ -14566,7 +14725,7 @@
           (reference "#PWR0373") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0162") (unit 1)
         )
@@ -14610,7 +14769,7 @@
           (reference "#PWR0375") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "#PWR0116") (unit 1)
         )
@@ -14653,7 +14812,7 @@
           (reference "C125") (unit 1)
         )
       )
-      (project "Quartz_v1p1"
+      (project "Quartz_v1p2"
         (path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
           (reference "C123") (unit 1)
         )
