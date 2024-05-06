@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Quartz")
+    (date "2024-03-28")
+    (rev "v1.2.1")
+    (company "OspreyDCS")
+  )
+
   (lib_symbols
     (symbol "AD7768_Digitizer_SLib:INA851" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 12.7 2.54 0)
@@ -2529,7 +2536,7 @@
     (property "Datasheet" "~" (at 227.33 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "GRM1885C1H101JA01D" (at 227.33 92.71 0)
+    (property "MPN" "GRM1555C1H101JA01D" (at 227.33 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a43ef260-715a-41d8-98fc-2452743c580f))
@@ -2795,7 +2802,7 @@
     (property "Datasheet" "~" (at 179.07 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "GRM1885C1H101JA01D" (at 179.07 101.6 0)
+    (property "MPN" "GRM1555C1H101JA01D" (at 179.07 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a9e85eed-48ae-45eb-8c31-9ec16b4f11b4))
@@ -3840,7 +3847,7 @@
     (property "Datasheet" "~" (at 179.07 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "GRM1885C1H101JA01D" (at 179.07 82.55 0)
+    (property "MPN" "GRM1555C1H101JA01D" (at 179.07 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d502e92d-c281-40b4-9c63-720ef086a495))
@@ -4106,7 +4113,7 @@
     (property "Datasheet" "~" (at 168.91 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "GRT155R61C474KE01D" (at 168.91 120.65 0)
+    (property "MPN" "CGA2B3X7R1H473K050BB" (at 168.91 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1ae19f39-27a5-4ea3-90dc-b9cd1ad7647b))

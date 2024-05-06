@@ -4,6 +4,13 @@
 
   (paper "A3")
 
+  (title_block
+    (title "Quartz")
+    (date "2024-03-28")
+    (rev "v1.2.1")
+    (company "OspreyDCS")
+  )
+
   (lib_symbols
     (symbol "AD7768_Digitizer_SLib:ASP-134604-01" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "P" (at -6.35 106.68 0)

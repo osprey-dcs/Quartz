@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Quartz")
+    (date "2024-03-28")
+    (rev "v1.2.1")
+    (company "OspreyDCS")
+  )
+
   (lib_symbols
     (symbol "AD7768_Digitizer_SLib:AD7768" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 1.27 1.27 0)
@@ -4127,7 +4134,7 @@
     (property "Datasheet" "~" (at 126.365 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "GRT155R61C474KE01D" (at 126.365 99.06 0)
+    (property "MPN" "CGA2B3X7R1H473K050BB" (at 126.365 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c6e2f29a-eb69-4fb8-8d5b-c9706a7a216a))

@@ -4,6 +4,13 @@
 
   (paper "A3")
 
+  (title_block
+    (title "Quartz")
+    (date "2024-03-28")
+    (rev "v1.2.1")
+    (company "OspreyDCS")
+  )
+
   (lib_symbols
     (symbol "AD7768_Digitizer_SLib:D_BAT54W" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
@@ -6375,7 +6382,7 @@
     (pin "22" (uuid ba655815-0226-4862-a923-4e17ae36b376))
     (pin "23" (uuid fa9d9fac-4e63-4852-92b2-b180dd0aa7fa))
     (pin "24" (uuid 1611e749-e450-48bd-b70b-55102e9e4a26))
-    (pin "25" (uuid dedbf027-ea15-4c2c-b9e1-27d2cc3709ae))
+    (pin "25" (uuid dedbf027-ea15-4c2c-b9e1-27d2cc3709af))
     (pin "25" (uuid dedbf027-ea15-4c2c-b9e1-27d2cc3709af))
     (pin "3" (uuid 6ef94c56-4b4a-4f2f-86ed-fb1a8b5c726b))
     (pin "4" (uuid a624a77b-01a3-4791-a68a-a5f308b86d6f))
