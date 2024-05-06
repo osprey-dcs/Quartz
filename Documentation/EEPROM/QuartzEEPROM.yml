@@ -1,7 +1,7 @@
 # IPMI EEPROM
 
 BoardInfo:
-  mfg_date_time: '2023-04-25 09:00:00'
+  mfg_date_time: '2024-04-25 09:00:00'
   manufacturer: 'Osprey'
   product_name: 'Quartz'
   serial_number: '001'
