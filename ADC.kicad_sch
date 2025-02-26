@@ -4154,6 +4154,16 @@
 		)
 		(uuid "c4f02fc7-c462-4a6a-83d5-380a26dbf422")
 	)
+	(text "Was C178/C179/C180/C181 on v1.2 and older\nReplaced with Resistor"
+		(exclude_from_sim no)
+		(at 158.496 148.844 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "caee2e0b-2424-44c4-a811-debd3277f938")
+	)
 	(text "+2.5V"
 		(exclude_from_sim no)
 		(at 189.865 31.75 90)
@@ -4164,6 +4174,16 @@
 			(justify left bottom)
 		)
 		(uuid "d5d7e74f-c96c-429d-83d7-9d56a34360f6")
+	)
+	(text "Was C182/C183/C184/C185 on v1.2 and older\nReplaced with Resistor"
+		(exclude_from_sim no)
+		(at 194.31 148.59 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+		)
+		(uuid "e2574423-5d06-49fe-bd25-f26b136d2b6e")
 	)
 	(label "DREG_CAP"
 		(at 191.135 33.02 270)
@@ -6881,7 +6901,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:R_Small_US")
 		(at 180.975 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6898,8 +6918,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 182.88 146.05 0)
+		(property "Value" "0R"
+			(at 184.15 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6907,7 +6927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 180.975 144.78 0)
 			(effects
 				(font
@@ -6934,7 +6954,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05A104KA5NNNC"
+		(property "MPN" "ERJ-2GE0R00X"
 			(at 180.975 144.78 0)
 			(effects
 				(font
@@ -6970,19 +6990,19 @@
 			)
 			(project "Quartz_v1p2"
 				(path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/5f1dcf7b-1f0d-41af-8f43-a794235a096a"
-					(reference "C184")
+					(reference "R184")
 					(unit 1)
 				)
 				(path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/763a2dc6-a957-486b-a6c0-eb0ccf305601"
-					(reference "C183")
+					(reference "R183")
 					(unit 1)
 				)
 				(path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/7c049f6e-eb60-47dd-be1c-e0af8d8a491e"
-					(reference "C185")
+					(reference "R185")
 					(unit 1)
 				)
 				(path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/c1293333-1878-4cba-a3bd-0c7884de1f1a"
-					(reference "C182")
+					(reference "R182")
 					(unit 1)
 				)
 			)
@@ -8449,7 +8469,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:R_Small_US")
 		(at 173.355 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8466,8 +8486,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 165.735 146.05 0)
+		(property "Value" "0R"
+			(at 167.005 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8475,7 +8495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.355 144.78 0)
 			(effects
 				(font
@@ -8502,7 +8522,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05A104KA5NNNC"
+		(property "MPN" "ERJ-2GE0R00X"
 			(at 173.355 144.78 0)
 			(effects
 				(font
@@ -8538,19 +8558,19 @@
 			)
 			(project "Quartz_v1p2"
 				(path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/5f1dcf7b-1f0d-41af-8f43-a794235a096a"
-					(reference "C180")
+					(reference "R180")
 					(unit 1)
 				)
 				(path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/763a2dc6-a957-486b-a6c0-eb0ccf305601"
-					(reference "C179")
+					(reference "R179")
 					(unit 1)
 				)
 				(path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/7c049f6e-eb60-47dd-be1c-e0af8d8a491e"
-					(reference "C181")
+					(reference "R181")
 					(unit 1)
 				)
 				(path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/c1293333-1878-4cba-a3bd-0c7884de1f1a"
-					(reference "C178")
+					(reference "R178")
 					(unit 1)
 				)
 			)

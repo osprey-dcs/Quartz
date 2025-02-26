@@ -4882,7 +4882,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 176.53 97.79 0)
 			(effects
 				(font
@@ -5314,7 +5314,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 177.8 86.36 0)
 			(effects
 				(font
@@ -6136,7 +6136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8cdcf647-2793-4adb-8d4d-0fb90fcf1e84")
-		(property "Reference" "U101"
+		(property "Reference" "U2601"
 			(at 144.78 73.66 0)
 			(effects
 				(font
@@ -6803,7 +6803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be12e11e-42cb-4bfd-86f9-98bc888fbadb")
-		(property "Reference" "L101"
+		(property "Reference" "L2601"
 			(at 156.21 120.015 0)
 			(effects
 				(font
@@ -8086,7 +8086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d56e8590-56ab-4946-a7e0-c0e0e071b220")
-		(property "Reference" "L103"
+		(property "Reference" "L2603"
 			(at 186.69 62.23 0)
 			(effects
 				(font
@@ -8305,7 +8305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.06 86.36 0)
 			(effects
 				(font
@@ -8708,7 +8708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfc6a13a-4f35-4fdf-9f30-46de97b7fb06")
-		(property "Reference" "L102"
+		(property "Reference" "L2602"
 			(at 157.48 58.42 0)
 			(effects
 				(font
@@ -10411,7 +10411,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.06 96.52 0)
 			(effects
 				(font
@@ -10609,7 +10609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6b65632-48ee-4c66-a1e6-2f6833e2baf7")
-		(property "Reference" "K1"
+		(property "Reference" "K17"
 			(at 80.645 69.85 90)
 			(effects
 				(font

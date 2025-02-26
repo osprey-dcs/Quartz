@@ -1,5 +1,5 @@
-### Footprint positions - created on Thu Mar 28 13:31:53 2024 ###
-### Printed by KiCad version (7.0.0)
+### Footprint positions - created on 2025-02-25T16:58:20-0800 ###
+### Printed by KiCad version 8.0.5
 ## Unit = mm, Angle = deg.
 ## Side : bottom
 # Ref     Val                       Package                                                 PosX       PosY       Rot  Side
@@ -53,14 +53,6 @@ C168      2.2uF                     C_0805_2012Metric                           
 C169      10uF                      C_0805_2012Metric                                     4.3300    96.9722  -90.0000  bottom
 C171      100nF                     C_0402_1005Metric                                   139.9540    97.9170   90.0000  bottom
 C173      100nF                     C_0402_1005Metric                                   138.7836    97.9170   90.0000  bottom
-C178      100nF                     C_0402_1005Metric                                    64.0080    85.0900   90.0000  bottom
-C179      100nF                     C_0402_1005Metric                                   107.9500    85.0900   90.0000  bottom
-C180      100nF                     C_0402_1005Metric                                   151.8920    85.0900   90.0000  bottom
-C181      100nF                     C_0402_1005Metric                                   195.8340    85.0900   90.0000  bottom
-C182      100nF                     C_0402_1005Metric                                    65.0240    85.0900   90.0000  bottom
-C183      100nF                     C_0402_1005Metric                                   108.9660    85.0900   90.0000  bottom
-C184      100nF                     C_0402_1005Metric                                   152.9080    85.0900   90.0000  bottom
-C185      100nF                     C_0402_1005Metric                                   196.8500    85.0900   90.0000  bottom
 C211      82pF                      C_0402_1005Metric                                    49.5300    74.5490  135.0000  bottom
 C212      82pF                      C_0402_1005Metric                                    50.9668    73.1122  135.0000  bottom
 C213      100pF                     C_0402_1005Metric                                    50.9661    74.5483  -45.0000  bottom
@@ -481,6 +473,14 @@ R114      4.75k                     R_0402_1005Metric                           
 R115      4.75k                     R_0402_1005Metric                                   192.5320    67.9450   90.0000  bottom
 R116      DNI                       R_0805_2012Metric                                   140.9700     2.0320    0.0000  bottom
 R117      DNI                       R_0805_2012Metric                                   140.9700     4.5720    0.0000  bottom
+R178      0R                        C_0402_1005Metric                                    64.0080    85.0900   90.0000  bottom
+R179      0R                        C_0402_1005Metric                                   107.9500    85.0900   90.0000  bottom
+R180      0R                        C_0402_1005Metric                                   151.8920    85.0900   90.0000  bottom
+R181      0R                        C_0402_1005Metric                                   195.8340    85.0900   90.0000  bottom
+R182      0R                        C_0402_1005Metric                                    65.0240    85.0900   90.0000  bottom
+R183      0R                        C_0402_1005Metric                                   108.9660    85.0900   90.0000  bottom
+R184      0R                        C_0402_1005Metric                                   152.9080    85.0900   90.0000  bottom
+R185      0R                        C_0402_1005Metric                                   196.8500    85.0900   90.0000  bottom
 R208      82R                       R_0402_1005Metric                                    48.8116    73.1122   45.0000  bottom
 R209      82R                       R_0402_1005Metric                                    49.5300    72.3937   45.0000  bottom
 R308      82R                       R_0402_1005Metric                                    50.0417    69.5960   45.0000  bottom
@@ -665,7 +665,7 @@ TP7       ~                         TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded    
 TP8       ~                         TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded             11.6840    86.9681   90.0000  bottom
 TP9       ~                         TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded             31.3690    70.3580   90.0000  bottom
 TP10      ~                         TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded            234.5690   101.4730  180.0000  bottom
-TP11      12V                       TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded             47.1170   105.4100  180.0000  bottom
+TP11      ~                         TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded             47.1170   105.4100  180.0000  bottom
 U1        AD7768                    LQFP-64_10x10mm_P0.5mm                               60.9600    76.2000    0.0000  bottom
 U4        AD7768                    LQFP-64_10x10mm_P0.5mm                              104.9020    76.2000    0.0000  bottom
 U7        AD7768                    LQFP-64_10x10mm_P0.5mm                              148.8440    76.2000    0.0000  bottom

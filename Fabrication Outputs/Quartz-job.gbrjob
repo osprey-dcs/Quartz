@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "(7.0.0)"
+      "Version": "8.0.5"
     },
-    "CreationDate": "2024-03-28T13:36:06-07:00"
+    "CreationDate": "2025-02-25T16:56:38-08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -34,8 +34,8 @@
     },
     {
       "Layers": "Inner",
-      "PadToPad": 0.1524,
-      "PadToTrack": 0.1524,
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
       "TrackToTrack": 0.1524,
       "MinLineWidth": 0.1524,
       "TrackToRegion": 0.254,
@@ -125,17 +125,14 @@
     },
     {
       "Type": "SolderMask",
-      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.1,
       "Material": "FR4",
       "DielectricConstant": "4.04",
       "LossTangent": "0.021",
@@ -144,12 +141,10 @@
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
       "Name": "Gnd2.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.535,
       "Material": "FR4",
       "DielectricConstant": "4.04",
       "LossTangent": "0.021",
@@ -158,12 +153,10 @@
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
       "Name": "Pwr3.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.1,
       "Material": "FR4",
       "DielectricConstant": "4.04",
       "LossTangent": "0.021",
@@ -172,12 +165,10 @@
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
       "Name": "In4.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.535,
       "Material": "FR4",
       "DielectricConstant": "4.04",
       "LossTangent": "0.021",
@@ -186,12 +177,10 @@
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
       "Name": "Gnd5.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.1,
       "Material": "FR4",
       "DielectricConstant": "4.04",
       "LossTangent": "0.021",
@@ -200,12 +189,10 @@
     },
     {
       "Type": "Copper",
-      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
-      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {

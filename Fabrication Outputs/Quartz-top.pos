@@ -1,5 +1,5 @@
-### Footprint positions - created on Thu Mar 28 13:31:53 2024 ###
-### Printed by KiCad version (7.0.0)
+### Footprint positions - created on 2025-02-25T16:58:20-0800 ###
+### Printed by KiCad version 8.0.5
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val                Package                                                 PosX       PosY       Rot  Side
@@ -515,7 +515,7 @@ U8        ADR4540            SOIC-8_3.9x4.9mm_P1.27mm                           
 U9        ADA4841-1          SOT-23-6                                            159.5040    74.0140  180.0000  top
 U11       ADR4540            SOIC-8_3.9x4.9mm_P1.27mm                            210.4310    74.2680  180.0000  top
 U12       ADA4841-1          SOT-23-6                                            203.4460    74.0140  180.0000  top
-U16       SI5330B-B00206-GM  QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm                 139.4186   102.9482  -90.0000  top
+U16       SI5330B-B00205-GM  QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm                 139.4186   102.9482  -90.0000  top
 U26       74AVC4T245         TSSOP-16_4.4x5mm_P0.65mm                            203.5810   100.9650    0.0000  top
 U29       74LVC8T245         TSSOP-24_4.4x7.8mm_P0.65mm                          203.5810    92.8370    0.0000  top
 U32       ZXCT1009F          SOT-23-PinRotate                                     58.8010   104.7750   90.0000  top
