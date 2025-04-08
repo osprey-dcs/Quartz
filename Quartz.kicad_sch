@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "674e1e7f-67ba-4e85-a926-dcd5f6a22021")
 	(paper "A2")
 	(title_block
@@ -13,7 +13,9 @@
 	(lib_symbols
 		(symbol "AD7768_Digitizer_SLib:DC37_Receptacle"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -42,7 +44,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " ~"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -79,626 +81,9 @@
 				)
 			)
 			(symbol "DC37_Receptacle_0_1"
-				(circle
-					(center -1.778 -45.72)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 -40.64)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 -35.56)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 -30.48)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 -25.4)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 -20.32)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 -15.24)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 -10.16)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 -5.08)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 5.08)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 10.16)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 15.24)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 20.32)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 25.4)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 30.48)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 35.56)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 40.64)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.778 45.72)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
-						(xy -3.81 -45.72) (xy -2.54 -45.72)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -43.18) (xy 0.508 -43.18)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -40.64) (xy -2.54 -40.64)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -38.1) (xy 0.508 -38.1)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -35.56) (xy -2.54 -35.56)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -33.02) (xy 0.508 -33.02)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -30.48) (xy -2.54 -30.48)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -27.94) (xy 0.508 -27.94)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -25.4) (xy -2.54 -25.4)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -22.86) (xy 0.508 -22.86)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -20.32) (xy -2.54 -20.32)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -17.78) (xy 0.508 -17.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -15.24) (xy -2.54 -15.24)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -12.7) (xy 0.508 -12.7)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -10.16) (xy -2.54 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -7.62) (xy 0.508 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy 0.508 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 2.54) (xy 0.508 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 5.08) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 7.62) (xy 0.508 7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 10.16) (xy -2.54 10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 12.7) (xy 0.508 12.7)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 15.24) (xy -2.54 15.24)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 17.78) (xy 0.508 17.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 20.32) (xy -2.54 20.32)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 22.86) (xy 0.508 22.86)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 25.4) (xy -2.54 25.4)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 27.94) (xy 0.508 27.94)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 30.48) (xy -2.54 30.48)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 33.02) (xy 0.508 33.02)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 35.56) (xy -2.54 35.56)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 38.1) (xy 0.508 38.1)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 40.64) (xy -2.54 40.64)
+						(xy -3.81 45.72) (xy -2.54 45.72)
 					)
 					(stroke
 						(width 0)
@@ -722,7 +107,415 @@
 				)
 				(polyline
 					(pts
-						(xy -3.81 45.72) (xy -2.54 45.72)
+						(xy -3.81 40.64) (xy -2.54 40.64)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 38.1) (xy 0.508 38.1)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 35.56) (xy -2.54 35.56)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 33.02) (xy 0.508 33.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 30.48) (xy -2.54 30.48)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 27.94) (xy 0.508 27.94)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 25.4) (xy -2.54 25.4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 22.86) (xy 0.508 22.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 20.32) (xy -2.54 20.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 17.78) (xy 0.508 17.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 15.24) (xy -2.54 15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 12.7) (xy 0.508 12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 10.16) (xy -2.54 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 7.62) (xy 0.508 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 2.54) (xy 0.508 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -7.62) (xy 0.508 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -10.16) (xy -2.54 -10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -12.7) (xy 0.508 -12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -15.24) (xy -2.54 -15.24)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -17.78) (xy 0.508 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -20.32) (xy -2.54 -20.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -22.86) (xy 0.508 -22.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -25.4) (xy -2.54 -25.4)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -27.94) (xy 0.508 -27.94)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -30.48) (xy -2.54 -30.48)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -33.02) (xy 0.508 -33.02)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -35.56) (xy -2.54 -35.56)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -38.1) (xy 0.508 -38.1)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -40.64) (xy -2.54 -40.64)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -43.18) (xy 0.508 -43.18)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -45.72) (xy -2.54 -45.72)
 					)
 					(stroke
 						(width 0)
@@ -745,7 +538,7 @@
 					)
 				)
 				(circle
-					(center 1.27 -43.18)
+					(center -1.778 45.72)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -756,7 +549,7 @@
 					)
 				)
 				(circle
-					(center 1.27 -38.1)
+					(center -1.778 40.64)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -767,7 +560,7 @@
 					)
 				)
 				(circle
-					(center 1.27 -33.02)
+					(center -1.778 35.56)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -778,7 +571,7 @@
 					)
 				)
 				(circle
-					(center 1.27 -27.94)
+					(center -1.778 30.48)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -789,7 +582,7 @@
 					)
 				)
 				(circle
-					(center 1.27 -22.86)
+					(center -1.778 25.4)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -800,7 +593,7 @@
 					)
 				)
 				(circle
-					(center 1.27 -17.78)
+					(center -1.778 20.32)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -811,7 +604,7 @@
 					)
 				)
 				(circle
-					(center 1.27 -12.7)
+					(center -1.778 15.24)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -822,7 +615,7 @@
 					)
 				)
 				(circle
-					(center 1.27 -7.62)
+					(center -1.778 10.16)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -833,7 +626,7 @@
 					)
 				)
 				(circle
-					(center 1.27 -2.54)
+					(center -1.778 5.08)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -844,7 +637,7 @@
 					)
 				)
 				(circle
-					(center 1.27 2.54)
+					(center -1.778 0)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -855,7 +648,7 @@
 					)
 				)
 				(circle
-					(center 1.27 7.62)
+					(center -1.778 -5.08)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -866,7 +659,7 @@
 					)
 				)
 				(circle
-					(center 1.27 12.7)
+					(center -1.778 -10.16)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -877,7 +670,7 @@
 					)
 				)
 				(circle
-					(center 1.27 17.78)
+					(center -1.778 -15.24)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -888,7 +681,7 @@
 					)
 				)
 				(circle
-					(center 1.27 22.86)
+					(center -1.778 -20.32)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -899,7 +692,7 @@
 					)
 				)
 				(circle
-					(center 1.27 27.94)
+					(center -1.778 -25.4)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -910,7 +703,51 @@
 					)
 				)
 				(circle
-					(center 1.27 33.02)
+					(center -1.778 -30.48)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 -35.56)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 -40.64)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 -45.72)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 43.18)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -932,7 +769,172 @@
 					)
 				)
 				(circle
-					(center 1.27 43.18)
+					(center 1.27 33.02)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 27.94)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 22.86)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 17.78)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 12.7)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -2.54)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -7.62)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -12.7)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -17.78)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -22.86)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -27.94)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -33.02)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -38.1)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -43.18)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -963,178 +965,16 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
+					(at -7.62 43.18 0)
 					(length 3.81)
-					(name "10"
+					(name "20"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -5.08 0)
-					(length 3.81)
-					(name "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -10.16 0)
-					(length 3.81)
-					(name "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -15.24 0)
-					(length 3.81)
-					(name "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -20.32 0)
-					(length 3.81)
-					(name "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -25.4 0)
-					(length 3.81)
-					(name "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -30.48 0)
-					(length 3.81)
-					(name "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -35.56 0)
-					(length 3.81)
-					(name "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -40.64 0)
-					(length 3.81)
-					(name "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -45.72 0)
-					(length 3.81)
-					(name "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1161,24 +1001,6 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 43.18 0)
-					(length 3.81)
-					(name "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -7.62 38.1 0)
 					(length 3.81)
 					(name "21"
@@ -1189,150 +1011,6 @@
 						)
 					)
 					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 33.02 0)
-					(length 3.81)
-					(name "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 27.94 0)
-					(length 3.81)
-					(name "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 22.86 0)
-					(length 3.81)
-					(name "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 17.78 0)
-					(length 3.81)
-					(name "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 12.7 0)
-					(length 3.81)
-					(name "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 7.62 0)
-					(length 3.81)
-					(name "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1359,6 +1037,294 @@
 					)
 				)
 				(pin passive line
+					(at -7.62 33.02 0)
+					(length 3.81)
+					(name "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 30.48 0)
+					(length 3.81)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 27.94 0)
+					(length 3.81)
+					(name "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 25.4 0)
+					(length 3.81)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 22.86 0)
+					(length 3.81)
+					(name "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 20.32 0)
+					(length 3.81)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 17.78 0)
+					(length 3.81)
+					(name "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 15.24 0)
+					(length 3.81)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 12.7 0)
+					(length 3.81)
+					(name "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 10.16 0)
+					(length 3.81)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.62 0)
+					(length 3.81)
+					(name "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 3.81)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 3.81)
+					(name "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 3.81)
+					(name "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 3.81)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -7.62 -7.62 0)
 					(length 3.81)
 					(name "30"
@@ -1369,6 +1335,24 @@
 						)
 					)
 					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -10.16 0)
+					(length 3.81)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1395,6 +1379,24 @@
 					)
 				)
 				(pin passive line
+					(at -7.62 -15.24 0)
+					(length 3.81)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -7.62 -17.78 0)
 					(length 3.81)
 					(name "32"
@@ -1405,6 +1407,24 @@
 						)
 					)
 					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -20.32 0)
+					(length 3.81)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1431,6 +1451,24 @@
 					)
 				)
 				(pin passive line
+					(at -7.62 -25.4 0)
+					(length 3.81)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -7.62 -27.94 0)
 					(length 3.81)
 					(name "34"
@@ -1441,6 +1479,24 @@
 						)
 					)
 					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -30.48 0)
+					(length 3.81)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1467,6 +1523,24 @@
 					)
 				)
 				(pin passive line
+					(at -7.62 -35.56 0)
+					(length 3.81)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -7.62 -38.1 0)
 					(length 3.81)
 					(name "36"
@@ -1485,6 +1559,24 @@
 					)
 				)
 				(pin passive line
+					(at -7.62 -40.64 0)
+					(length 3.81)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at -7.62 -43.18 0)
 					(length 3.81)
 					(name "37"
@@ -1495,6 +1587,24 @@
 						)
 					)
 					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -45.72 0)
+					(length 3.81)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1538,120 +1648,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -7.62 30.48 0)
-					(length 3.81)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 25.4 0)
-					(length 3.81)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 20.32 0)
-					(length 3.81)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 15.24 0)
-					(length 3.81)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 10.16 0)
-					(length 3.81)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 5.08 0)
-					(length 3.81)
-					(name "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1721,7 +1728,7 @@
 			(symbol "R_Small_US_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -1733,7 +1740,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -1780,6 +1787,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:Earth"
 			(power)
@@ -1896,7 +1904,8 @@
 			(symbol "Earth_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "Earth"
 						(effects
 							(font
@@ -1913,6 +1922,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -1992,7 +2002,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -2009,6 +2020,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -9707,7 +9719,6 @@
 	)
 	(label "Relay_ResetCoil4"
 		(at 142.24 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9718,7 +9729,6 @@
 	)
 	(label "Relay_SetCoil[17..32]"
 		(at 408.94 332.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9729,7 +9739,6 @@
 	)
 	(label "Relay_ResetCoil11"
 		(at 142.24 227.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9740,7 +9749,6 @@
 	)
 	(label "AIN21+"
 		(at 299.72 142.875 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9751,7 +9759,6 @@
 	)
 	(label "AIN16+"
 		(at 101.6 314.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9762,7 +9769,6 @@
 	)
 	(label "ADC_VCM4"
 		(at 426.72 316.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9773,7 +9779,6 @@
 	)
 	(label "ADC_VCM1"
 		(at 180.975 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9784,7 +9789,6 @@
 	)
 	(label "AIN26+"
 		(at 299.72 178.435 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9795,7 +9799,6 @@
 	)
 	(label "AIN6+"
 		(at 101.6 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9806,7 +9809,6 @@
 	)
 	(label "Relay_ResetCoil5"
 		(at 142.24 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9817,7 +9819,6 @@
 	)
 	(label "AIN4+"
 		(at 101.6 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9828,7 +9829,6 @@
 	)
 	(label "Relay_ResetCoil9"
 		(at 142.24 189.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9839,7 +9839,6 @@
 	)
 	(label "AIN27+"
 		(at 299.72 183.515 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9850,7 +9849,6 @@
 	)
 	(label "AIN19+"
 		(at 345.44 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9861,7 +9859,6 @@
 	)
 	(label "AIN16-"
 		(at 69.215 211.455 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9872,7 +9869,6 @@
 	)
 	(label "Relay_ResetCoil[1..16]"
 		(at 138.43 368.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9883,7 +9879,6 @@
 	)
 	(label "Relay_SetCoil18"
 		(at 386.08 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9894,7 +9889,6 @@
 	)
 	(label "AIN12+"
 		(at 69.215 188.595 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9905,7 +9899,6 @@
 	)
 	(label "Relay_SetCoil1"
 		(at 142.24 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9916,7 +9909,6 @@
 	)
 	(label "AIN5-"
 		(at 101.6 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9927,7 +9919,6 @@
 	)
 	(label "AIN3+"
 		(at 101.6 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9938,7 +9929,6 @@
 	)
 	(label "AIN7+"
 		(at 69.215 153.035 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9949,7 +9939,6 @@
 	)
 	(label "Relay_SetCoil25"
 		(at 386.08 186.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9960,7 +9949,6 @@
 	)
 	(label "AIN20+"
 		(at 345.44 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9971,7 +9959,6 @@
 	)
 	(label "Relay_SetCoil13"
 		(at 142.24 262.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9982,7 +9969,6 @@
 	)
 	(label "AIN4+"
 		(at 69.215 137.795 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9993,7 +9979,6 @@
 	)
 	(label "Relay_SetCoil7"
 		(at 142.24 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10004,7 +9989,6 @@
 	)
 	(label "AIN26-"
 		(at 299.72 180.975 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10015,7 +9999,6 @@
 	)
 	(label "Relay_ResetCoil3"
 		(at 142.24 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10026,7 +10009,6 @@
 	)
 	(label "ADC_VCM3"
 		(at 426.72 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10037,7 +10019,6 @@
 	)
 	(label "AIN9+"
 		(at 69.215 173.355 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10048,7 +10029,6 @@
 	)
 	(label "Relay_ResetCoil22"
 		(at 386.08 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10059,7 +10039,6 @@
 	)
 	(label "Relay_SetCoil30"
 		(at 386.08 281.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10070,7 +10049,6 @@
 	)
 	(label "AIN5-"
 		(at 69.215 140.335 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10081,7 +10059,6 @@
 	)
 	(label "AIN16-"
 		(at 101.6 317.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10092,7 +10069,6 @@
 	)
 	(label "AIN14-"
 		(at 69.215 201.295 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10103,7 +10079,6 @@
 	)
 	(label "AIN25+"
 		(at 345.44 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10114,7 +10089,6 @@
 	)
 	(label "AIN17-"
 		(at 299.72 120.015 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10125,7 +10099,6 @@
 	)
 	(label "AIN31-"
 		(at 299.72 206.375 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10136,7 +10109,6 @@
 	)
 	(label "AIN6-"
 		(at 69.215 145.415 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10147,7 +10119,6 @@
 	)
 	(label "AIN14-"
 		(at 101.6 279.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10158,7 +10129,6 @@
 	)
 	(label "AIN32-"
 		(at 299.72 211.455 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10169,7 +10139,6 @@
 	)
 	(label "AIN14+"
 		(at 69.215 198.755 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10180,7 +10149,6 @@
 	)
 	(label "AIN4-"
 		(at 69.215 135.255 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10191,7 +10159,6 @@
 	)
 	(label "AIN28+"
 		(at 345.44 238.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10202,7 +10169,6 @@
 	)
 	(label "AIN2-"
 		(at 101.6 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10213,7 +10179,6 @@
 	)
 	(label "AIN12+"
 		(at 101.6 238.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10224,7 +10189,6 @@
 	)
 	(label "Relay_SetCoil14"
 		(at 142.24 281.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10235,7 +10199,6 @@
 	)
 	(label "AIN5+"
 		(at 101.6 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10246,7 +10209,6 @@
 	)
 	(label "Relay_ResetCoil27"
 		(at 386.08 227.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10257,7 +10219,6 @@
 	)
 	(label "Relay_ResetCoil29"
 		(at 386.08 265.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10268,7 +10229,6 @@
 	)
 	(label "AIN10-"
 		(at 69.215 180.975 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10279,7 +10239,6 @@
 	)
 	(label "Relay_SetCoil29"
 		(at 386.08 262.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10290,7 +10249,6 @@
 	)
 	(label "AIN29+"
 		(at 345.44 257.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10301,7 +10259,6 @@
 	)
 	(label "Relay_SetCoil22"
 		(at 386.08 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10312,7 +10269,6 @@
 	)
 	(label "AIN23+"
 		(at 299.72 153.035 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10323,7 +10279,6 @@
 	)
 	(label "AIN12-"
 		(at 69.215 191.135 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10334,7 +10289,6 @@
 	)
 	(label "Relay_ResetCoil[17..32]"
 		(at 408.94 336.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10345,7 +10299,6 @@
 	)
 	(label "Relay_ResetCoil25"
 		(at 386.08 189.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10356,7 +10309,6 @@
 	)
 	(label "AIN4-"
 		(at 101.6 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10367,7 +10319,6 @@
 	)
 	(label "AIN18+"
 		(at 345.44 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10378,7 +10329,6 @@
 	)
 	(label "Relay_ResetCoil16"
 		(at 142.24 322.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10389,7 +10339,6 @@
 	)
 	(label "AIN17+"
 		(at 299.72 122.555 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10400,7 +10349,6 @@
 	)
 	(label "AIN27+"
 		(at 345.44 219.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10411,7 +10359,6 @@
 	)
 	(label "AIN9+"
 		(at 101.6 181.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10422,7 +10369,6 @@
 	)
 	(label "AIN25-"
 		(at 345.44 184.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10433,7 +10379,6 @@
 	)
 	(label "Relay_SetCoil8"
 		(at 142.24 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10444,7 +10389,6 @@
 	)
 	(label "AIN11-"
 		(at 101.6 222.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10455,7 +10399,6 @@
 	)
 	(label "AIN10+"
 		(at 101.6 200.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10466,7 +10409,6 @@
 	)
 	(label "AIN22+"
 		(at 345.44 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10477,7 +10419,6 @@
 	)
 	(label "AIN25-"
 		(at 299.72 175.895 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10488,7 +10429,6 @@
 	)
 	(label "AIN23-"
 		(at 345.44 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10499,7 +10439,6 @@
 	)
 	(label "AIN29+"
 		(at 299.72 193.675 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10510,7 +10449,6 @@
 	)
 	(label "AIN22+"
 		(at 299.72 147.955 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10521,7 +10459,6 @@
 	)
 	(label "Relay_ResetCoil17"
 		(at 386.08 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10532,7 +10469,6 @@
 	)
 	(label "AIN15-"
 		(at 101.6 298.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10543,7 +10479,6 @@
 	)
 	(label "AIN8+"
 		(at 69.215 158.115 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10554,7 +10489,6 @@
 	)
 	(label "AIN3+"
 		(at 69.215 132.715 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10565,7 +10499,6 @@
 	)
 	(label "AIN32+"
 		(at 299.72 208.915 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10576,7 +10509,6 @@
 	)
 	(label "AIN27-"
 		(at 345.44 222.25 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10587,7 +10519,6 @@
 	)
 	(label "AIN14+"
 		(at 101.6 276.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10598,7 +10529,6 @@
 	)
 	(label "AIN20-"
 		(at 345.44 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10609,7 +10539,6 @@
 	)
 	(label "AIN29-"
 		(at 345.44 260.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10620,7 +10549,6 @@
 	)
 	(label "Relay_ResetCoil18"
 		(at 386.08 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10631,7 +10559,6 @@
 	)
 	(label "Relay_SetCoil6"
 		(at 142.24 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10642,7 +10569,6 @@
 	)
 	(label "Relay_SetCoil17"
 		(at 386.08 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10653,7 +10579,6 @@
 	)
 	(label "AIN11+"
 		(at 69.215 183.515 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10664,7 +10589,6 @@
 	)
 	(label "AIN7-"
 		(at 69.215 150.495 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10675,7 +10599,6 @@
 	)
 	(label "AIN19+"
 		(at 299.72 132.715 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10686,7 +10609,6 @@
 	)
 	(label "AIN17-"
 		(at 345.44 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10697,7 +10619,6 @@
 	)
 	(label "AIN22-"
 		(at 345.44 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10708,7 +10629,6 @@
 	)
 	(label "AIN15+"
 		(at 69.215 203.835 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10719,7 +10639,6 @@
 	)
 	(label "AIN18+"
 		(at 299.72 127.635 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10730,7 +10649,6 @@
 	)
 	(label "AIN13+"
 		(at 101.6 257.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10741,7 +10659,6 @@
 	)
 	(label "Relay_ResetCoil28"
 		(at 386.08 246.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10752,7 +10669,6 @@
 	)
 	(label "AIN5+"
 		(at 69.215 142.875 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10763,7 +10679,6 @@
 	)
 	(label "AIN13-"
 		(at 101.6 260.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10774,7 +10689,6 @@
 	)
 	(label "Relay_ResetCoil26"
 		(at 386.08 208.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10785,7 +10699,6 @@
 	)
 	(label "AIN15-"
 		(at 69.215 206.375 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10796,7 +10709,6 @@
 	)
 	(label "Relay_SetCoil11"
 		(at 142.24 224.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10807,7 +10719,6 @@
 	)
 	(label "AIN28-"
 		(at 345.44 241.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10818,7 +10729,6 @@
 	)
 	(label "Relay_SetCoil21"
 		(at 386.08 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10829,7 +10739,6 @@
 	)
 	(label "AIN13-"
 		(at 69.215 196.215 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10840,7 +10749,6 @@
 	)
 	(label "AIN24+"
 		(at 299.72 158.115 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10851,7 +10759,6 @@
 	)
 	(label "Relay_SetCoil24"
 		(at 386.08 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10862,7 +10769,6 @@
 	)
 	(label "AIN3-"
 		(at 101.6 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10873,7 +10779,6 @@
 	)
 	(label "AIN6+"
 		(at 69.215 147.955 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10884,7 +10789,6 @@
 	)
 	(label "AIN9-"
 		(at 101.6 184.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10895,7 +10799,6 @@
 	)
 	(label "AIN1-"
 		(at 69.215 120.015 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10906,7 +10809,6 @@
 	)
 	(label "Relay_ResetCoil1"
 		(at 142.24 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10917,7 +10819,6 @@
 	)
 	(label "Relay_SetCoil4"
 		(at 142.24 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10928,7 +10829,6 @@
 	)
 	(label "Relay_ResetCoil[1..16]"
 		(at 165.1 336.55 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10939,7 +10839,6 @@
 	)
 	(label "AIN24+"
 		(at 345.44 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10950,7 +10849,6 @@
 	)
 	(label "Relay_ResetCoil31"
 		(at 386.08 303.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10961,7 +10859,6 @@
 	)
 	(label "AIN10+"
 		(at 69.215 178.435 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10972,7 +10869,6 @@
 	)
 	(label "Relay_ResetCoil8"
 		(at 142.24 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10983,7 +10879,6 @@
 	)
 	(label "AIN2-"
 		(at 69.215 125.095 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10994,7 +10889,6 @@
 	)
 	(label "Relay_ResetCoil14"
 		(at 142.24 284.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11005,7 +10899,6 @@
 	)
 	(label "Relay_SetCoil12"
 		(at 142.24 243.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11016,7 +10909,6 @@
 	)
 	(label "Relay_SetCoil32"
 		(at 386.08 320.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11027,7 +10919,6 @@
 	)
 	(label "AIN29-"
 		(at 299.72 196.215 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11038,7 +10929,6 @@
 	)
 	(label "Relay_SetCoil27"
 		(at 386.08 224.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11049,7 +10939,6 @@
 	)
 	(label "Relay_SetCoil31"
 		(at 386.08 300.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11060,7 +10949,6 @@
 	)
 	(label "AIN2+"
 		(at 69.215 127.635 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11071,7 +10959,6 @@
 	)
 	(label "Relay_SetCoil2"
 		(at 142.24 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11082,7 +10969,6 @@
 	)
 	(label "Relay_ResetCoil10"
 		(at 142.24 208.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11093,7 +10979,6 @@
 	)
 	(label "AIN22-"
 		(at 299.72 145.415 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11104,7 +10989,6 @@
 	)
 	(label "AIN26-"
 		(at 345.44 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11115,7 +10999,6 @@
 	)
 	(label "Relay_ResetCoil19"
 		(at 386.08 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11126,7 +11009,6 @@
 	)
 	(label "AIN30-"
 		(at 345.44 279.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11137,7 +11019,6 @@
 	)
 	(label "AIN26+"
 		(at 345.44 200.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11148,7 +11029,6 @@
 	)
 	(label "AIN27-"
 		(at 299.72 186.055 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11159,7 +11039,6 @@
 	)
 	(label "AIN16+"
 		(at 69.215 208.915 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11170,7 +11049,6 @@
 	)
 	(label "Relay_ResetCoil30"
 		(at 386.08 284.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11181,7 +11059,6 @@
 	)
 	(label "AIN20+"
 		(at 299.72 137.795 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11192,7 +11069,6 @@
 	)
 	(label "AIN30+"
 		(at 345.44 276.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11203,7 +11079,6 @@
 	)
 	(label "Relay_SetCoil3"
 		(at 142.24 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11214,7 +11089,6 @@
 	)
 	(label "Relay_ResetCoil7"
 		(at 142.24 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11225,7 +11099,6 @@
 	)
 	(label "AIN19-"
 		(at 345.44 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11236,7 +11109,6 @@
 	)
 	(label "AIN31-"
 		(at 345.44 298.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11247,7 +11119,6 @@
 	)
 	(label "AIN21+"
 		(at 345.44 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11258,7 +11129,6 @@
 	)
 	(label "AIN20-"
 		(at 299.72 135.255 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11269,7 +11139,6 @@
 	)
 	(label "AIN8+"
 		(at 101.6 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11280,7 +11149,6 @@
 	)
 	(label "AIN9-"
 		(at 69.215 175.895 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11291,7 +11159,6 @@
 	)
 	(label "AIN7-"
 		(at 101.6 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11302,7 +11169,6 @@
 	)
 	(label "AIN8-"
 		(at 101.6 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11313,7 +11179,6 @@
 	)
 	(label "AIN23-"
 		(at 299.72 150.495 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11324,7 +11189,6 @@
 	)
 	(label "AIN30+"
 		(at 299.72 198.755 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11335,7 +11199,6 @@
 	)
 	(label "AIN24-"
 		(at 345.44 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11346,7 +11209,6 @@
 	)
 	(label "Relay_ResetCoil2"
 		(at 142.24 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11357,7 +11219,6 @@
 	)
 	(label "AIN32+"
 		(at 345.44 314.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11368,7 +11229,6 @@
 	)
 	(label "AIN21-"
 		(at 299.72 140.335 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11379,7 +11239,6 @@
 	)
 	(label "Relay_ResetCoil13"
 		(at 142.24 265.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11390,7 +11249,6 @@
 	)
 	(label "Relay_SetCoil15"
 		(at 142.24 300.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11401,7 +11259,6 @@
 	)
 	(label "AIN30-"
 		(at 299.72 201.295 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11412,7 +11269,6 @@
 	)
 	(label "AIN23+"
 		(at 345.44 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11423,7 +11279,6 @@
 	)
 	(label "AIN19-"
 		(at 299.72 130.175 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11434,7 +11289,6 @@
 	)
 	(label "AIN1+"
 		(at 101.6 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11445,7 +11299,6 @@
 	)
 	(label "AIN15+"
 		(at 101.6 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11456,7 +11309,6 @@
 	)
 	(label "AIN28-"
 		(at 299.72 191.135 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11467,7 +11319,6 @@
 	)
 	(label "AIN13+"
 		(at 69.215 193.675 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11478,7 +11329,6 @@
 	)
 	(label "AIN1+"
 		(at 69.215 122.555 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11489,7 +11339,6 @@
 	)
 	(label "Relay_SetCoil10"
 		(at 142.24 205.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11500,7 +11349,6 @@
 	)
 	(label "AIN11-"
 		(at 69.215 186.055 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11511,7 +11359,6 @@
 	)
 	(label "AIN17+"
 		(at 345.44 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11522,7 +11369,6 @@
 	)
 	(label "Relay_ResetCoil21"
 		(at 386.08 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11533,7 +11379,6 @@
 	)
 	(label "AIN24-"
 		(at 299.72 155.575 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11544,7 +11389,6 @@
 	)
 	(label "Relay_SetCoil19"
 		(at 386.08 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11555,7 +11399,6 @@
 	)
 	(label "Relay_SetCoil9"
 		(at 142.24 186.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11566,7 +11409,6 @@
 	)
 	(label "Relay_ResetCoil[17..32]"
 		(at 138.43 377.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11577,7 +11419,6 @@
 	)
 	(label "AIN10-"
 		(at 101.6 203.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11588,7 +11429,6 @@
 	)
 	(label "Relay_SetCoil20"
 		(at 386.08 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11599,7 +11439,6 @@
 	)
 	(label "AIN8-"
 		(at 69.215 155.575 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11610,7 +11449,6 @@
 	)
 	(label "AIN6-"
 		(at 101.6 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11621,7 +11459,6 @@
 	)
 	(label "Relay_SetCoil[17..32]"
 		(at 138.43 374.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11632,7 +11469,6 @@
 	)
 	(label "AIN31+"
 		(at 345.44 295.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11643,7 +11479,6 @@
 	)
 	(label "Relay_ResetCoil23"
 		(at 386.08 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11654,7 +11489,6 @@
 	)
 	(label "AIN7+"
 		(at 101.6 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11665,7 +11499,6 @@
 	)
 	(label "Relay_SetCoil[1..16]"
 		(at 138.43 365.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11676,7 +11509,6 @@
 	)
 	(label "Relay_SetCoil26"
 		(at 386.08 205.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11687,7 +11519,6 @@
 	)
 	(label "AIN11+"
 		(at 101.6 219.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11698,7 +11529,6 @@
 	)
 	(label "Relay_ResetCoil20"
 		(at 386.08 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11709,7 +11539,6 @@
 	)
 	(label "AIN25+"
 		(at 299.72 173.355 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11720,7 +11549,6 @@
 	)
 	(label "Relay_SetCoil5"
 		(at 142.24 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11731,7 +11559,6 @@
 	)
 	(label "AIN12-"
 		(at 101.6 241.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11742,7 +11569,6 @@
 	)
 	(label "AIN3-"
 		(at 69.215 130.175 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11753,7 +11579,6 @@
 	)
 	(label "ADC_VCM2"
 		(at 181.61 316.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11764,7 +11589,6 @@
 	)
 	(label "Relay_ResetCoil32"
 		(at 386.08 322.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11775,7 +11599,6 @@
 	)
 	(label "AIN31+"
 		(at 299.72 203.835 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11786,7 +11609,6 @@
 	)
 	(label "AIN1-"
 		(at 101.6 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11797,7 +11619,6 @@
 	)
 	(label "AIN18-"
 		(at 345.44 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11808,7 +11629,6 @@
 	)
 	(label "AIN21-"
 		(at 345.44 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11819,7 +11639,6 @@
 	)
 	(label "Relay_SetCoil28"
 		(at 386.08 243.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11830,7 +11649,6 @@
 	)
 	(label "Relay_ResetCoil12"
 		(at 142.24 246.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11841,7 +11659,6 @@
 	)
 	(label "Relay_SetCoil[1..16]"
 		(at 165.1 332.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11852,7 +11669,6 @@
 	)
 	(label "Relay_SetCoil16"
 		(at 142.24 320.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11863,7 +11679,6 @@
 	)
 	(label "AIN18-"
 		(at 299.72 125.095 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11874,7 +11689,6 @@
 	)
 	(label "AIN28+"
 		(at 299.72 188.595 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11885,7 +11699,6 @@
 	)
 	(label "AIN32-"
 		(at 345.44 317.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11896,7 +11709,6 @@
 	)
 	(label "Relay_ResetCoil15"
 		(at 142.24 303.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11907,7 +11719,6 @@
 	)
 	(label "AIN2+"
 		(at 101.6 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11918,7 +11729,6 @@
 	)
 	(label "Relay_SetCoil23"
 		(at 386.08 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11929,7 +11739,6 @@
 	)
 	(label "Relay_ResetCoil24"
 		(at 386.08 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11940,7 +11749,6 @@
 	)
 	(label "Relay_ResetCoil6"
 		(at 142.24 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13719,7 +13527,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11ae979b-674f-4dea-9aad-2f95ac549906")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 478.155 69.215 90)
 			(effects
 				(font
@@ -13880,7 +13688,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "1e6209a7-dbfe-4514-b13f-9f3dd99e0ab0")
-		(property "Reference" "R?"
+		(property "Reference" "R59"
 			(at 67.31 225.425 0)
 			(effects
 				(font
@@ -13971,7 +13779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f8e67eb-0db1-486d-8f9e-cde24e1fd5a0")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0165"
 			(at 282.575 98.425 0)
 			(effects
 				(font
@@ -14051,7 +13859,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "374d0bb1-82f0-46c5-b259-483b85d4dd52")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0137"
 			(at 294.005 234.315 0)
 			(effects
 				(font
@@ -14285,7 +14093,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "4d3cc4df-3e33-4295-ba96-4c16c0434510")
-		(property "Reference" "R?"
+		(property "Reference" "R70"
 			(at 291.465 107.315 0)
 			(effects
 				(font
@@ -14376,7 +14184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57b00184-56e7-4a87-9fc2-48efca04a5be")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0143"
 			(at 52.07 98.425 0)
 			(effects
 				(font
@@ -14523,7 +14331,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "615ed319-d5de-4c6e-823b-7a78239f4501")
-		(property "Reference" "R?"
+		(property "Reference" "R38"
 			(at 48.26 107.315 0)
 			(effects
 				(font
@@ -14681,7 +14489,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "73a44c7e-3ebb-4474-a887-0fd798a4625d")
-		(property "Reference" "R?"
+		(property "Reference" "R66"
 			(at 297.815 225.425 0)
 			(effects
 				(font
@@ -14772,7 +14580,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "772d7079-f88b-410b-af7b-57b3eac7a32e")
-		(property "Reference" "R?"
+		(property "Reference" "R68"
 			(at 278.765 107.315 0)
 			(effects
 				(font
@@ -15140,7 +14948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8e7b7d9-ca83-49b4-8902-7f8959eb187c")
-		(property "Reference" "R?"
+		(property "Reference" "R1"
 			(at 233.045 221.615 90)
 			(effects
 				(font
@@ -15311,7 +15119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aaa85173-8862-47ce-b96c-00d5172c4514")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR094"
 			(at 63.5 234.315 0)
 			(effects
 				(font
@@ -15653,7 +15461,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "b2e9fa08-eace-487c-8ec4-7ce63e41ed01")
-		(property "Reference" "R?"
+		(property "Reference" "R64"
 			(at 285.115 225.425 0)
 			(effects
 				(font
@@ -15744,7 +15552,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "b3b3029f-af02-4d86-aeb4-c49fb83f8f54")
-		(property "Reference" "R?"
+		(property "Reference" "R50"
 			(at 60.96 107.315 0)
 			(effects
 				(font
@@ -15835,7 +15643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b92dec3e-3ffd-417b-bbd5-9dae60569b73")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 478.155 221.615 90)
 			(effects
 				(font
@@ -15929,7 +15737,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "d8107dec-1d19-4dad-9bd0-766d5e029f0f")
-		(property "Reference" "R?"
+		(property "Reference" "R63"
 			(at 54.61 225.425 0)
 			(effects
 				(font
@@ -16210,6 +16018,10 @@
 	(sheet
 		(at 353.06 195.58)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -16239,6 +16051,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 384.81 205.74 0)
+			(uuid "37d7d1aa-53b0-47ae-96a9-939dd4b8a5ee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16246,10 +16059,10 @@
 				)
 				(justify right)
 			)
-			(uuid "37d7d1aa-53b0-47ae-96a9-939dd4b8a5ee")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 384.81 208.28 0)
+			(uuid "4892413d-1e1f-40f9-880b-494381a509f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16257,10 +16070,10 @@
 				)
 				(justify right)
 			)
-			(uuid "4892413d-1e1f-40f9-880b-494381a509f9")
 		)
 		(pin "IN-" input
 			(at 353.06 203.2 180)
+			(uuid "75c6369a-553e-4b75-b20a-d18eab884526")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16268,10 +16081,10 @@
 				)
 				(justify left)
 			)
-			(uuid "75c6369a-553e-4b75-b20a-d18eab884526")
 		)
 		(pin "IN+" input
 			(at 353.06 200.66 180)
+			(uuid "6c619f4f-096d-43f4-81af-7911b74db04c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16279,10 +16092,10 @@
 				)
 				(justify left)
 			)
-			(uuid "6c619f4f-096d-43f4-81af-7911b74db04c")
 		)
 		(pin "ADC_IN-" output
 			(at 384.81 199.39 0)
+			(uuid "45316751-406d-44c3-8d27-ef5df5754e96")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16290,10 +16103,10 @@
 				)
 				(justify right)
 			)
-			(uuid "45316751-406d-44c3-8d27-ef5df5754e96")
 		)
 		(pin "ADC_CM" input
 			(at 384.81 201.93 0)
+			(uuid "7b2457d7-fb9e-4d82-a7af-12ba1c942c4d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16301,10 +16114,10 @@
 				)
 				(justify right)
 			)
-			(uuid "7b2457d7-fb9e-4d82-a7af-12ba1c942c4d")
 		)
 		(pin "ADC_IN+" output
 			(at 384.81 196.85 0)
+			(uuid "1eedacec-7486-4fe8-b1a3-3a506d9c37f4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16312,7 +16125,6 @@
 				)
 				(justify right)
 			)
-			(uuid "1eedacec-7486-4fe8-b1a3-3a506d9c37f4")
 		)
 		(instances
 			(project "Quartz"
@@ -16325,6 +16137,10 @@
 	(sheet
 		(at 109.22 157.48)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -16354,6 +16170,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 140.97 167.64 0)
+			(uuid "deb0fa9a-94aa-4ee7-8ab9-46f8be774f35")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16361,10 +16178,10 @@
 				)
 				(justify right)
 			)
-			(uuid "deb0fa9a-94aa-4ee7-8ab9-46f8be774f35")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 140.97 170.18 0)
+			(uuid "8f3b3229-5708-4500-a616-2b149435cece")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16372,10 +16189,10 @@
 				)
 				(justify right)
 			)
-			(uuid "8f3b3229-5708-4500-a616-2b149435cece")
 		)
 		(pin "IN-" input
 			(at 109.22 165.1 180)
+			(uuid "dfe533f8-cb6b-447e-9ccf-49742296f0be")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16383,10 +16200,10 @@
 				)
 				(justify left)
 			)
-			(uuid "dfe533f8-cb6b-447e-9ccf-49742296f0be")
 		)
 		(pin "IN+" input
 			(at 109.22 162.56 180)
+			(uuid "a2b6f8cd-f56d-4716-bdfe-1e53e9898596")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16394,10 +16211,10 @@
 				)
 				(justify left)
 			)
-			(uuid "a2b6f8cd-f56d-4716-bdfe-1e53e9898596")
 		)
 		(pin "ADC_IN-" output
 			(at 140.97 161.29 0)
+			(uuid "b5d26864-0850-43f3-8739-a759c59fc068")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16405,10 +16222,10 @@
 				)
 				(justify right)
 			)
-			(uuid "b5d26864-0850-43f3-8739-a759c59fc068")
 		)
 		(pin "ADC_CM" input
 			(at 140.97 163.83 0)
+			(uuid "8bec7a18-e1d6-4bce-910b-e216914e2091")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16416,10 +16233,10 @@
 				)
 				(justify right)
 			)
-			(uuid "8bec7a18-e1d6-4bce-910b-e216914e2091")
 		)
 		(pin "ADC_IN+" output
 			(at 140.97 158.75 0)
+			(uuid "51a4f127-ae18-4ddf-b1f2-1a262d784e98")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16427,7 +16244,6 @@
 				)
 				(justify right)
 			)
-			(uuid "51a4f127-ae18-4ddf-b1f2-1a262d784e98")
 		)
 		(instances
 			(project "Quartz"
@@ -16440,6 +16256,10 @@
 	(sheet
 		(at 353.06 119.38)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -16469,6 +16289,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 384.81 129.54 0)
+			(uuid "4811ca56-57ba-4260-bd55-deabdcede78c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16476,10 +16297,10 @@
 				)
 				(justify right)
 			)
-			(uuid "4811ca56-57ba-4260-bd55-deabdcede78c")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 384.81 132.08 0)
+			(uuid "9d7050b6-7164-4aab-b0f8-5998934cb1fb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16487,10 +16308,10 @@
 				)
 				(justify right)
 			)
-			(uuid "9d7050b6-7164-4aab-b0f8-5998934cb1fb")
 		)
 		(pin "IN-" input
 			(at 353.06 127 180)
+			(uuid "52e94e88-a391-4fdf-b7dd-f17f0c4b9526")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16498,10 +16319,10 @@
 				)
 				(justify left)
 			)
-			(uuid "52e94e88-a391-4fdf-b7dd-f17f0c4b9526")
 		)
 		(pin "IN+" input
 			(at 353.06 124.46 180)
+			(uuid "032d8a06-d3c6-4594-af89-5529b0ed3bbd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16509,10 +16330,10 @@
 				)
 				(justify left)
 			)
-			(uuid "032d8a06-d3c6-4594-af89-5529b0ed3bbd")
 		)
 		(pin "ADC_IN-" output
 			(at 384.81 123.19 0)
+			(uuid "ce63b19a-0c66-466d-82a6-c1b459671327")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16520,10 +16341,10 @@
 				)
 				(justify right)
 			)
-			(uuid "ce63b19a-0c66-466d-82a6-c1b459671327")
 		)
 		(pin "ADC_CM" input
 			(at 384.81 125.73 0)
+			(uuid "67fc77e8-cf4c-4d69-b5fe-d289cb33c599")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16531,10 +16352,10 @@
 				)
 				(justify right)
 			)
-			(uuid "67fc77e8-cf4c-4d69-b5fe-d289cb33c599")
 		)
 		(pin "ADC_IN+" output
 			(at 384.81 120.65 0)
+			(uuid "0ced14f3-d891-4a31-be05-444bed5d55eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16542,7 +16363,6 @@
 				)
 				(justify right)
 			)
-			(uuid "0ced14f3-d891-4a31-be05-444bed5d55eb")
 		)
 		(instances
 			(project "Quartz"
@@ -16555,6 +16375,10 @@
 	(sheet
 		(at 353.06 233.68)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -16584,6 +16408,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 384.81 243.84 0)
+			(uuid "5d3e1a06-4af3-4646-bc91-b5160f105f06")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16591,10 +16416,10 @@
 				)
 				(justify right)
 			)
-			(uuid "5d3e1a06-4af3-4646-bc91-b5160f105f06")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 384.81 246.38 0)
+			(uuid "79aa539c-4561-43ff-aee5-8e042b2ca13e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16602,10 +16427,10 @@
 				)
 				(justify right)
 			)
-			(uuid "79aa539c-4561-43ff-aee5-8e042b2ca13e")
 		)
 		(pin "IN-" input
 			(at 353.06 241.3 180)
+			(uuid "20e9e3fd-a201-413c-ac78-d5d7aee426ab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16613,10 +16438,10 @@
 				)
 				(justify left)
 			)
-			(uuid "20e9e3fd-a201-413c-ac78-d5d7aee426ab")
 		)
 		(pin "IN+" input
 			(at 353.06 238.76 180)
+			(uuid "7425681b-40a9-49b1-bcd3-001fc1749f09")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16624,10 +16449,10 @@
 				)
 				(justify left)
 			)
-			(uuid "7425681b-40a9-49b1-bcd3-001fc1749f09")
 		)
 		(pin "ADC_IN-" output
 			(at 384.81 237.49 0)
+			(uuid "d10f5d67-91ad-4e65-ba7c-c1ea2755c2d3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16635,10 +16460,10 @@
 				)
 				(justify right)
 			)
-			(uuid "d10f5d67-91ad-4e65-ba7c-c1ea2755c2d3")
 		)
 		(pin "ADC_CM" input
 			(at 384.81 240.03 0)
+			(uuid "2a49b2e4-6fc5-4378-bca3-fe7b0fc2c672")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16646,10 +16471,10 @@
 				)
 				(justify right)
 			)
-			(uuid "2a49b2e4-6fc5-4378-bca3-fe7b0fc2c672")
 		)
 		(pin "ADC_IN+" output
 			(at 384.81 234.95 0)
+			(uuid "db34154e-fc84-4e18-8e4c-efee0fab8ac2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16657,7 +16482,6 @@
 				)
 				(justify right)
 			)
-			(uuid "db34154e-fc84-4e18-8e4c-efee0fab8ac2")
 		)
 		(instances
 			(project "Quartz"
@@ -16670,6 +16494,10 @@
 	(sheet
 		(at 109.22 309.88)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -16699,6 +16527,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 140.97 320.04 0)
+			(uuid "05b509d9-1229-4a06-8f10-1cded86c23fe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16706,10 +16535,10 @@
 				)
 				(justify right)
 			)
-			(uuid "05b509d9-1229-4a06-8f10-1cded86c23fe")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 140.97 322.58 0)
+			(uuid "c637f2e2-a681-41a2-be82-b63eb4867211")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16717,10 +16546,10 @@
 				)
 				(justify right)
 			)
-			(uuid "c637f2e2-a681-41a2-be82-b63eb4867211")
 		)
 		(pin "IN-" input
 			(at 109.22 317.5 180)
+			(uuid "93452407-84ba-40b5-aff5-6ea03606200b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16728,10 +16557,10 @@
 				)
 				(justify left)
 			)
-			(uuid "93452407-84ba-40b5-aff5-6ea03606200b")
 		)
 		(pin "IN+" input
 			(at 109.22 314.96 180)
+			(uuid "1f347638-a658-49a1-96e9-993891713fc5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16739,10 +16568,10 @@
 				)
 				(justify left)
 			)
-			(uuid "1f347638-a658-49a1-96e9-993891713fc5")
 		)
 		(pin "ADC_IN-" output
 			(at 140.97 313.69 0)
+			(uuid "212c6164-81a9-4b52-aefb-acf5cb0572fc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16750,10 +16579,10 @@
 				)
 				(justify right)
 			)
-			(uuid "212c6164-81a9-4b52-aefb-acf5cb0572fc")
 		)
 		(pin "ADC_CM" input
 			(at 140.97 316.23 0)
+			(uuid "199e251b-dacb-47a4-973f-00f16ce5f9ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16761,10 +16590,10 @@
 				)
 				(justify right)
 			)
-			(uuid "199e251b-dacb-47a4-973f-00f16ce5f9ec")
 		)
 		(pin "ADC_IN+" output
 			(at 140.97 311.15 0)
+			(uuid "5a6fe70e-979c-4dca-a426-e6787a3af26c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16772,7 +16601,6 @@
 				)
 				(justify right)
 			)
-			(uuid "5a6fe70e-979c-4dca-a426-e6787a3af26c")
 		)
 		(instances
 			(project "Quartz"
@@ -16785,6 +16613,10 @@
 	(sheet
 		(at 109.22 271.78)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -16814,6 +16646,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 140.97 281.94 0)
+			(uuid "29c5edcf-2670-4224-a5c7-ec39b5962fc8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16821,10 +16654,10 @@
 				)
 				(justify right)
 			)
-			(uuid "29c5edcf-2670-4224-a5c7-ec39b5962fc8")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 140.97 284.48 0)
+			(uuid "4754cc6e-cf00-4345-afb5-ae51b5faf857")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16832,10 +16665,10 @@
 				)
 				(justify right)
 			)
-			(uuid "4754cc6e-cf00-4345-afb5-ae51b5faf857")
 		)
 		(pin "IN-" input
 			(at 109.22 279.4 180)
+			(uuid "3965cde2-0602-42b8-b432-6c6cd5794284")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16843,10 +16676,10 @@
 				)
 				(justify left)
 			)
-			(uuid "3965cde2-0602-42b8-b432-6c6cd5794284")
 		)
 		(pin "IN+" input
 			(at 109.22 276.86 180)
+			(uuid "b579f335-a5ea-443f-9349-140988201288")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16854,10 +16687,10 @@
 				)
 				(justify left)
 			)
-			(uuid "b579f335-a5ea-443f-9349-140988201288")
 		)
 		(pin "ADC_IN-" output
 			(at 140.97 275.59 0)
+			(uuid "c9afa4fa-2786-4aa8-864d-72b31e90aaee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16865,10 +16698,10 @@
 				)
 				(justify right)
 			)
-			(uuid "c9afa4fa-2786-4aa8-864d-72b31e90aaee")
 		)
 		(pin "ADC_CM" input
 			(at 140.97 278.13 0)
+			(uuid "46bcddd8-ab62-4d1a-8de7-92b94852cfb9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16876,10 +16709,10 @@
 				)
 				(justify right)
 			)
-			(uuid "46bcddd8-ab62-4d1a-8de7-92b94852cfb9")
 		)
 		(pin "ADC_IN+" output
 			(at 140.97 273.05 0)
+			(uuid "66f881ad-d90d-4dca-9691-9975cbd9c3ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16887,7 +16720,6 @@
 				)
 				(justify right)
 			)
-			(uuid "66f881ad-d90d-4dca-9691-9975cbd9c3ec")
 		)
 		(instances
 			(project "Quartz"
@@ -16900,6 +16732,10 @@
 	(sheet
 		(at 109.22 252.73)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -16929,6 +16765,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 140.97 262.89 0)
+			(uuid "3430cc97-89e4-45b7-a808-686abe0d4c81")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16936,10 +16773,10 @@
 				)
 				(justify right)
 			)
-			(uuid "3430cc97-89e4-45b7-a808-686abe0d4c81")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 140.97 265.43 0)
+			(uuid "1d11543a-82b8-4cf4-a428-93771061de94")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16947,10 +16784,10 @@
 				)
 				(justify right)
 			)
-			(uuid "1d11543a-82b8-4cf4-a428-93771061de94")
 		)
 		(pin "IN-" input
 			(at 109.22 260.35 180)
+			(uuid "3d0429e2-0e32-453d-8ecd-2619a4e7d9dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16958,10 +16795,10 @@
 				)
 				(justify left)
 			)
-			(uuid "3d0429e2-0e32-453d-8ecd-2619a4e7d9dc")
 		)
 		(pin "IN+" input
 			(at 109.22 257.81 180)
+			(uuid "7f7dc0d5-c039-439e-8067-2827f30db2ae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16969,10 +16806,10 @@
 				)
 				(justify left)
 			)
-			(uuid "7f7dc0d5-c039-439e-8067-2827f30db2ae")
 		)
 		(pin "ADC_IN-" output
 			(at 140.97 256.54 0)
+			(uuid "7d84821c-e357-43c4-bc1b-7596dffdaa56")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16980,10 +16817,10 @@
 				)
 				(justify right)
 			)
-			(uuid "7d84821c-e357-43c4-bc1b-7596dffdaa56")
 		)
 		(pin "ADC_CM" input
 			(at 140.97 259.08 0)
+			(uuid "c94f2b66-7cb3-49f9-a12b-ae9f558a6ccb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16991,10 +16828,10 @@
 				)
 				(justify right)
 			)
-			(uuid "c94f2b66-7cb3-49f9-a12b-ae9f558a6ccb")
 		)
 		(pin "ADC_IN+" output
 			(at 140.97 254 0)
+			(uuid "112608ee-f6a2-4fbc-af80-40c4e05be5e8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17002,7 +16839,6 @@
 				)
 				(justify right)
 			)
-			(uuid "112608ee-f6a2-4fbc-af80-40c4e05be5e8")
 		)
 		(instances
 			(project "Quartz"
@@ -17015,6 +16851,10 @@
 	(sheet
 		(at 109.22 24.13)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -17044,6 +16884,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 140.97 34.29 0)
+			(uuid "e15450a1-4f56-4ed0-ab0e-c3b296caa86a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17051,10 +16892,10 @@
 				)
 				(justify right)
 			)
-			(uuid "e15450a1-4f56-4ed0-ab0e-c3b296caa86a")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 140.97 36.83 0)
+			(uuid "a764bc81-cd8d-44cd-8c79-cb35c5196a98")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17062,10 +16903,10 @@
 				)
 				(justify right)
 			)
-			(uuid "a764bc81-cd8d-44cd-8c79-cb35c5196a98")
 		)
 		(pin "IN-" input
 			(at 109.22 31.75 180)
+			(uuid "7792aec8-22bd-4210-a151-8eae140cefb1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17073,10 +16914,10 @@
 				)
 				(justify left)
 			)
-			(uuid "7792aec8-22bd-4210-a151-8eae140cefb1")
 		)
 		(pin "IN+" input
 			(at 109.22 29.21 180)
+			(uuid "fc1ff680-e9e7-499d-beff-53b959cae605")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17084,10 +16925,10 @@
 				)
 				(justify left)
 			)
-			(uuid "fc1ff680-e9e7-499d-beff-53b959cae605")
 		)
 		(pin "ADC_IN-" output
 			(at 140.97 27.94 0)
+			(uuid "3b6031dd-8414-4248-92b4-c2bbf049129a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17095,10 +16936,10 @@
 				)
 				(justify right)
 			)
-			(uuid "3b6031dd-8414-4248-92b4-c2bbf049129a")
 		)
 		(pin "ADC_CM" input
 			(at 140.97 30.48 0)
+			(uuid "344a0c6f-abf4-4a1c-a486-e0c57141512a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17106,10 +16947,10 @@
 				)
 				(justify right)
 			)
-			(uuid "344a0c6f-abf4-4a1c-a486-e0c57141512a")
 		)
 		(pin "ADC_IN+" output
 			(at 140.97 25.4 0)
+			(uuid "946785f9-f8fd-475e-92eb-6f442d5a8f4a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17117,7 +16958,6 @@
 				)
 				(justify right)
 			)
-			(uuid "946785f9-f8fd-475e-92eb-6f442d5a8f4a")
 		)
 		(instances
 			(project "Quartz"
@@ -17130,6 +16970,10 @@
 	(sheet
 		(at 353.06 176.53)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -17159,6 +17003,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 384.81 186.69 0)
+			(uuid "3a3f1e7f-7614-4d92-be92-31d7de925b10")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17166,10 +17011,10 @@
 				)
 				(justify right)
 			)
-			(uuid "3a3f1e7f-7614-4d92-be92-31d7de925b10")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 384.81 189.23 0)
+			(uuid "c3fce9c0-105b-4c37-98dd-0aeca540ae31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17177,10 +17022,10 @@
 				)
 				(justify right)
 			)
-			(uuid "c3fce9c0-105b-4c37-98dd-0aeca540ae31")
 		)
 		(pin "IN-" input
 			(at 353.06 184.15 180)
+			(uuid "7bbc26ba-a177-4c09-acb5-5cc2ce10b693")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17188,10 +17033,10 @@
 				)
 				(justify left)
 			)
-			(uuid "7bbc26ba-a177-4c09-acb5-5cc2ce10b693")
 		)
 		(pin "IN+" input
 			(at 353.06 181.61 180)
+			(uuid "1f34e1d4-b9eb-49a8-bc77-0989d116661d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17199,10 +17044,10 @@
 				)
 				(justify left)
 			)
-			(uuid "1f34e1d4-b9eb-49a8-bc77-0989d116661d")
 		)
 		(pin "ADC_IN-" output
 			(at 384.81 180.34 0)
+			(uuid "ad4c9b40-7f67-4728-b081-5248950c7fb7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17210,10 +17055,10 @@
 				)
 				(justify right)
 			)
-			(uuid "ad4c9b40-7f67-4728-b081-5248950c7fb7")
 		)
 		(pin "ADC_CM" input
 			(at 384.81 182.88 0)
+			(uuid "8abe202f-cd3c-4a6a-9d1b-1b700465c066")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17221,10 +17066,10 @@
 				)
 				(justify right)
 			)
-			(uuid "8abe202f-cd3c-4a6a-9d1b-1b700465c066")
 		)
 		(pin "ADC_IN+" output
 			(at 384.81 177.8 0)
+			(uuid "f9ba07cc-021a-4c8a-9107-cbcc05745448")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17232,7 +17077,6 @@
 				)
 				(justify right)
 			)
-			(uuid "f9ba07cc-021a-4c8a-9107-cbcc05745448")
 		)
 		(instances
 			(project "Quartz"
@@ -17245,6 +17089,10 @@
 	(sheet
 		(at 109.22 138.43)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -17274,6 +17122,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 140.97 148.59 0)
+			(uuid "29e6273d-9d71-43a8-9d94-431498b6c64e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17281,10 +17130,10 @@
 				)
 				(justify right)
 			)
-			(uuid "29e6273d-9d71-43a8-9d94-431498b6c64e")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 140.97 151.13 0)
+			(uuid "12a30c79-ccab-438c-9569-dcf00265fd5a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17292,10 +17141,10 @@
 				)
 				(justify right)
 			)
-			(uuid "12a30c79-ccab-438c-9569-dcf00265fd5a")
 		)
 		(pin "IN-" input
 			(at 109.22 146.05 180)
+			(uuid "a75ea741-36a1-4ee3-a3c0-6eed5fb50737")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17303,10 +17152,10 @@
 				)
 				(justify left)
 			)
-			(uuid "a75ea741-36a1-4ee3-a3c0-6eed5fb50737")
 		)
 		(pin "IN+" input
 			(at 109.22 143.51 180)
+			(uuid "18805a2f-8c74-47e2-b0eb-120a4cfa8142")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17314,10 +17163,10 @@
 				)
 				(justify left)
 			)
-			(uuid "18805a2f-8c74-47e2-b0eb-120a4cfa8142")
 		)
 		(pin "ADC_IN-" output
 			(at 140.97 142.24 0)
+			(uuid "9b457d4b-18c3-40a5-98ae-90add7ca503a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17325,10 +17174,10 @@
 				)
 				(justify right)
 			)
-			(uuid "9b457d4b-18c3-40a5-98ae-90add7ca503a")
 		)
 		(pin "ADC_CM" input
 			(at 140.97 144.78 0)
+			(uuid "a24ab4c8-ad01-497d-a8fa-4a31418cdddd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17336,10 +17185,10 @@
 				)
 				(justify right)
 			)
-			(uuid "a24ab4c8-ad01-497d-a8fa-4a31418cdddd")
 		)
 		(pin "ADC_IN+" output
 			(at 140.97 139.7 0)
+			(uuid "daec7dca-7341-4f19-85fd-5e27ab71ceb6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17347,7 +17196,6 @@
 				)
 				(justify right)
 			)
-			(uuid "daec7dca-7341-4f19-85fd-5e27ab71ceb6")
 		)
 		(instances
 			(project "Quartz"
@@ -17360,6 +17208,10 @@
 	(sheet
 		(at 109.22 176.53)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -17389,6 +17241,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 140.97 186.69 0)
+			(uuid "cf5ba7c4-375f-4e0e-8fd8-7ef614e6fe21")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17396,10 +17249,10 @@
 				)
 				(justify right)
 			)
-			(uuid "cf5ba7c4-375f-4e0e-8fd8-7ef614e6fe21")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 140.97 189.23 0)
+			(uuid "b84f0d06-ee1a-41d0-8087-299a41ac818e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17407,10 +17260,10 @@
 				)
 				(justify right)
 			)
-			(uuid "b84f0d06-ee1a-41d0-8087-299a41ac818e")
 		)
 		(pin "IN-" input
 			(at 109.22 184.15 180)
+			(uuid "7b9f641b-6a3e-4fa3-968e-34f034803685")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17418,10 +17271,10 @@
 				)
 				(justify left)
 			)
-			(uuid "7b9f641b-6a3e-4fa3-968e-34f034803685")
 		)
 		(pin "IN+" input
 			(at 109.22 181.61 180)
+			(uuid "d9f282db-ac5b-4d1b-8000-3d75d645da85")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17429,10 +17282,10 @@
 				)
 				(justify left)
 			)
-			(uuid "d9f282db-ac5b-4d1b-8000-3d75d645da85")
 		)
 		(pin "ADC_IN-" output
 			(at 140.97 180.34 0)
+			(uuid "a2eaa063-949d-4275-8d4f-4cb1e37d80c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17440,10 +17293,10 @@
 				)
 				(justify right)
 			)
-			(uuid "a2eaa063-949d-4275-8d4f-4cb1e37d80c7")
 		)
 		(pin "ADC_CM" input
 			(at 140.97 182.88 0)
+			(uuid "e2736e19-f344-4407-a530-372078c3d84b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17451,10 +17304,10 @@
 				)
 				(justify right)
 			)
-			(uuid "e2736e19-f344-4407-a530-372078c3d84b")
 		)
 		(pin "ADC_IN+" output
 			(at 140.97 177.8 0)
+			(uuid "11ba5209-8986-4301-897a-18fc51b48b2e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17462,7 +17315,6 @@
 				)
 				(justify right)
 			)
-			(uuid "11ba5209-8986-4301-897a-18fc51b48b2e")
 		)
 		(instances
 			(project "Quartz"
@@ -17475,6 +17327,10 @@
 	(sheet
 		(at 444.5 63.5)
 		(size 29.21 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -17504,206 +17360,207 @@
 		)
 		(pin "AIN6+" input
 			(at 444.5 105.41 180)
+			(uuid "bad45a97-bdd4-4e19-af0a-ac16eb8953db")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bad45a97-bdd4-4e19-af0a-ac16eb8953db")
 		)
 		(pin "AIN7+" input
 			(at 444.5 110.49 180)
+			(uuid "e31e045c-d849-4340-ae63-9eb72027cedf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e31e045c-d849-4340-ae63-9eb72027cedf")
 		)
 		(pin "AIN6-" input
 			(at 444.5 107.95 180)
+			(uuid "d24cc03b-b103-48c2-8e43-b835fe6aff50")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d24cc03b-b103-48c2-8e43-b835fe6aff50")
 		)
 		(pin "AIN7-" input
 			(at 444.5 113.03 180)
+			(uuid "19d93bfb-a4a7-456e-9b8a-914dd6d829f3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "19d93bfb-a4a7-456e-9b8a-914dd6d829f3")
 		)
 		(pin "AIN4+" input
 			(at 444.5 95.25 180)
+			(uuid "b070ade6-b54e-48f9-9b79-9cae1580f54d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b070ade6-b54e-48f9-9b79-9cae1580f54d")
 		)
 		(pin "AIN4-" input
 			(at 444.5 97.79 180)
+			(uuid "44b5a7a7-794c-438c-bc55-390a429d0405")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "44b5a7a7-794c-438c-bc55-390a429d0405")
 		)
 		(pin "AIN5+" input
 			(at 444.5 100.33 180)
+			(uuid "c6385296-44b4-44d6-8b8a-f003454675f7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c6385296-44b4-44d6-8b8a-f003454675f7")
 		)
 		(pin "AIN5-" input
 			(at 444.5 102.87 180)
+			(uuid "7e6b6cc1-3eeb-49d0-82cd-4f47b4bab4e0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7e6b6cc1-3eeb-49d0-82cd-4f47b4bab4e0")
 		)
 		(pin "AIN2+" input
 			(at 444.5 80.01 180)
+			(uuid "c95af898-b430-4844-9f48-41d92cfe59d8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c95af898-b430-4844-9f48-41d92cfe59d8")
 		)
 		(pin "AIN3+" input
 			(at 444.5 74.93 180)
+			(uuid "73df8c67-7b18-4bcb-84ff-96a46b81be7c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "73df8c67-7b18-4bcb-84ff-96a46b81be7c")
 		)
 		(pin "AIN2-" input
 			(at 444.5 82.55 180)
+			(uuid "01f36774-4a64-40b1-92ef-96a71f30cfdb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "01f36774-4a64-40b1-92ef-96a71f30cfdb")
 		)
 		(pin "AIN3-" input
 			(at 444.5 77.47 180)
+			(uuid "a9d5e583-4eeb-4552-ab7e-1feb8ba0a9fe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a9d5e583-4eeb-4552-ab7e-1feb8ba0a9fe")
 		)
 		(pin "AIN0+" input
 			(at 444.5 90.17 180)
+			(uuid "113d5ba8-5c07-4277-9182-4b999e06e295")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "113d5ba8-5c07-4277-9182-4b999e06e295")
 		)
 		(pin "AIN0-" input
 			(at 444.5 92.71 180)
+			(uuid "138a1558-92f1-4a82-9e0e-c6657b2ed730")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "138a1558-92f1-4a82-9e0e-c6657b2ed730")
 		)
 		(pin "AIN1+" input
 			(at 444.5 85.09 180)
+			(uuid "816646a6-7505-4c16-bead-582dc4044540")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "816646a6-7505-4c16-bead-582dc4044540")
 		)
 		(pin "AIN1-" input
 			(at 444.5 87.63 180)
+			(uuid "f711e624-3434-445d-88df-8a16913a526e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f711e624-3434-445d-88df-8a16913a526e")
 		)
 		(pin "ADC_VCM" output
 			(at 444.5 118.11 180)
+			(uuid "b01640e6-b85a-4a11-b320-1ea8bda4fa97")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b01640e6-b85a-4a11-b320-1ea8bda4fa97")
 		)
 		(pin "AD7768_SCLK" input
 			(at 473.71 112.395 0)
+			(uuid "1cc28a38-5cb4-4de2-9961-fcc1c68db1e0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1cc28a38-5cb4-4de2-9961-fcc1c68db1e0")
 		)
 		(pin "ADC_~{CS}" input
 			(at 473.71 107.315 0)
+			(uuid "37219199-4d0c-4aee-b294-538341f46605")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "37219199-4d0c-4aee-b294-538341f46605")
 		)
 		(pin "ADC_SDO" output
 			(at 473.71 117.475 0)
+			(uuid "ce01b7d7-4738-433c-993c-eebae74f5fab")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ce01b7d7-4738-433c-993c-eebae74f5fab")
 		)
 		(pin "ADC_DO3" output
 			(at 473.71 90.805 0)
+			(uuid "f26e55f9-faa0-45b1-90e9-e02e4fc3549b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17711,10 +17568,10 @@
 				)
 				(justify right)
 			)
-			(uuid "f26e55f9-faa0-45b1-90e9-e02e4fc3549b")
 		)
 		(pin "ADC_DO2" output
 			(at 473.71 88.265 0)
+			(uuid "db2b8924-f9aa-47c3-a6dc-b05a84c27f38")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17722,10 +17579,10 @@
 				)
 				(justify right)
 			)
-			(uuid "db2b8924-f9aa-47c3-a6dc-b05a84c27f38")
 		)
 		(pin "ADC_DO5" output
 			(at 473.71 95.885 0)
+			(uuid "f95e8aeb-10cf-4290-83a9-c476f6508dc5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17733,10 +17590,10 @@
 				)
 				(justify right)
 			)
-			(uuid "f95e8aeb-10cf-4290-83a9-c476f6508dc5")
 		)
 		(pin "ADC_DO4" output
 			(at 473.71 93.345 0)
+			(uuid "ae4f1019-60ed-4609-b62f-a22b862bf19a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17744,10 +17601,10 @@
 				)
 				(justify right)
 			)
-			(uuid "ae4f1019-60ed-4609-b62f-a22b862bf19a")
 		)
 		(pin "ADC_DO1" output
 			(at 473.71 85.725 0)
+			(uuid "fad466db-a888-478d-ab43-548601695d16")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17755,10 +17612,10 @@
 				)
 				(justify right)
 			)
-			(uuid "fad466db-a888-478d-ab43-548601695d16")
 		)
 		(pin "ADC_DO6" output
 			(at 473.71 98.425 0)
+			(uuid "9b634dd7-92b4-4484-b4cb-9fb40e3af617")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17766,10 +17623,10 @@
 				)
 				(justify right)
 			)
-			(uuid "9b634dd7-92b4-4484-b4cb-9fb40e3af617")
 		)
 		(pin "ADC_DO7" output
 			(at 473.71 100.965 0)
+			(uuid "94ad6410-5252-4033-ac19-dafc88fad342")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17777,10 +17634,10 @@
 				)
 				(justify right)
 			)
-			(uuid "94ad6410-5252-4033-ac19-dafc88fad342")
 		)
 		(pin "ADC_DO8" output
 			(at 473.71 103.505 0)
+			(uuid "ffcd6a6b-6eb0-467d-8ccc-8cdb871d10b2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17788,60 +17645,60 @@
 				)
 				(justify right)
 			)
-			(uuid "ffcd6a6b-6eb0-467d-8ccc-8cdb871d10b2")
 		)
 		(pin "ADC_DCLK" input
 			(at 473.71 81.915 0)
+			(uuid "90cd6537-bd89-4e5b-88d5-5410df7b63a0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "90cd6537-bd89-4e5b-88d5-5410df7b63a0")
 		)
 		(pin "ADC_~{Sync_In}" input
 			(at 473.71 73.025 0)
+			(uuid "51a3f7d5-6c81-4c65-b858-a05f301cae58")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "51a3f7d5-6c81-4c65-b858-a05f301cae58")
 		)
 		(pin "ADC_~{Start}" input
 			(at 473.71 70.485 0)
+			(uuid "34c803e8-ce2f-433f-91f6-d5f2e49da57b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "34c803e8-ce2f-433f-91f6-d5f2e49da57b")
 		)
 		(pin "ADC_~{DRDY}" output
 			(at 473.71 79.375 0)
+			(uuid "26ce58ec-1f1e-4ae5-8a6e-91e44d4a3781")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "26ce58ec-1f1e-4ae5-8a6e-91e44d4a3781")
 		)
 		(pin "ADC_~{Sync_Out}" output
 			(at 473.71 75.565 0)
+			(uuid "ed307999-45a6-4b30-ad7d-d708b57feea0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ed307999-45a6-4b30-ad7d-d708b57feea0")
 		)
 		(pin "ADC_MCLK+" input
 			(at 473.71 121.285 0)
+			(uuid "4f01467e-3aba-4535-ab73-22243d14a443")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17849,10 +17706,10 @@
 				)
 				(justify right)
 			)
-			(uuid "4f01467e-3aba-4535-ab73-22243d14a443")
 		)
 		(pin "ADC_MCLK-" input
 			(at 473.71 123.825 0)
+			(uuid "5251cd28-1424-459f-9b08-83d924aa11b1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17860,10 +17717,10 @@
 				)
 				(justify right)
 			)
-			(uuid "5251cd28-1424-459f-9b08-83d924aa11b1")
 		)
 		(pin "IOVDD" input
 			(at 473.71 66.675 0)
+			(uuid "66200cb5-ec2f-4272-b685-55afb3a9f228")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17871,27 +17728,26 @@
 				)
 				(justify right)
 			)
-			(uuid "66200cb5-ec2f-4272-b685-55afb3a9f228")
 		)
 		(pin "AD7768_SDI" input
 			(at 473.71 114.935 0)
+			(uuid "582dbb93-85c1-4226-8aff-554d0c54ddce")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "582dbb93-85c1-4226-8aff-554d0c54ddce")
 		)
 		(pin "AD7768_~{RESET}" input
 			(at 473.71 109.855 0)
+			(uuid "f03db1e4-2e18-4339-9ee4-6d2490ae9bb3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f03db1e4-2e18-4339-9ee4-6d2490ae9bb3")
 		)
 		(instances
 			(project "Quartz"
@@ -17904,6 +17760,10 @@
 	(sheet
 		(at 353.06 138.43)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -17933,6 +17793,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 384.81 148.59 0)
+			(uuid "c1289e78-8ef8-4834-9b7f-20fa50ae63f7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17940,10 +17801,10 @@
 				)
 				(justify right)
 			)
-			(uuid "c1289e78-8ef8-4834-9b7f-20fa50ae63f7")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 384.81 151.13 0)
+			(uuid "3bca741b-b4e9-4fd4-9ead-894bb2d4647a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17951,10 +17812,10 @@
 				)
 				(justify right)
 			)
-			(uuid "3bca741b-b4e9-4fd4-9ead-894bb2d4647a")
 		)
 		(pin "IN-" input
 			(at 353.06 146.05 180)
+			(uuid "362ee778-eade-49eb-87e4-6a6058a10efb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17962,10 +17823,10 @@
 				)
 				(justify left)
 			)
-			(uuid "362ee778-eade-49eb-87e4-6a6058a10efb")
 		)
 		(pin "IN+" input
 			(at 353.06 143.51 180)
+			(uuid "c330a85c-6d42-4fdd-be00-7d8d3c56e405")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17973,10 +17834,10 @@
 				)
 				(justify left)
 			)
-			(uuid "c330a85c-6d42-4fdd-be00-7d8d3c56e405")
 		)
 		(pin "ADC_IN-" output
 			(at 384.81 142.24 0)
+			(uuid "95524f8c-94b1-496a-8eca-c0b182646a1c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17984,10 +17845,10 @@
 				)
 				(justify right)
 			)
-			(uuid "95524f8c-94b1-496a-8eca-c0b182646a1c")
 		)
 		(pin "ADC_CM" input
 			(at 384.81 144.78 0)
+			(uuid "faec88e6-ea01-456c-9a22-46681912b3f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17995,10 +17856,10 @@
 				)
 				(justify right)
 			)
-			(uuid "faec88e6-ea01-456c-9a22-46681912b3f1")
 		)
 		(pin "ADC_IN+" output
 			(at 384.81 139.7 0)
+			(uuid "883cbcf4-c2b2-4c06-8d3d-dd84cc4bb63e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18006,7 +17867,6 @@
 				)
 				(justify right)
 			)
-			(uuid "883cbcf4-c2b2-4c06-8d3d-dd84cc4bb63e")
 		)
 		(instances
 			(project "Quartz"
@@ -18019,6 +17879,10 @@
 	(sheet
 		(at 109.22 119.38)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18048,6 +17912,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 140.97 129.54 0)
+			(uuid "29ba29f1-9016-42db-a04b-16c1dcd15fe7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18055,10 +17920,10 @@
 				)
 				(justify right)
 			)
-			(uuid "29ba29f1-9016-42db-a04b-16c1dcd15fe7")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 140.97 132.08 0)
+			(uuid "bc5de49b-3382-4bfa-bf53-369a2f0c0a8a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18066,10 +17931,10 @@
 				)
 				(justify right)
 			)
-			(uuid "bc5de49b-3382-4bfa-bf53-369a2f0c0a8a")
 		)
 		(pin "IN-" input
 			(at 109.22 127 180)
+			(uuid "0d0da175-9d46-4cdf-8e50-602bcfb79275")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18077,10 +17942,10 @@
 				)
 				(justify left)
 			)
-			(uuid "0d0da175-9d46-4cdf-8e50-602bcfb79275")
 		)
 		(pin "IN+" input
 			(at 109.22 124.46 180)
+			(uuid "543007aa-f8f4-460c-96e6-7c29ac7ebec0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18088,10 +17953,10 @@
 				)
 				(justify left)
 			)
-			(uuid "543007aa-f8f4-460c-96e6-7c29ac7ebec0")
 		)
 		(pin "ADC_IN-" output
 			(at 140.97 123.19 0)
+			(uuid "5cdfc729-ce06-4283-b83c-bca7b0e2a5ed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18099,10 +17964,10 @@
 				)
 				(justify right)
 			)
-			(uuid "5cdfc729-ce06-4283-b83c-bca7b0e2a5ed")
 		)
 		(pin "ADC_CM" input
 			(at 140.97 125.73 0)
+			(uuid "b5b674cb-5c4a-4574-925b-7262d12f17e2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18110,10 +17975,10 @@
 				)
 				(justify right)
 			)
-			(uuid "b5b674cb-5c4a-4574-925b-7262d12f17e2")
 		)
 		(pin "ADC_IN+" output
 			(at 140.97 120.65 0)
+			(uuid "c9744752-bfa8-4ce9-b6cf-63e03fa0b0bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18121,7 +17986,6 @@
 				)
 				(justify right)
 			)
-			(uuid "c9744752-bfa8-4ce9-b6cf-63e03fa0b0bc")
 		)
 		(instances
 			(project "Quartz"
@@ -18134,6 +17998,10 @@
 	(sheet
 		(at 199.39 215.9)
 		(size 29.21 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18163,206 +18031,207 @@
 		)
 		(pin "AIN6+" input
 			(at 199.39 257.81 180)
+			(uuid "01c6eb0f-674e-4125-af3a-5016122b1536")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "01c6eb0f-674e-4125-af3a-5016122b1536")
 		)
 		(pin "AIN7+" input
 			(at 199.39 262.89 180)
+			(uuid "bb7d731f-5ef3-489f-8223-4229e81b3b25")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bb7d731f-5ef3-489f-8223-4229e81b3b25")
 		)
 		(pin "AIN6-" input
 			(at 199.39 260.35 180)
+			(uuid "549ec949-a5fc-4b19-a2e0-7eb788289274")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "549ec949-a5fc-4b19-a2e0-7eb788289274")
 		)
 		(pin "AIN7-" input
 			(at 199.39 265.43 180)
+			(uuid "94423a41-9495-48ce-b3e8-f853a6bbf0c4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "94423a41-9495-48ce-b3e8-f853a6bbf0c4")
 		)
 		(pin "AIN4+" input
 			(at 199.39 247.65 180)
+			(uuid "9b6c8796-2906-41ce-aee3-ba262b8c12e4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9b6c8796-2906-41ce-aee3-ba262b8c12e4")
 		)
 		(pin "AIN4-" input
 			(at 199.39 250.19 180)
+			(uuid "3a4a5500-964e-40fe-b1cd-00f5a8c7b4b3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3a4a5500-964e-40fe-b1cd-00f5a8c7b4b3")
 		)
 		(pin "AIN5+" input
 			(at 199.39 252.73 180)
+			(uuid "7eab6849-99e9-40ce-b08c-f3da06936b7f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7eab6849-99e9-40ce-b08c-f3da06936b7f")
 		)
 		(pin "AIN5-" input
 			(at 199.39 255.27 180)
+			(uuid "5bca1a90-1285-4ce1-8f37-24dd051a448e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5bca1a90-1285-4ce1-8f37-24dd051a448e")
 		)
 		(pin "AIN2+" input
 			(at 199.39 232.41 180)
+			(uuid "5b720fd8-ceb2-4d7f-8a84-6d5ed3d9af53")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5b720fd8-ceb2-4d7f-8a84-6d5ed3d9af53")
 		)
 		(pin "AIN3+" input
 			(at 199.39 227.33 180)
+			(uuid "08a2ec3d-6946-41e8-8c17-ef293ee6cd39")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "08a2ec3d-6946-41e8-8c17-ef293ee6cd39")
 		)
 		(pin "AIN2-" input
 			(at 199.39 234.95 180)
+			(uuid "3c20189a-774c-492c-a5fb-c460978bf4c6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3c20189a-774c-492c-a5fb-c460978bf4c6")
 		)
 		(pin "AIN3-" input
 			(at 199.39 229.87 180)
+			(uuid "1500ebee-eac5-4f4a-94b9-3f4b6332c732")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1500ebee-eac5-4f4a-94b9-3f4b6332c732")
 		)
 		(pin "AIN0+" input
 			(at 199.39 242.57 180)
+			(uuid "b4de146c-2768-4143-b52a-6e4e9d69ddd5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b4de146c-2768-4143-b52a-6e4e9d69ddd5")
 		)
 		(pin "AIN0-" input
 			(at 199.39 245.11 180)
+			(uuid "df4cc3fc-6e7a-4e1f-abfe-298432ecb0cd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "df4cc3fc-6e7a-4e1f-abfe-298432ecb0cd")
 		)
 		(pin "AIN1+" input
 			(at 199.39 237.49 180)
+			(uuid "9f0c070d-2b43-467f-9088-23ac62c34e4a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9f0c070d-2b43-467f-9088-23ac62c34e4a")
 		)
 		(pin "AIN1-" input
 			(at 199.39 240.03 180)
+			(uuid "5d5af2b3-f44a-4211-b87c-94ac52730ab1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5d5af2b3-f44a-4211-b87c-94ac52730ab1")
 		)
 		(pin "ADC_VCM" output
 			(at 199.39 270.51 180)
+			(uuid "75890b8f-25c8-4139-b93c-8403b5ac3d95")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "75890b8f-25c8-4139-b93c-8403b5ac3d95")
 		)
 		(pin "AD7768_SCLK" input
 			(at 228.6 264.795 0)
+			(uuid "15b582ce-2fe1-44fb-83f2-c20b058aa2d8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "15b582ce-2fe1-44fb-83f2-c20b058aa2d8")
 		)
 		(pin "ADC_~{CS}" input
 			(at 228.6 259.715 0)
+			(uuid "9f4b3b41-694c-45b2-9810-93fc29e012ba")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "9f4b3b41-694c-45b2-9810-93fc29e012ba")
 		)
 		(pin "ADC_SDO" output
 			(at 228.6 269.875 0)
+			(uuid "df955065-28de-418f-a0f7-71ef67e6d981")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "df955065-28de-418f-a0f7-71ef67e6d981")
 		)
 		(pin "ADC_DO3" output
 			(at 228.6 243.205 0)
+			(uuid "a696985f-687c-464e-a11d-df3fb4242f30")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18370,10 +18239,10 @@
 				)
 				(justify right)
 			)
-			(uuid "a696985f-687c-464e-a11d-df3fb4242f30")
 		)
 		(pin "ADC_DO2" output
 			(at 228.6 240.665 0)
+			(uuid "2178eabf-6c38-4be0-90c3-0805251f5f1b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18381,10 +18250,10 @@
 				)
 				(justify right)
 			)
-			(uuid "2178eabf-6c38-4be0-90c3-0805251f5f1b")
 		)
 		(pin "ADC_DO5" output
 			(at 228.6 248.285 0)
+			(uuid "562440da-94bf-4fc0-9ecd-77c6655a7471")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18392,10 +18261,10 @@
 				)
 				(justify right)
 			)
-			(uuid "562440da-94bf-4fc0-9ecd-77c6655a7471")
 		)
 		(pin "ADC_DO4" output
 			(at 228.6 245.745 0)
+			(uuid "69c08b24-512e-4013-8b62-239fac827258")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18403,10 +18272,10 @@
 				)
 				(justify right)
 			)
-			(uuid "69c08b24-512e-4013-8b62-239fac827258")
 		)
 		(pin "ADC_DO1" output
 			(at 228.6 238.125 0)
+			(uuid "c016046f-1d53-4934-ba90-46ce46596f29")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18414,10 +18283,10 @@
 				)
 				(justify right)
 			)
-			(uuid "c016046f-1d53-4934-ba90-46ce46596f29")
 		)
 		(pin "ADC_DO6" output
 			(at 228.6 250.825 0)
+			(uuid "4e0582a4-8f60-450c-867e-3d5bc5a4322a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18425,10 +18294,10 @@
 				)
 				(justify right)
 			)
-			(uuid "4e0582a4-8f60-450c-867e-3d5bc5a4322a")
 		)
 		(pin "ADC_DO7" output
 			(at 228.6 253.365 0)
+			(uuid "33712b32-4969-4af2-8d5a-f7927ce3fd90")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18436,10 +18305,10 @@
 				)
 				(justify right)
 			)
-			(uuid "33712b32-4969-4af2-8d5a-f7927ce3fd90")
 		)
 		(pin "ADC_DO8" output
 			(at 228.6 255.905 0)
+			(uuid "f8ca4c6f-3c29-40c2-b29b-8cabf5320946")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18447,60 +18316,60 @@
 				)
 				(justify right)
 			)
-			(uuid "f8ca4c6f-3c29-40c2-b29b-8cabf5320946")
 		)
 		(pin "ADC_DCLK" input
 			(at 228.6 234.315 0)
+			(uuid "0a75da01-64c7-4474-baa2-806ce615d51a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "0a75da01-64c7-4474-baa2-806ce615d51a")
 		)
 		(pin "ADC_~{Sync_In}" input
 			(at 228.6 225.425 0)
+			(uuid "241075df-9a29-43a9-b157-2d3e2f99dc8c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "241075df-9a29-43a9-b157-2d3e2f99dc8c")
 		)
 		(pin "ADC_~{Start}" input
 			(at 228.6 222.885 0)
+			(uuid "2d44678c-ccbf-4791-8a08-d9934645c4a4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "2d44678c-ccbf-4791-8a08-d9934645c4a4")
 		)
 		(pin "ADC_~{DRDY}" output
 			(at 228.6 231.775 0)
+			(uuid "778a8829-d7df-487c-a886-bb8b955eea1e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "778a8829-d7df-487c-a886-bb8b955eea1e")
 		)
 		(pin "ADC_~{Sync_Out}" output
 			(at 228.6 227.965 0)
+			(uuid "f9f1c37d-e536-4258-bd8e-94eb3dadcec3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f9f1c37d-e536-4258-bd8e-94eb3dadcec3")
 		)
 		(pin "ADC_MCLK+" input
 			(at 228.6 273.685 0)
+			(uuid "cfb550f9-617e-4467-be14-fbfe7820fc3f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18508,10 +18377,10 @@
 				)
 				(justify right)
 			)
-			(uuid "cfb550f9-617e-4467-be14-fbfe7820fc3f")
 		)
 		(pin "ADC_MCLK-" input
 			(at 228.6 276.225 0)
+			(uuid "284488e8-8281-4014-8da3-6b104dc5544c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18519,10 +18388,10 @@
 				)
 				(justify right)
 			)
-			(uuid "284488e8-8281-4014-8da3-6b104dc5544c")
 		)
 		(pin "IOVDD" input
 			(at 228.6 219.075 0)
+			(uuid "22958b5e-d9b2-4454-81eb-9ec70cb849d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18530,27 +18399,26 @@
 				)
 				(justify right)
 			)
-			(uuid "22958b5e-d9b2-4454-81eb-9ec70cb849d5")
 		)
 		(pin "AD7768_SDI" input
 			(at 228.6 267.335 0)
+			(uuid "a3000522-06c0-41a2-8533-8c0e6a9ec5c3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a3000522-06c0-41a2-8533-8c0e6a9ec5c3")
 		)
 		(pin "AD7768_~{RESET}" input
 			(at 228.6 262.255 0)
+			(uuid "d9cf5c0c-a8b6-4b46-be43-6dc924cce42d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d9cf5c0c-a8b6-4b46-be43-6dc924cce42d")
 		)
 		(instances
 			(project "Quartz"
@@ -18563,6 +18431,10 @@
 	(sheet
 		(at 353.06 309.88)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18592,6 +18464,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 384.81 320.04 0)
+			(uuid "28e8fcee-90eb-439c-b8ad-6788e4210390")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18599,10 +18472,10 @@
 				)
 				(justify right)
 			)
-			(uuid "28e8fcee-90eb-439c-b8ad-6788e4210390")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 384.81 322.58 0)
+			(uuid "ced557e2-c2f2-4a27-b327-addb894c4da3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18610,10 +18483,10 @@
 				)
 				(justify right)
 			)
-			(uuid "ced557e2-c2f2-4a27-b327-addb894c4da3")
 		)
 		(pin "IN-" input
 			(at 353.06 317.5 180)
+			(uuid "3eecadde-29f3-47ac-b439-6837e750492c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18621,10 +18494,10 @@
 				)
 				(justify left)
 			)
-			(uuid "3eecadde-29f3-47ac-b439-6837e750492c")
 		)
 		(pin "IN+" input
 			(at 353.06 314.96 180)
+			(uuid "614a1092-ac53-4025-9a0f-4fe7b624a681")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18632,10 +18505,10 @@
 				)
 				(justify left)
 			)
-			(uuid "614a1092-ac53-4025-9a0f-4fe7b624a681")
 		)
 		(pin "ADC_IN-" output
 			(at 384.81 313.69 0)
+			(uuid "36748b55-04ae-4acd-b58b-e64ce6615825")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18643,10 +18516,10 @@
 				)
 				(justify right)
 			)
-			(uuid "36748b55-04ae-4acd-b58b-e64ce6615825")
 		)
 		(pin "ADC_CM" input
 			(at 384.81 316.23 0)
+			(uuid "273f90f9-6396-40cf-97bb-bb4fa9466103")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18654,10 +18527,10 @@
 				)
 				(justify right)
 			)
-			(uuid "273f90f9-6396-40cf-97bb-bb4fa9466103")
 		)
 		(pin "ADC_IN+" output
 			(at 384.81 311.15 0)
+			(uuid "9378c11a-a50f-46aa-b856-600c235ae740")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18665,7 +18538,6 @@
 				)
 				(justify right)
 			)
-			(uuid "9378c11a-a50f-46aa-b856-600c235ae740")
 		)
 		(instances
 			(project "Quartz"
@@ -18678,6 +18550,10 @@
 	(sheet
 		(at 109.22 43.18)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18707,6 +18583,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 140.97 53.34 0)
+			(uuid "69e7dbad-7624-45f9-be2c-4706afeb4a19")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18714,10 +18591,10 @@
 				)
 				(justify right)
 			)
-			(uuid "69e7dbad-7624-45f9-be2c-4706afeb4a19")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 140.97 55.88 0)
+			(uuid "23197bca-f3c3-4fd9-842b-d36cd2c702a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18725,10 +18602,10 @@
 				)
 				(justify right)
 			)
-			(uuid "23197bca-f3c3-4fd9-842b-d36cd2c702a7")
 		)
 		(pin "IN-" input
 			(at 109.22 50.8 180)
+			(uuid "7cc1878d-f562-487d-a11f-d0d8d424d981")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18736,10 +18613,10 @@
 				)
 				(justify left)
 			)
-			(uuid "7cc1878d-f562-487d-a11f-d0d8d424d981")
 		)
 		(pin "IN+" input
 			(at 109.22 48.26 180)
+			(uuid "6e7c4d4a-3454-4be8-a507-5dd458b97edc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18747,10 +18624,10 @@
 				)
 				(justify left)
 			)
-			(uuid "6e7c4d4a-3454-4be8-a507-5dd458b97edc")
 		)
 		(pin "ADC_IN-" output
 			(at 140.97 46.99 0)
+			(uuid "1afbfcae-de3d-4792-84a3-994d04dca90a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18758,10 +18635,10 @@
 				)
 				(justify right)
 			)
-			(uuid "1afbfcae-de3d-4792-84a3-994d04dca90a")
 		)
 		(pin "ADC_CM" input
 			(at 140.97 49.53 0)
+			(uuid "fd898846-8fce-4a55-a4a8-a7aef0c4fdb7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18769,10 +18646,10 @@
 				)
 				(justify right)
 			)
-			(uuid "fd898846-8fce-4a55-a4a8-a7aef0c4fdb7")
 		)
 		(pin "ADC_IN+" output
 			(at 140.97 44.45 0)
+			(uuid "feab69c1-1da5-4ee7-93f0-68fe5456e91c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18780,7 +18657,6 @@
 				)
 				(justify right)
 			)
-			(uuid "feab69c1-1da5-4ee7-93f0-68fe5456e91c")
 		)
 		(instances
 			(project "Quartz"
@@ -18793,6 +18669,10 @@
 	(sheet
 		(at 444.5 215.9)
 		(size 29.21 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18822,206 +18702,207 @@
 		)
 		(pin "AIN6+" input
 			(at 444.5 257.81 180)
+			(uuid "4c633b70-5da0-4c82-a096-5d9054789904")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4c633b70-5da0-4c82-a096-5d9054789904")
 		)
 		(pin "AIN7+" input
 			(at 444.5 262.89 180)
+			(uuid "c1a2159b-c70e-413d-a21a-d67586d85be6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c1a2159b-c70e-413d-a21a-d67586d85be6")
 		)
 		(pin "AIN6-" input
 			(at 444.5 260.35 180)
+			(uuid "3013ca65-be4e-4d39-b635-851704ceb70c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "3013ca65-be4e-4d39-b635-851704ceb70c")
 		)
 		(pin "AIN7-" input
 			(at 444.5 265.43 180)
+			(uuid "16661807-0a05-4dd7-881f-432576722c07")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "16661807-0a05-4dd7-881f-432576722c07")
 		)
 		(pin "AIN4+" input
 			(at 444.5 247.65 180)
+			(uuid "0e7fd4bc-37f0-4758-afb1-72dda1fd01ee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0e7fd4bc-37f0-4758-afb1-72dda1fd01ee")
 		)
 		(pin "AIN4-" input
 			(at 444.5 250.19 180)
+			(uuid "9a83aee8-ce45-40a9-a677-c4478cf5ac45")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "9a83aee8-ce45-40a9-a677-c4478cf5ac45")
 		)
 		(pin "AIN5+" input
 			(at 444.5 252.73 180)
+			(uuid "d48d5e6c-a410-4a84-94a7-47dc9f948ca0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d48d5e6c-a410-4a84-94a7-47dc9f948ca0")
 		)
 		(pin "AIN5-" input
 			(at 444.5 255.27 180)
+			(uuid "43405d91-1ee3-4013-ab48-73adb1965d53")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "43405d91-1ee3-4013-ab48-73adb1965d53")
 		)
 		(pin "AIN2+" input
 			(at 444.5 232.41 180)
+			(uuid "61af8ada-a656-4a7f-adcc-f439b1f817b3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "61af8ada-a656-4a7f-adcc-f439b1f817b3")
 		)
 		(pin "AIN3+" input
 			(at 444.5 227.33 180)
+			(uuid "f2a4b791-cc43-4231-8718-2db0c6ee15f4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f2a4b791-cc43-4231-8718-2db0c6ee15f4")
 		)
 		(pin "AIN2-" input
 			(at 444.5 234.95 180)
+			(uuid "1c44a45e-957e-4b08-8154-3511f8ac0306")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1c44a45e-957e-4b08-8154-3511f8ac0306")
 		)
 		(pin "AIN3-" input
 			(at 444.5 229.87 180)
+			(uuid "da56adbd-c981-4149-88ae-e24c1a04bb71")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "da56adbd-c981-4149-88ae-e24c1a04bb71")
 		)
 		(pin "AIN0+" input
 			(at 444.5 242.57 180)
+			(uuid "ef4060db-8de3-48ce-8703-c4c9b302e4ac")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ef4060db-8de3-48ce-8703-c4c9b302e4ac")
 		)
 		(pin "AIN0-" input
 			(at 444.5 245.11 180)
+			(uuid "e33c74c8-7265-4424-ae68-11188895b160")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e33c74c8-7265-4424-ae68-11188895b160")
 		)
 		(pin "AIN1+" input
 			(at 444.5 237.49 180)
+			(uuid "88ba622b-077a-4a26-85c1-caa8e9efa0b4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "88ba622b-077a-4a26-85c1-caa8e9efa0b4")
 		)
 		(pin "AIN1-" input
 			(at 444.5 240.03 180)
+			(uuid "809c78cf-2a9d-44b5-9e12-5293c04c0a06")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "809c78cf-2a9d-44b5-9e12-5293c04c0a06")
 		)
 		(pin "ADC_VCM" output
 			(at 444.5 270.51 180)
+			(uuid "58a121a0-6b9b-4b57-8fc0-b428379d3cb1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "58a121a0-6b9b-4b57-8fc0-b428379d3cb1")
 		)
 		(pin "AD7768_SCLK" input
 			(at 473.71 264.795 0)
+			(uuid "f0e0a6c4-f803-4e50-8d49-fe3d38d1342d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f0e0a6c4-f803-4e50-8d49-fe3d38d1342d")
 		)
 		(pin "ADC_~{CS}" input
 			(at 473.71 259.715 0)
+			(uuid "a8641ff3-9eaa-4e37-aa05-571cb0acd4cc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "a8641ff3-9eaa-4e37-aa05-571cb0acd4cc")
 		)
 		(pin "ADC_SDO" output
 			(at 473.71 269.875 0)
+			(uuid "411436db-c81c-49f1-97a8-da4d442794eb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "411436db-c81c-49f1-97a8-da4d442794eb")
 		)
 		(pin "ADC_DO3" output
 			(at 473.71 243.205 0)
+			(uuid "78d56e5d-5a37-4a14-8677-92dedc9c233c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19029,10 +18910,10 @@
 				)
 				(justify right)
 			)
-			(uuid "78d56e5d-5a37-4a14-8677-92dedc9c233c")
 		)
 		(pin "ADC_DO2" output
 			(at 473.71 240.665 0)
+			(uuid "ce820904-0c11-4ce5-aa24-3e326fd9ff2d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19040,10 +18921,10 @@
 				)
 				(justify right)
 			)
-			(uuid "ce820904-0c11-4ce5-aa24-3e326fd9ff2d")
 		)
 		(pin "ADC_DO5" output
 			(at 473.71 248.285 0)
+			(uuid "e5b5edde-7d2b-4a0f-b834-850258be3560")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19051,10 +18932,10 @@
 				)
 				(justify right)
 			)
-			(uuid "e5b5edde-7d2b-4a0f-b834-850258be3560")
 		)
 		(pin "ADC_DO4" output
 			(at 473.71 245.745 0)
+			(uuid "3afbfc39-1b02-40b2-825e-4587a55ee033")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19062,10 +18943,10 @@
 				)
 				(justify right)
 			)
-			(uuid "3afbfc39-1b02-40b2-825e-4587a55ee033")
 		)
 		(pin "ADC_DO1" output
 			(at 473.71 238.125 0)
+			(uuid "d69146a2-6603-4271-9e8c-c7e027012a15")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19073,10 +18954,10 @@
 				)
 				(justify right)
 			)
-			(uuid "d69146a2-6603-4271-9e8c-c7e027012a15")
 		)
 		(pin "ADC_DO6" output
 			(at 473.71 250.825 0)
+			(uuid "4ff1ff8c-ea9b-44e9-a26d-8e088c0f23a2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19084,10 +18965,10 @@
 				)
 				(justify right)
 			)
-			(uuid "4ff1ff8c-ea9b-44e9-a26d-8e088c0f23a2")
 		)
 		(pin "ADC_DO7" output
 			(at 473.71 253.365 0)
+			(uuid "234f1a26-310a-45fe-a6cc-a6a9efd65108")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19095,10 +18976,10 @@
 				)
 				(justify right)
 			)
-			(uuid "234f1a26-310a-45fe-a6cc-a6a9efd65108")
 		)
 		(pin "ADC_DO8" output
 			(at 473.71 255.905 0)
+			(uuid "1da20412-c83b-4a5d-8651-7e8f6f0852fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19106,60 +18987,60 @@
 				)
 				(justify right)
 			)
-			(uuid "1da20412-c83b-4a5d-8651-7e8f6f0852fa")
 		)
 		(pin "ADC_DCLK" input
 			(at 473.71 234.315 0)
+			(uuid "57ae23c6-3860-461f-8b8b-62bcff968d5c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "57ae23c6-3860-461f-8b8b-62bcff968d5c")
 		)
 		(pin "ADC_~{Sync_In}" input
 			(at 473.71 225.425 0)
+			(uuid "064d2d94-dec9-4ffa-b044-f25827ad2efa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "064d2d94-dec9-4ffa-b044-f25827ad2efa")
 		)
 		(pin "ADC_~{Start}" input
 			(at 473.71 222.885 0)
+			(uuid "01d3026d-c3ba-4041-a636-8995d4700739")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "01d3026d-c3ba-4041-a636-8995d4700739")
 		)
 		(pin "ADC_~{DRDY}" output
 			(at 473.71 231.775 0)
+			(uuid "b6066e1a-f708-4029-b214-24473d8d6690")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b6066e1a-f708-4029-b214-24473d8d6690")
 		)
 		(pin "ADC_~{Sync_Out}" output
 			(at 473.71 227.965 0)
+			(uuid "ff964f3c-4e62-4d56-a34f-db410f4112ff")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ff964f3c-4e62-4d56-a34f-db410f4112ff")
 		)
 		(pin "ADC_MCLK+" input
 			(at 473.71 273.685 0)
+			(uuid "086c0b40-d3f6-46e2-8dd0-90e8e2feb944")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19167,10 +19048,10 @@
 				)
 				(justify right)
 			)
-			(uuid "086c0b40-d3f6-46e2-8dd0-90e8e2feb944")
 		)
 		(pin "ADC_MCLK-" input
 			(at 473.71 276.225 0)
+			(uuid "3787ae20-25ad-431a-9ffe-cf4cd42aab55")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19178,10 +19059,10 @@
 				)
 				(justify right)
 			)
-			(uuid "3787ae20-25ad-431a-9ffe-cf4cd42aab55")
 		)
 		(pin "IOVDD" input
 			(at 473.71 219.075 0)
+			(uuid "fd55b8f7-3c16-4d6c-adbf-c11c126979c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19189,27 +19070,26 @@
 				)
 				(justify right)
 			)
-			(uuid "fd55b8f7-3c16-4d6c-adbf-c11c126979c5")
 		)
 		(pin "AD7768_SDI" input
 			(at 473.71 267.335 0)
+			(uuid "c7a7a42f-dde4-4fe8-be86-a14d9886b979")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "c7a7a42f-dde4-4fe8-be86-a14d9886b979")
 		)
 		(pin "AD7768_~{RESET}" input
 			(at 473.71 262.255 0)
+			(uuid "aea1b585-4e32-4881-a7d9-a9035e6337e0")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "aea1b585-4e32-4881-a7d9-a9035e6337e0")
 		)
 		(instances
 			(project "Quartz"
@@ -19222,6 +19102,10 @@
 	(sheet
 		(at 353.06 271.78)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -19251,6 +19135,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 384.81 281.94 0)
+			(uuid "62b73654-49e3-4c30-8304-19debe026492")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19258,10 +19143,10 @@
 				)
 				(justify right)
 			)
-			(uuid "62b73654-49e3-4c30-8304-19debe026492")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 384.81 284.48 0)
+			(uuid "19abd38e-c617-4a69-84cc-bbd0b38c4b35")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19269,10 +19154,10 @@
 				)
 				(justify right)
 			)
-			(uuid "19abd38e-c617-4a69-84cc-bbd0b38c4b35")
 		)
 		(pin "IN-" input
 			(at 353.06 279.4 180)
+			(uuid "7ec929fc-4a82-4690-9049-e4bce06991bb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19280,10 +19165,10 @@
 				)
 				(justify left)
 			)
-			(uuid "7ec929fc-4a82-4690-9049-e4bce06991bb")
 		)
 		(pin "IN+" input
 			(at 353.06 276.86 180)
+			(uuid "515054d5-7427-41a5-a9ac-5a083f9b2471")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19291,10 +19176,10 @@
 				)
 				(justify left)
 			)
-			(uuid "515054d5-7427-41a5-a9ac-5a083f9b2471")
 		)
 		(pin "ADC_IN-" output
 			(at 384.81 275.59 0)
+			(uuid "ac246689-af58-4ccc-a291-33519e1dcc69")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19302,10 +19187,10 @@
 				)
 				(justify right)
 			)
-			(uuid "ac246689-af58-4ccc-a291-33519e1dcc69")
 		)
 		(pin "ADC_CM" input
 			(at 384.81 278.13 0)
+			(uuid "f9f7be29-166a-42ee-8ba3-af92f868459e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19313,10 +19198,10 @@
 				)
 				(justify right)
 			)
-			(uuid "f9f7be29-166a-42ee-8ba3-af92f868459e")
 		)
 		(pin "ADC_IN+" output
 			(at 384.81 273.05 0)
+			(uuid "d6fab979-cb8d-4bae-aacd-bec690a3eaed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19324,7 +19209,6 @@
 				)
 				(justify right)
 			)
-			(uuid "d6fab979-cb8d-4bae-aacd-bec690a3eaed")
 		)
 		(instances
 			(project "Quartz"
@@ -19337,6 +19221,10 @@
 	(sheet
 		(at 109.22 62.23)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -19366,6 +19254,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 140.97 72.39 0)
+			(uuid "2fcb47a6-6747-4cec-b5cb-7a0b6be627ab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19373,10 +19262,10 @@
 				)
 				(justify right)
 			)
-			(uuid "2fcb47a6-6747-4cec-b5cb-7a0b6be627ab")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 140.97 74.93 0)
+			(uuid "eae5431f-77e6-4163-9ad5-580af458e3c4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19384,10 +19273,10 @@
 				)
 				(justify right)
 			)
-			(uuid "eae5431f-77e6-4163-9ad5-580af458e3c4")
 		)
 		(pin "IN-" input
 			(at 109.22 69.85 180)
+			(uuid "8ed881f2-a4c0-4545-b497-9acb053260d8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19395,10 +19284,10 @@
 				)
 				(justify left)
 			)
-			(uuid "8ed881f2-a4c0-4545-b497-9acb053260d8")
 		)
 		(pin "IN+" input
 			(at 109.22 67.31 180)
+			(uuid "4cbbce96-a11f-48fd-87ff-c378962485ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19406,10 +19295,10 @@
 				)
 				(justify left)
 			)
-			(uuid "4cbbce96-a11f-48fd-87ff-c378962485ba")
 		)
 		(pin "ADC_IN-" output
 			(at 140.97 66.04 0)
+			(uuid "f57bcad1-2b36-4f72-8d59-a169df47778d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19417,10 +19306,10 @@
 				)
 				(justify right)
 			)
-			(uuid "f57bcad1-2b36-4f72-8d59-a169df47778d")
 		)
 		(pin "ADC_CM" input
 			(at 140.97 68.58 0)
+			(uuid "691dfd71-1d0b-4872-9382-fe7f57ab0758")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19428,10 +19317,10 @@
 				)
 				(justify right)
 			)
-			(uuid "691dfd71-1d0b-4872-9382-fe7f57ab0758")
 		)
 		(pin "ADC_IN+" output
 			(at 140.97 63.5 0)
+			(uuid "f69bfbb4-9c1f-4133-b958-af364fc1ae55")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19439,7 +19328,6 @@
 				)
 				(justify right)
 			)
-			(uuid "f69bfbb4-9c1f-4133-b958-af364fc1ae55")
 		)
 		(instances
 			(project "Quartz"
@@ -19452,6 +19340,10 @@
 	(sheet
 		(at 353.06 252.73)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -19481,6 +19373,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 384.81 262.89 0)
+			(uuid "ef816500-cef5-4b15-a3fb-fa9ba509ce14")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19488,10 +19381,10 @@
 				)
 				(justify right)
 			)
-			(uuid "ef816500-cef5-4b15-a3fb-fa9ba509ce14")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 384.81 265.43 0)
+			(uuid "6656131d-bb82-4a16-b120-9e1a79856356")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19499,10 +19392,10 @@
 				)
 				(justify right)
 			)
-			(uuid "6656131d-bb82-4a16-b120-9e1a79856356")
 		)
 		(pin "IN-" input
 			(at 353.06 260.35 180)
+			(uuid "fadb580e-3805-4db9-a319-7cf37b12df70")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19510,10 +19403,10 @@
 				)
 				(justify left)
 			)
-			(uuid "fadb580e-3805-4db9-a319-7cf37b12df70")
 		)
 		(pin "IN+" input
 			(at 353.06 257.81 180)
+			(uuid "d1fd3d7d-d2dd-4767-82c5-a7e025b7b7c2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19521,10 +19414,10 @@
 				)
 				(justify left)
 			)
-			(uuid "d1fd3d7d-d2dd-4767-82c5-a7e025b7b7c2")
 		)
 		(pin "ADC_IN-" output
 			(at 384.81 256.54 0)
+			(uuid "c4150d88-b9ac-43b8-8dd1-d53e2234046d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19532,10 +19425,10 @@
 				)
 				(justify right)
 			)
-			(uuid "c4150d88-b9ac-43b8-8dd1-d53e2234046d")
 		)
 		(pin "ADC_CM" input
 			(at 384.81 259.08 0)
+			(uuid "c09b273b-b747-4115-a57e-c712a25d069a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19543,10 +19436,10 @@
 				)
 				(justify right)
 			)
-			(uuid "c09b273b-b747-4115-a57e-c712a25d069a")
 		)
 		(pin "ADC_IN+" output
 			(at 384.81 254 0)
+			(uuid "a9973fd6-fd6f-4a3f-a61c-496b36ee65d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19554,7 +19447,6 @@
 				)
 				(justify right)
 			)
-			(uuid "a9973fd6-fd6f-4a3f-a61c-496b36ee65d9")
 		)
 		(instances
 			(project "Quartz"
@@ -19567,6 +19459,10 @@
 	(sheet
 		(at 109.22 233.68)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -19596,6 +19492,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 140.97 243.84 0)
+			(uuid "5da610b7-9132-46eb-a44d-594afd2ec888")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19603,10 +19500,10 @@
 				)
 				(justify right)
 			)
-			(uuid "5da610b7-9132-46eb-a44d-594afd2ec888")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 140.97 246.38 0)
+			(uuid "4df5e2a6-2306-408b-95bc-72927ea4143a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19614,10 +19511,10 @@
 				)
 				(justify right)
 			)
-			(uuid "4df5e2a6-2306-408b-95bc-72927ea4143a")
 		)
 		(pin "IN-" input
 			(at 109.22 241.3 180)
+			(uuid "2c5b90aa-be67-401f-8ca8-e5e370fa8492")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19625,10 +19522,10 @@
 				)
 				(justify left)
 			)
-			(uuid "2c5b90aa-be67-401f-8ca8-e5e370fa8492")
 		)
 		(pin "IN+" input
 			(at 109.22 238.76 180)
+			(uuid "bdb3c1c3-a23b-4b83-9a42-13a0fb6190ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19636,10 +19533,10 @@
 				)
 				(justify left)
 			)
-			(uuid "bdb3c1c3-a23b-4b83-9a42-13a0fb6190ef")
 		)
 		(pin "ADC_IN-" output
 			(at 140.97 237.49 0)
+			(uuid "09fd9a85-7f8f-47de-82f1-1a4c9ba8328e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19647,10 +19544,10 @@
 				)
 				(justify right)
 			)
-			(uuid "09fd9a85-7f8f-47de-82f1-1a4c9ba8328e")
 		)
 		(pin "ADC_CM" input
 			(at 140.97 240.03 0)
+			(uuid "bd598ec3-308b-43b8-b42e-24d377b98cbc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19658,10 +19555,10 @@
 				)
 				(justify right)
 			)
-			(uuid "bd598ec3-308b-43b8-b42e-24d377b98cbc")
 		)
 		(pin "ADC_IN+" output
 			(at 140.97 234.95 0)
+			(uuid "be7abe81-4365-4c6d-902a-c15669c6a54a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19669,7 +19566,6 @@
 				)
 				(justify right)
 			)
-			(uuid "be7abe81-4365-4c6d-902a-c15669c6a54a")
 		)
 		(instances
 			(project "Quartz"
@@ -19682,6 +19578,10 @@
 	(sheet
 		(at 353.06 81.28)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -19711,6 +19611,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 384.81 91.44 0)
+			(uuid "7148abf1-85c7-4d5b-ab19-4a28bfb909bb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19718,10 +19619,10 @@
 				)
 				(justify right)
 			)
-			(uuid "7148abf1-85c7-4d5b-ab19-4a28bfb909bb")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 384.81 93.98 0)
+			(uuid "7e1a3ad4-63de-4663-8c7d-8b544a268440")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19729,10 +19630,10 @@
 				)
 				(justify right)
 			)
-			(uuid "7e1a3ad4-63de-4663-8c7d-8b544a268440")
 		)
 		(pin "IN-" input
 			(at 353.06 88.9 180)
+			(uuid "ebaf44b9-9958-438a-b1bc-1ec7fab069df")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19740,10 +19641,10 @@
 				)
 				(justify left)
 			)
-			(uuid "ebaf44b9-9958-438a-b1bc-1ec7fab069df")
 		)
 		(pin "IN+" input
 			(at 353.06 86.36 180)
+			(uuid "b6e7ef5f-e76e-4969-bb30-cf374cf1e95a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19751,10 +19652,10 @@
 				)
 				(justify left)
 			)
-			(uuid "b6e7ef5f-e76e-4969-bb30-cf374cf1e95a")
 		)
 		(pin "ADC_IN-" output
 			(at 384.81 85.09 0)
+			(uuid "17f1dd23-172b-447b-a277-62f04ba3f4dd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19762,10 +19663,10 @@
 				)
 				(justify right)
 			)
-			(uuid "17f1dd23-172b-447b-a277-62f04ba3f4dd")
 		)
 		(pin "ADC_CM" input
 			(at 384.81 87.63 0)
+			(uuid "38634234-3b2f-4f83-9d6d-9da039a3db09")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19773,10 +19674,10 @@
 				)
 				(justify right)
 			)
-			(uuid "38634234-3b2f-4f83-9d6d-9da039a3db09")
 		)
 		(pin "ADC_IN+" output
 			(at 384.81 82.55 0)
+			(uuid "0cfe0773-6cdc-41be-833f-2f8d81d52696")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19784,7 +19685,6 @@
 				)
 				(justify right)
 			)
-			(uuid "0cfe0773-6cdc-41be-833f-2f8d81d52696")
 		)
 		(instances
 			(project "Quartz"
@@ -19797,6 +19697,10 @@
 	(sheet
 		(at 521.97 25.4)
 		(size 12.7 321.31)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -19835,6 +19739,10 @@
 	(sheet
 		(at 109.22 195.58)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -19864,6 +19772,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 140.97 205.74 0)
+			(uuid "6be9a14a-c121-46cb-b6d9-4134621edb66")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19871,10 +19780,10 @@
 				)
 				(justify right)
 			)
-			(uuid "6be9a14a-c121-46cb-b6d9-4134621edb66")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 140.97 208.28 0)
+			(uuid "12baf3eb-bdf9-42bc-af87-3e9ab17614de")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19882,10 +19791,10 @@
 				)
 				(justify right)
 			)
-			(uuid "12baf3eb-bdf9-42bc-af87-3e9ab17614de")
 		)
 		(pin "IN-" input
 			(at 109.22 203.2 180)
+			(uuid "80bec5b2-793b-4e3c-a5b7-2dd3b9d5a09c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19893,10 +19802,10 @@
 				)
 				(justify left)
 			)
-			(uuid "80bec5b2-793b-4e3c-a5b7-2dd3b9d5a09c")
 		)
 		(pin "IN+" input
 			(at 109.22 200.66 180)
+			(uuid "871ec492-76dd-4a6e-92df-793f6349dd79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19904,10 +19813,10 @@
 				)
 				(justify left)
 			)
-			(uuid "871ec492-76dd-4a6e-92df-793f6349dd79")
 		)
 		(pin "ADC_IN-" output
 			(at 140.97 199.39 0)
+			(uuid "22b6b706-2387-4953-a178-945a63ba54d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19915,10 +19824,10 @@
 				)
 				(justify right)
 			)
-			(uuid "22b6b706-2387-4953-a178-945a63ba54d1")
 		)
 		(pin "ADC_CM" input
 			(at 140.97 201.93 0)
+			(uuid "c4960f48-476f-4070-8aeb-fcb132fdf9ac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19926,10 +19835,10 @@
 				)
 				(justify right)
 			)
-			(uuid "c4960f48-476f-4070-8aeb-fcb132fdf9ac")
 		)
 		(pin "ADC_IN+" output
 			(at 140.97 196.85 0)
+			(uuid "0d837591-a7ed-4630-b517-995eb10e95a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19937,7 +19846,6 @@
 				)
 				(justify right)
 			)
-			(uuid "0d837591-a7ed-4630-b517-995eb10e95a5")
 		)
 		(instances
 			(project "Quartz"
@@ -19950,6 +19858,10 @@
 	(sheet
 		(at 353.06 214.63)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -19979,6 +19891,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 384.81 224.79 0)
+			(uuid "f3cb08b3-e2d2-461d-b159-0cdeb6353264")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19986,10 +19899,10 @@
 				)
 				(justify right)
 			)
-			(uuid "f3cb08b3-e2d2-461d-b159-0cdeb6353264")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 384.81 227.33 0)
+			(uuid "45585255-0dc4-4083-8a0a-7274e53563f3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19997,10 +19910,10 @@
 				)
 				(justify right)
 			)
-			(uuid "45585255-0dc4-4083-8a0a-7274e53563f3")
 		)
 		(pin "IN-" input
 			(at 353.06 222.25 180)
+			(uuid "bebf6b55-0f28-48f5-b787-ae12f4e03d2a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20008,10 +19921,10 @@
 				)
 				(justify left)
 			)
-			(uuid "bebf6b55-0f28-48f5-b787-ae12f4e03d2a")
 		)
 		(pin "IN+" input
 			(at 353.06 219.71 180)
+			(uuid "4d634890-35c1-49e6-96fc-fed602de7716")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20019,10 +19932,10 @@
 				)
 				(justify left)
 			)
-			(uuid "4d634890-35c1-49e6-96fc-fed602de7716")
 		)
 		(pin "ADC_IN-" output
 			(at 384.81 218.44 0)
+			(uuid "fd281a77-e8c4-47bd-8179-19b149aa5ed9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20030,10 +19943,10 @@
 				)
 				(justify right)
 			)
-			(uuid "fd281a77-e8c4-47bd-8179-19b149aa5ed9")
 		)
 		(pin "ADC_CM" input
 			(at 384.81 220.98 0)
+			(uuid "e813281e-c4c8-468b-ac6b-e73d8654bb1f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20041,10 +19954,10 @@
 				)
 				(justify right)
 			)
-			(uuid "e813281e-c4c8-468b-ac6b-e73d8654bb1f")
 		)
 		(pin "ADC_IN+" output
 			(at 384.81 215.9 0)
+			(uuid "0c5d50fe-730f-43fd-a405-9fb3e5a4a52a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20052,7 +19965,6 @@
 				)
 				(justify right)
 			)
-			(uuid "0c5d50fe-730f-43fd-a405-9fb3e5a4a52a")
 		)
 		(instances
 			(project "Quartz"
@@ -20065,6 +19977,10 @@
 	(sheet
 		(at 109.22 100.33)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -20094,6 +20010,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 140.97 110.49 0)
+			(uuid "2ef6ecb0-72bd-478b-a243-2b191836001a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20101,10 +20018,10 @@
 				)
 				(justify right)
 			)
-			(uuid "2ef6ecb0-72bd-478b-a243-2b191836001a")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 140.97 113.03 0)
+			(uuid "3d14f917-0283-4bdb-84e0-41b03d92e31c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20112,10 +20029,10 @@
 				)
 				(justify right)
 			)
-			(uuid "3d14f917-0283-4bdb-84e0-41b03d92e31c")
 		)
 		(pin "IN-" input
 			(at 109.22 107.95 180)
+			(uuid "7b459ebc-d614-4fe9-87d2-0aab985b2eca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20123,10 +20040,10 @@
 				)
 				(justify left)
 			)
-			(uuid "7b459ebc-d614-4fe9-87d2-0aab985b2eca")
 		)
 		(pin "IN+" input
 			(at 109.22 105.41 180)
+			(uuid "e59b1991-e8c1-4065-8df6-549e95a94802")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20134,10 +20051,10 @@
 				)
 				(justify left)
 			)
-			(uuid "e59b1991-e8c1-4065-8df6-549e95a94802")
 		)
 		(pin "ADC_IN-" output
 			(at 140.97 104.14 0)
+			(uuid "d88153c9-551c-44df-9535-732326573967")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20145,10 +20062,10 @@
 				)
 				(justify right)
 			)
-			(uuid "d88153c9-551c-44df-9535-732326573967")
 		)
 		(pin "ADC_CM" input
 			(at 140.97 106.68 0)
+			(uuid "2b9b8af0-492f-43bc-8f24-000313611628")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20156,10 +20073,10 @@
 				)
 				(justify right)
 			)
-			(uuid "2b9b8af0-492f-43bc-8f24-000313611628")
 		)
 		(pin "ADC_IN+" output
 			(at 140.97 101.6 0)
+			(uuid "ed844e75-00ab-4a50-8b9a-68eb3c0513d3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20167,7 +20084,6 @@
 				)
 				(justify right)
 			)
-			(uuid "ed844e75-00ab-4a50-8b9a-68eb3c0513d3")
 		)
 		(instances
 			(project "Quartz"
@@ -20180,6 +20096,10 @@
 	(sheet
 		(at 461.01 356.87)
 		(size 19.05 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -20218,6 +20138,10 @@
 	(sheet
 		(at 109.22 214.63)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -20247,6 +20171,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 140.97 224.79 0)
+			(uuid "09c6b9a6-af33-4584-a325-8f35a9560709")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20254,10 +20179,10 @@
 				)
 				(justify right)
 			)
-			(uuid "09c6b9a6-af33-4584-a325-8f35a9560709")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 140.97 227.33 0)
+			(uuid "9ec3730b-3f91-45f3-96c6-4390323445c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20265,10 +20190,10 @@
 				)
 				(justify right)
 			)
-			(uuid "9ec3730b-3f91-45f3-96c6-4390323445c5")
 		)
 		(pin "IN-" input
 			(at 109.22 222.25 180)
+			(uuid "ba0540ff-6192-45f7-9f27-ad296cbb6d9a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20276,10 +20201,10 @@
 				)
 				(justify left)
 			)
-			(uuid "ba0540ff-6192-45f7-9f27-ad296cbb6d9a")
 		)
 		(pin "IN+" input
 			(at 109.22 219.71 180)
+			(uuid "5b3606ce-fcc2-4fe2-97b4-23255411443b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20287,10 +20212,10 @@
 				)
 				(justify left)
 			)
-			(uuid "5b3606ce-fcc2-4fe2-97b4-23255411443b")
 		)
 		(pin "ADC_IN-" output
 			(at 140.97 218.44 0)
+			(uuid "4e18f7a8-0d6b-4752-ab82-3f7b46c73988")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20298,10 +20223,10 @@
 				)
 				(justify right)
 			)
-			(uuid "4e18f7a8-0d6b-4752-ab82-3f7b46c73988")
 		)
 		(pin "ADC_CM" input
 			(at 140.97 220.98 0)
+			(uuid "e3895f59-ea1c-46b4-9d05-ff699ed18883")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20309,10 +20234,10 @@
 				)
 				(justify right)
 			)
-			(uuid "e3895f59-ea1c-46b4-9d05-ff699ed18883")
 		)
 		(pin "ADC_IN+" output
 			(at 140.97 215.9 0)
+			(uuid "3b592843-2ac9-4984-a58d-aa383ba2206f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20320,7 +20245,6 @@
 				)
 				(justify right)
 			)
-			(uuid "3b592843-2ac9-4984-a58d-aa383ba2206f")
 		)
 		(instances
 			(project "Quartz"
@@ -20333,6 +20257,10 @@
 	(sheet
 		(at 353.06 43.18)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -20362,6 +20290,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 384.81 53.34 0)
+			(uuid "db55351b-e74b-4231-af28-fc0e59b81a9f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20369,10 +20298,10 @@
 				)
 				(justify right)
 			)
-			(uuid "db55351b-e74b-4231-af28-fc0e59b81a9f")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 384.81 55.88 0)
+			(uuid "596f8589-01c4-46a0-bd1f-0118ba069df1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20380,10 +20309,10 @@
 				)
 				(justify right)
 			)
-			(uuid "596f8589-01c4-46a0-bd1f-0118ba069df1")
 		)
 		(pin "IN-" input
 			(at 353.06 50.8 180)
+			(uuid "bae032d7-2b1c-46ae-965a-d23fb4e67cb0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20391,10 +20320,10 @@
 				)
 				(justify left)
 			)
-			(uuid "bae032d7-2b1c-46ae-965a-d23fb4e67cb0")
 		)
 		(pin "IN+" input
 			(at 353.06 48.26 180)
+			(uuid "ec45d521-f28f-4d92-aba9-3c149eee73b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20402,10 +20331,10 @@
 				)
 				(justify left)
 			)
-			(uuid "ec45d521-f28f-4d92-aba9-3c149eee73b4")
 		)
 		(pin "ADC_IN-" output
 			(at 384.81 46.99 0)
+			(uuid "7137d673-326a-41f6-973a-ca45d530399a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20413,10 +20342,10 @@
 				)
 				(justify right)
 			)
-			(uuid "7137d673-326a-41f6-973a-ca45d530399a")
 		)
 		(pin "ADC_CM" input
 			(at 384.81 49.53 0)
+			(uuid "382a84bd-63d9-42b2-997f-f98ca0637149")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20424,10 +20353,10 @@
 				)
 				(justify right)
 			)
-			(uuid "382a84bd-63d9-42b2-997f-f98ca0637149")
 		)
 		(pin "ADC_IN+" output
 			(at 384.81 44.45 0)
+			(uuid "9bb44a1a-85c4-4fb2-a57c-d7ea61518b62")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20435,7 +20364,6 @@
 				)
 				(justify right)
 			)
-			(uuid "9bb44a1a-85c4-4fb2-a57c-d7ea61518b62")
 		)
 		(instances
 			(project "Quartz"
@@ -20448,6 +20376,10 @@
 	(sheet
 		(at 199.39 63.5)
 		(size 29.21 63.5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -20477,206 +20409,207 @@
 		)
 		(pin "AIN6+" input
 			(at 199.39 105.41 180)
+			(uuid "5ca171d6-5deb-4978-88bb-6df93b8d5eee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "5ca171d6-5deb-4978-88bb-6df93b8d5eee")
 		)
 		(pin "AIN7+" input
 			(at 199.39 110.49 180)
+			(uuid "cbe6d602-df71-426f-bff9-a90dfb21c687")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cbe6d602-df71-426f-bff9-a90dfb21c687")
 		)
 		(pin "AIN6-" input
 			(at 199.39 107.95 180)
+			(uuid "b9e62d34-3109-4192-ac59-60fdf3aca529")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "b9e62d34-3109-4192-ac59-60fdf3aca529")
 		)
 		(pin "AIN7-" input
 			(at 199.39 113.03 180)
+			(uuid "abc22d95-8bd3-4666-83b8-855bdb21fb91")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "abc22d95-8bd3-4666-83b8-855bdb21fb91")
 		)
 		(pin "AIN4+" input
 			(at 199.39 95.25 180)
+			(uuid "36379214-5295-4b91-8ee6-34f1ea1d1859")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "36379214-5295-4b91-8ee6-34f1ea1d1859")
 		)
 		(pin "AIN4-" input
 			(at 199.39 97.79 180)
+			(uuid "13a6ca04-af97-48a7-9d93-ed5886aab07b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "13a6ca04-af97-48a7-9d93-ed5886aab07b")
 		)
 		(pin "AIN5+" input
 			(at 199.39 100.33 180)
+			(uuid "dad39c57-87d4-402b-9f25-5eeaa26bbd2c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "dad39c57-87d4-402b-9f25-5eeaa26bbd2c")
 		)
 		(pin "AIN5-" input
 			(at 199.39 102.87 180)
+			(uuid "0224a29f-a24b-49dd-b236-f62081718059")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0224a29f-a24b-49dd-b236-f62081718059")
 		)
 		(pin "AIN2+" input
 			(at 199.39 80.01 180)
+			(uuid "08ccf4a0-58b7-437e-9515-c656fec248ac")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "08ccf4a0-58b7-437e-9515-c656fec248ac")
 		)
 		(pin "AIN3+" input
 			(at 199.39 74.93 180)
+			(uuid "2236eab7-2952-4309-924b-a5a6217bd5b6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "2236eab7-2952-4309-924b-a5a6217bd5b6")
 		)
 		(pin "AIN2-" input
 			(at 199.39 82.55 180)
+			(uuid "a1a6dc24-dd86-4ee3-b322-223a004ecb84")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a1a6dc24-dd86-4ee3-b322-223a004ecb84")
 		)
 		(pin "AIN3-" input
 			(at 199.39 77.47 180)
+			(uuid "304188aa-2988-4248-9a6e-e4afeb9e27e2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "304188aa-2988-4248-9a6e-e4afeb9e27e2")
 		)
 		(pin "AIN0+" input
 			(at 199.39 90.17 180)
+			(uuid "d556bd2e-bdb7-4abb-9cd2-d8df44288f5b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "d556bd2e-bdb7-4abb-9cd2-d8df44288f5b")
 		)
 		(pin "AIN0-" input
 			(at 199.39 92.71 180)
+			(uuid "ca18b3f3-18ca-467d-a4e1-6d50af4f924b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "ca18b3f3-18ca-467d-a4e1-6d50af4f924b")
 		)
 		(pin "AIN1+" input
 			(at 199.39 85.09 180)
+			(uuid "01f2678f-2ba3-4d8a-b29a-54d42da20492")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "01f2678f-2ba3-4d8a-b29a-54d42da20492")
 		)
 		(pin "AIN1-" input
 			(at 199.39 87.63 180)
+			(uuid "745f4b59-3066-416c-aa5b-2ab5bacd1546")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "745f4b59-3066-416c-aa5b-2ab5bacd1546")
 		)
 		(pin "ADC_VCM" output
 			(at 199.39 118.11 180)
+			(uuid "50cb18a8-4f4e-4001-abec-e63cad62b72b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "50cb18a8-4f4e-4001-abec-e63cad62b72b")
 		)
 		(pin "AD7768_SCLK" input
 			(at 228.6 112.395 0)
+			(uuid "394410b0-a534-413d-86a9-d1c882b38bf7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "394410b0-a534-413d-86a9-d1c882b38bf7")
 		)
 		(pin "ADC_~{CS}" input
 			(at 228.6 107.315 0)
+			(uuid "ffd79a3f-9632-48ae-8a44-2c29a9fa67db")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ffd79a3f-9632-48ae-8a44-2c29a9fa67db")
 		)
 		(pin "ADC_SDO" output
 			(at 228.6 117.475 0)
+			(uuid "360d4174-c9af-4b36-9edf-0cdde3c60d66")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "360d4174-c9af-4b36-9edf-0cdde3c60d66")
 		)
 		(pin "ADC_DO3" output
 			(at 228.6 90.805 0)
+			(uuid "1dcb2c37-22fb-4aa9-8980-def2383c922a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20684,10 +20617,10 @@
 				)
 				(justify right)
 			)
-			(uuid "1dcb2c37-22fb-4aa9-8980-def2383c922a")
 		)
 		(pin "ADC_DO2" output
 			(at 228.6 88.265 0)
+			(uuid "8e5fc2b9-444a-4f95-b669-10c32051b901")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20695,10 +20628,10 @@
 				)
 				(justify right)
 			)
-			(uuid "8e5fc2b9-444a-4f95-b669-10c32051b901")
 		)
 		(pin "ADC_DO5" output
 			(at 228.6 95.885 0)
+			(uuid "6ad06ad0-c697-48fa-be4f-ad589ef5c95f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20706,10 +20639,10 @@
 				)
 				(justify right)
 			)
-			(uuid "6ad06ad0-c697-48fa-be4f-ad589ef5c95f")
 		)
 		(pin "ADC_DO4" output
 			(at 228.6 93.345 0)
+			(uuid "752b38de-06c6-4eec-82cb-bfb4516195ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20717,10 +20650,10 @@
 				)
 				(justify right)
 			)
-			(uuid "752b38de-06c6-4eec-82cb-bfb4516195ba")
 		)
 		(pin "ADC_DO1" output
 			(at 228.6 85.725 0)
+			(uuid "9edbfefd-4dc3-45c4-953a-fc04e2d39290")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20728,10 +20661,10 @@
 				)
 				(justify right)
 			)
-			(uuid "9edbfefd-4dc3-45c4-953a-fc04e2d39290")
 		)
 		(pin "ADC_DO6" output
 			(at 228.6 98.425 0)
+			(uuid "29bcfc4f-15c0-4768-a96d-b2d5a87f2dfd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20739,10 +20672,10 @@
 				)
 				(justify right)
 			)
-			(uuid "29bcfc4f-15c0-4768-a96d-b2d5a87f2dfd")
 		)
 		(pin "ADC_DO7" output
 			(at 228.6 100.965 0)
+			(uuid "d231baa2-dec3-4732-ab28-2f1e488ac5b8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20750,10 +20683,10 @@
 				)
 				(justify right)
 			)
-			(uuid "d231baa2-dec3-4732-ab28-2f1e488ac5b8")
 		)
 		(pin "ADC_DO8" output
 			(at 228.6 103.505 0)
+			(uuid "23bdac76-8cb7-4067-845d-3f63dd7249f2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20761,60 +20694,60 @@
 				)
 				(justify right)
 			)
-			(uuid "23bdac76-8cb7-4067-845d-3f63dd7249f2")
 		)
 		(pin "ADC_DCLK" input
 			(at 228.6 81.915 0)
+			(uuid "ada5f70c-893e-43c5-8793-6ca315de6d79")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ada5f70c-893e-43c5-8793-6ca315de6d79")
 		)
 		(pin "ADC_~{Sync_In}" input
 			(at 228.6 73.025 0)
+			(uuid "13f3362f-a6f6-448a-befa-c92e2dc30c63")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "13f3362f-a6f6-448a-befa-c92e2dc30c63")
 		)
 		(pin "ADC_~{Start}" input
 			(at 228.6 70.485 0)
+			(uuid "f8ae1ace-7c81-4682-a15c-3cb165a734f7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f8ae1ace-7c81-4682-a15c-3cb165a734f7")
 		)
 		(pin "ADC_~{DRDY}" output
 			(at 228.6 79.375 0)
+			(uuid "56f68d7e-00fd-4a52-b039-6f9407f45bb4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "56f68d7e-00fd-4a52-b039-6f9407f45bb4")
 		)
 		(pin "ADC_~{Sync_Out}" output
 			(at 228.6 75.565 0)
+			(uuid "ae213a15-1f1f-4bd7-bb00-53e313a8203f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ae213a15-1f1f-4bd7-bb00-53e313a8203f")
 		)
 		(pin "ADC_MCLK+" input
 			(at 228.6 121.285 0)
+			(uuid "f0cedb29-f9fa-47f4-842c-642a62a9bec9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20822,10 +20755,10 @@
 				)
 				(justify right)
 			)
-			(uuid "f0cedb29-f9fa-47f4-842c-642a62a9bec9")
 		)
 		(pin "ADC_MCLK-" input
 			(at 228.6 123.825 0)
+			(uuid "03e7e793-4291-4e05-80cc-443c73d4999c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20833,20 +20766,20 @@
 				)
 				(justify right)
 			)
-			(uuid "03e7e793-4291-4e05-80cc-443c73d4999c")
 		)
 		(pin "AD7768_SDI" input
 			(at 228.6 114.935 0)
+			(uuid "69d181ed-1e0a-4f70-b7e1-40b63e93b206")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "69d181ed-1e0a-4f70-b7e1-40b63e93b206")
 		)
 		(pin "IOVDD" input
 			(at 228.6 66.675 0)
+			(uuid "be49c2ea-0521-4a2e-ad90-48c88e0c148a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20854,17 +20787,16 @@
 				)
 				(justify right)
 			)
-			(uuid "be49c2ea-0521-4a2e-ad90-48c88e0c148a")
 		)
 		(pin "AD7768_~{RESET}" input
 			(at 228.6 109.855 0)
+			(uuid "b5978a9c-4df8-4b49-a815-cccd92341313")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b5978a9c-4df8-4b49-a815-cccd92341313")
 		)
 		(instances
 			(project "Quartz"
@@ -20877,6 +20809,10 @@
 	(sheet
 		(at 353.06 24.13)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -20906,6 +20842,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 384.81 34.29 0)
+			(uuid "34659d4c-de95-46e1-a2b7-2391704b561d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20913,10 +20850,10 @@
 				)
 				(justify right)
 			)
-			(uuid "34659d4c-de95-46e1-a2b7-2391704b561d")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 384.81 36.83 0)
+			(uuid "f340284e-b570-430e-b3bc-6011a371a772")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20924,10 +20861,10 @@
 				)
 				(justify right)
 			)
-			(uuid "f340284e-b570-430e-b3bc-6011a371a772")
 		)
 		(pin "IN-" input
 			(at 353.06 31.75 180)
+			(uuid "8a2175a4-8063-45be-9e3b-a2a73ff0d019")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20935,10 +20872,10 @@
 				)
 				(justify left)
 			)
-			(uuid "8a2175a4-8063-45be-9e3b-a2a73ff0d019")
 		)
 		(pin "IN+" input
 			(at 353.06 29.21 180)
+			(uuid "de5d43be-e25e-4a3a-8ed9-ec08c3ecb6f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20946,10 +20883,10 @@
 				)
 				(justify left)
 			)
-			(uuid "de5d43be-e25e-4a3a-8ed9-ec08c3ecb6f9")
 		)
 		(pin "ADC_IN-" output
 			(at 384.81 27.94 0)
+			(uuid "2db5f368-6a3a-40f7-a274-b108b03b8ab8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20957,10 +20894,10 @@
 				)
 				(justify right)
 			)
-			(uuid "2db5f368-6a3a-40f7-a274-b108b03b8ab8")
 		)
 		(pin "ADC_CM" input
 			(at 384.81 30.48 0)
+			(uuid "383f0789-bc46-492f-bb9d-aed7fee8c02a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20968,10 +20905,10 @@
 				)
 				(justify right)
 			)
-			(uuid "383f0789-bc46-492f-bb9d-aed7fee8c02a")
 		)
 		(pin "ADC_IN+" output
 			(at 384.81 25.4 0)
+			(uuid "d7e8831c-4544-4a90-88de-cf7dd2764e60")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20979,7 +20916,6 @@
 				)
 				(justify right)
 			)
-			(uuid "d7e8831c-4544-4a90-88de-cf7dd2764e60")
 		)
 		(instances
 			(project "Quartz"
@@ -20992,6 +20928,10 @@
 	(sheet
 		(at 109.22 290.83)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -21021,6 +20961,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 140.97 300.99 0)
+			(uuid "115b6c1a-ba88-43f7-a822-2df4506b0e8c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21028,10 +20969,10 @@
 				)
 				(justify right)
 			)
-			(uuid "115b6c1a-ba88-43f7-a822-2df4506b0e8c")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 140.97 303.53 0)
+			(uuid "39b74648-f75c-4bde-870e-f4bf0ca62195")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21039,10 +20980,10 @@
 				)
 				(justify right)
 			)
-			(uuid "39b74648-f75c-4bde-870e-f4bf0ca62195")
 		)
 		(pin "IN-" input
 			(at 109.22 298.45 180)
+			(uuid "7a038d38-e410-4e68-8e67-558c438b648a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21050,10 +20991,10 @@
 				)
 				(justify left)
 			)
-			(uuid "7a038d38-e410-4e68-8e67-558c438b648a")
 		)
 		(pin "IN+" input
 			(at 109.22 295.91 180)
+			(uuid "61bdd9a9-0105-48a3-8cab-0fb3852bb023")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21061,10 +21002,10 @@
 				)
 				(justify left)
 			)
-			(uuid "61bdd9a9-0105-48a3-8cab-0fb3852bb023")
 		)
 		(pin "ADC_IN-" output
 			(at 140.97 294.64 0)
+			(uuid "fc385b33-71fb-469d-adb1-bee0b3170da1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21072,10 +21013,10 @@
 				)
 				(justify right)
 			)
-			(uuid "fc385b33-71fb-469d-adb1-bee0b3170da1")
 		)
 		(pin "ADC_CM" input
 			(at 140.97 297.18 0)
+			(uuid "9fa9f9a8-f684-4253-851d-63d62fdb3d22")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21083,10 +21024,10 @@
 				)
 				(justify right)
 			)
-			(uuid "9fa9f9a8-f684-4253-851d-63d62fdb3d22")
 		)
 		(pin "ADC_IN+" output
 			(at 140.97 292.1 0)
+			(uuid "461d25c9-bbad-4e83-b012-aa3d9516d080")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21094,7 +21035,6 @@
 				)
 				(justify right)
 			)
-			(uuid "461d25c9-bbad-4e83-b012-aa3d9516d080")
 		)
 		(instances
 			(project "Quartz"
@@ -21107,6 +21047,10 @@
 	(sheet
 		(at 353.06 157.48)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -21136,6 +21080,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 384.81 167.64 0)
+			(uuid "aee5e54c-b99b-4dbf-b694-ee591f5e61ea")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21143,10 +21088,10 @@
 				)
 				(justify right)
 			)
-			(uuid "aee5e54c-b99b-4dbf-b694-ee591f5e61ea")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 384.81 170.18 0)
+			(uuid "6f2fac69-1365-4b8f-8539-2ea26c1d30f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21154,10 +21099,10 @@
 				)
 				(justify right)
 			)
-			(uuid "6f2fac69-1365-4b8f-8539-2ea26c1d30f1")
 		)
 		(pin "IN-" input
 			(at 353.06 165.1 180)
+			(uuid "4f3a4da4-12a0-423c-b606-f8ae397b9c30")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21165,10 +21110,10 @@
 				)
 				(justify left)
 			)
-			(uuid "4f3a4da4-12a0-423c-b606-f8ae397b9c30")
 		)
 		(pin "IN+" input
 			(at 353.06 162.56 180)
+			(uuid "e75f7ecf-ed18-4452-80ac-f7c37b1b633d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21176,10 +21121,10 @@
 				)
 				(justify left)
 			)
-			(uuid "e75f7ecf-ed18-4452-80ac-f7c37b1b633d")
 		)
 		(pin "ADC_IN-" output
 			(at 384.81 161.29 0)
+			(uuid "cff74cfa-28ca-4198-b93a-315ccc15613d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21187,10 +21132,10 @@
 				)
 				(justify right)
 			)
-			(uuid "cff74cfa-28ca-4198-b93a-315ccc15613d")
 		)
 		(pin "ADC_CM" input
 			(at 384.81 163.83 0)
+			(uuid "db8999eb-8d1e-498d-9d5c-df89ed3c8c43")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21198,10 +21143,10 @@
 				)
 				(justify right)
 			)
-			(uuid "db8999eb-8d1e-498d-9d5c-df89ed3c8c43")
 		)
 		(pin "ADC_IN+" output
 			(at 384.81 158.75 0)
+			(uuid "eaad99bf-90cc-48fc-a36a-18fe14cd301e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21209,7 +21154,6 @@
 				)
 				(justify right)
 			)
-			(uuid "eaad99bf-90cc-48fc-a36a-18fe14cd301e")
 		)
 		(instances
 			(project "Quartz"
@@ -21222,6 +21166,10 @@
 	(sheet
 		(at 162.56 358.14)
 		(size 59.69 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -21251,43 +21199,43 @@
 		)
 		(pin "Relay_SetCoil[1..16]" output
 			(at 162.56 365.76 180)
+			(uuid "4c17ee32-ad22-4c0a-a254-1a205dd47461")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4c17ee32-ad22-4c0a-a254-1a205dd47461")
 		)
 		(pin "Relay_SetCoil[17..32]" output
 			(at 162.56 374.65 180)
+			(uuid "a63b4420-e34a-47fe-bf3e-f370eb52d7ae")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "a63b4420-e34a-47fe-bf3e-f370eb52d7ae")
 		)
 		(pin "Relay_ResetCoil[1..16]" output
 			(at 162.56 368.3 180)
+			(uuid "0e857c36-d91d-4550-bc08-7b5f6866f99e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0e857c36-d91d-4550-bc08-7b5f6866f99e")
 		)
 		(pin "Relay_ResetCoil[17..32]" output
 			(at 162.56 377.19 180)
+			(uuid "c728245c-0982-4b4b-a4e1-6cca39ee1562")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c728245c-0982-4b4b-a4e1-6cca39ee1562")
 		)
 		(instances
 			(project "Quartz"
@@ -21300,6 +21248,10 @@
 	(sheet
 		(at 353.06 62.23)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -21329,6 +21281,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 384.81 72.39 0)
+			(uuid "2ce6e41e-c0d2-4e16-ad4b-fa5c44d1c4cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21336,10 +21289,10 @@
 				)
 				(justify right)
 			)
-			(uuid "2ce6e41e-c0d2-4e16-ad4b-fa5c44d1c4cd")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 384.81 74.93 0)
+			(uuid "27932c60-8243-41ff-a33a-9a0483ceb77f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21347,10 +21300,10 @@
 				)
 				(justify right)
 			)
-			(uuid "27932c60-8243-41ff-a33a-9a0483ceb77f")
 		)
 		(pin "IN-" input
 			(at 353.06 69.85 180)
+			(uuid "418c07cf-b7a7-4d20-9d06-e49237d721be")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21358,10 +21311,10 @@
 				)
 				(justify left)
 			)
-			(uuid "418c07cf-b7a7-4d20-9d06-e49237d721be")
 		)
 		(pin "IN+" input
 			(at 353.06 67.31 180)
+			(uuid "5305f6d2-775f-42d9-b1df-e059fa4d138c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21369,10 +21322,10 @@
 				)
 				(justify left)
 			)
-			(uuid "5305f6d2-775f-42d9-b1df-e059fa4d138c")
 		)
 		(pin "ADC_IN-" output
 			(at 384.81 66.04 0)
+			(uuid "2a209c95-29c5-45cb-a603-4b7ee5007435")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21380,10 +21333,10 @@
 				)
 				(justify right)
 			)
-			(uuid "2a209c95-29c5-45cb-a603-4b7ee5007435")
 		)
 		(pin "ADC_CM" input
 			(at 384.81 68.58 0)
+			(uuid "b3056287-8d7e-4051-a191-7976c8225c7a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21391,10 +21344,10 @@
 				)
 				(justify right)
 			)
-			(uuid "b3056287-8d7e-4051-a191-7976c8225c7a")
 		)
 		(pin "ADC_IN+" output
 			(at 384.81 63.5 0)
+			(uuid "2b3c1673-1703-4608-9b8d-23da14c9c5c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21402,7 +21355,6 @@
 				)
 				(justify right)
 			)
-			(uuid "2b3c1673-1703-4608-9b8d-23da14c9c5c7")
 		)
 		(instances
 			(project "Quartz"
@@ -21415,6 +21367,10 @@
 	(sheet
 		(at 353.06 290.83)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -21444,6 +21400,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 384.81 300.99 0)
+			(uuid "3e7823f5-fdf9-4834-a838-f01821ae7fef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21451,10 +21408,10 @@
 				)
 				(justify right)
 			)
-			(uuid "3e7823f5-fdf9-4834-a838-f01821ae7fef")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 384.81 303.53 0)
+			(uuid "ce724aa2-9640-405d-b256-96d870a48444")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21462,10 +21419,10 @@
 				)
 				(justify right)
 			)
-			(uuid "ce724aa2-9640-405d-b256-96d870a48444")
 		)
 		(pin "IN-" input
 			(at 353.06 298.45 180)
+			(uuid "4ba3be17-39f8-4a64-b82c-42abc83ee234")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21473,10 +21430,10 @@
 				)
 				(justify left)
 			)
-			(uuid "4ba3be17-39f8-4a64-b82c-42abc83ee234")
 		)
 		(pin "IN+" input
 			(at 353.06 295.91 180)
+			(uuid "3896c6e6-5305-42c1-a449-73c029a6337d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21484,10 +21441,10 @@
 				)
 				(justify left)
 			)
-			(uuid "3896c6e6-5305-42c1-a449-73c029a6337d")
 		)
 		(pin "ADC_IN-" output
 			(at 384.81 294.64 0)
+			(uuid "bf0d7084-1b75-4cfc-a6ca-c31d94a30737")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21495,10 +21452,10 @@
 				)
 				(justify right)
 			)
-			(uuid "bf0d7084-1b75-4cfc-a6ca-c31d94a30737")
 		)
 		(pin "ADC_CM" input
 			(at 384.81 297.18 0)
+			(uuid "d6e063cd-d385-4348-a1bc-294ab67a32d0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21506,10 +21463,10 @@
 				)
 				(justify right)
 			)
-			(uuid "d6e063cd-d385-4348-a1bc-294ab67a32d0")
 		)
 		(pin "ADC_IN+" output
 			(at 384.81 292.1 0)
+			(uuid "0e493c84-fcc8-4eab-8996-cd10a9d581fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21517,7 +21474,6 @@
 				)
 				(justify right)
 			)
-			(uuid "0e493c84-fcc8-4eab-8996-cd10a9d581fa")
 		)
 		(instances
 			(project "Quartz"
@@ -21530,6 +21486,10 @@
 	(sheet
 		(at 109.22 81.28)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -21559,6 +21519,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 140.97 91.44 0)
+			(uuid "67f7f70b-c9d7-4b48-9736-3ec23be24378")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21566,10 +21527,10 @@
 				)
 				(justify right)
 			)
-			(uuid "67f7f70b-c9d7-4b48-9736-3ec23be24378")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 140.97 93.98 0)
+			(uuid "0e84b424-1cb6-4718-810c-5324d1c8a3ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21577,10 +21538,10 @@
 				)
 				(justify right)
 			)
-			(uuid "0e84b424-1cb6-4718-810c-5324d1c8a3ec")
 		)
 		(pin "IN-" input
 			(at 109.22 88.9 180)
+			(uuid "df0b883c-b11d-49c3-a5a9-4fc043302cbc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21588,10 +21549,10 @@
 				)
 				(justify left)
 			)
-			(uuid "df0b883c-b11d-49c3-a5a9-4fc043302cbc")
 		)
 		(pin "IN+" input
 			(at 109.22 86.36 180)
+			(uuid "ee21256d-ce9d-45e6-8b47-be0b7cae199b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21599,10 +21560,10 @@
 				)
 				(justify left)
 			)
-			(uuid "ee21256d-ce9d-45e6-8b47-be0b7cae199b")
 		)
 		(pin "ADC_IN-" output
 			(at 140.97 85.09 0)
+			(uuid "46096b68-86dd-4d8f-9f02-1e92839b3370")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21610,10 +21571,10 @@
 				)
 				(justify right)
 			)
-			(uuid "46096b68-86dd-4d8f-9f02-1e92839b3370")
 		)
 		(pin "ADC_CM" input
 			(at 140.97 87.63 0)
+			(uuid "66c3bf87-b34e-4347-8f1b-16c21622a2d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21621,10 +21582,10 @@
 				)
 				(justify right)
 			)
-			(uuid "66c3bf87-b34e-4347-8f1b-16c21622a2d5")
 		)
 		(pin "ADC_IN+" output
 			(at 140.97 82.55 0)
+			(uuid "fb64dc4b-8e02-4d72-8b8c-e8cff83d92e6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21632,7 +21593,6 @@
 				)
 				(justify right)
 			)
-			(uuid "fb64dc4b-8e02-4d72-8b8c-e8cff83d92e6")
 		)
 		(instances
 			(project "Quartz"
@@ -21645,6 +21605,10 @@
 	(sheet
 		(at 353.06 100.33)
 		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -21674,6 +21638,7 @@
 		)
 		(pin "Relay_SetCoil" input
 			(at 384.81 110.49 0)
+			(uuid "1b6ff5b9-ffed-48fe-b638-48a869870a7e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21681,10 +21646,10 @@
 				)
 				(justify right)
 			)
-			(uuid "1b6ff5b9-ffed-48fe-b638-48a869870a7e")
 		)
 		(pin "Relay_ResetCoil" input
 			(at 384.81 113.03 0)
+			(uuid "5b99d94b-df95-444d-bcbe-50d869842870")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21692,10 +21657,10 @@
 				)
 				(justify right)
 			)
-			(uuid "5b99d94b-df95-444d-bcbe-50d869842870")
 		)
 		(pin "IN-" input
 			(at 353.06 107.95 180)
+			(uuid "9d67a6a9-ed64-4a39-8cda-3986fe8796fa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21703,10 +21668,10 @@
 				)
 				(justify left)
 			)
-			(uuid "9d67a6a9-ed64-4a39-8cda-3986fe8796fa")
 		)
 		(pin "IN+" input
 			(at 353.06 105.41 180)
+			(uuid "fbb80215-7c4a-4669-9e53-bc4ae18f4932")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21714,10 +21679,10 @@
 				)
 				(justify left)
 			)
-			(uuid "fbb80215-7c4a-4669-9e53-bc4ae18f4932")
 		)
 		(pin "ADC_IN-" output
 			(at 384.81 104.14 0)
+			(uuid "e451944e-7546-41a1-bce9-ff11b68c269c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21725,10 +21690,10 @@
 				)
 				(justify right)
 			)
-			(uuid "e451944e-7546-41a1-bce9-ff11b68c269c")
 		)
 		(pin "ADC_CM" input
 			(at 384.81 106.68 0)
+			(uuid "d585e400-d09f-4f96-add4-574ffc46385c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21736,10 +21701,10 @@
 				)
 				(justify right)
 			)
-			(uuid "d585e400-d09f-4f96-add4-574ffc46385c")
 		)
 		(pin "ADC_IN+" output
 			(at 384.81 101.6 0)
+			(uuid "a27131ee-c400-4e9e-be1e-6b2cd14a4087")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21747,7 +21712,6 @@
 				)
 				(justify right)
 			)
-			(uuid "a27131ee-c400-4e9e-be1e-6b2cd14a4087")
 		)
 		(instances
 			(project "Quartz"
@@ -21762,4 +21726,5 @@
 			(page "0")
 		)
 	)
+	(embedded_fonts no)
 )
