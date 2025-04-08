@@ -1,6 +1,4 @@
 (sym_lib_table
   (version 7)
   (lib (name "AD7768_Digitizer_SLib")(type "KiCad")(uri "${KIPRJMOD}/Models/Symbols/AD7768_Digitizer_SLib.kicad_sym")(options "")(descr ""))
-  (lib (name "AD7768_Digitizer_SLibv2")(type "KiCad")(uri "${KIPRJMOD}/Models/Symbols/AD7768_Digitizer_SLibv2.kicad_sym")(options "")(descr ""))
-  (lib (name "max4896")(type "KiCad")(uri "${KIPRJMOD}/Models/Symbols/max4896.kicad_sym")(options "")(descr ""))
 )
