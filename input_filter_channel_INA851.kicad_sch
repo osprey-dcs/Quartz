@@ -76,15 +76,6 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Relay*THT*Kemet*EC2*DoubleCoil*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(symbol "EC2-12TNU_1_1"
 				(rectangle
 					(start -20.32 5.08)

@@ -18,13 +18,13 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "P"
+			(property "Reference" "P1"
 				(at -6.35 106.68 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
 			(property "Value" "ASP-134604-01"
@@ -33,10 +33,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "QuartzFootprints:SAMTEC_ASP-134604-01"
 				(at -81.28 -17.78 0)
 				(effects
 					(font
@@ -55,7 +55,25 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "160 Position Connector Array, Male Pins Surface Mount Gold"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "ASP-134604-01"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samtec Inc."
 				(at 0 0 0)
 				(effects
 					(font
@@ -2975,7 +2993,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
+		(symbol "AD7768_Digitizer_SLib:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2986,23 +3004,26 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
+			(property "Reference" "H4"
+				(at 3.175 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
+				(at 3.175 -0.635 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+					(hide yes)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "QuartzFootprints:Mounting Hole 3mm hole 5mm ring"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3020,7 +3041,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole with connection"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -3030,15 +3051,6 @@
 				)
 			)
 			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -13521,7 +13533,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "AD7768_Digitizer_SLib:MountingHole_Pad")
 		(at 365.125 31.115 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13754,7 +13766,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "AD7768_Digitizer_SLib:MountingHole_Pad")
 		(at 365.125 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14629,7 +14641,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "AD7768_Digitizer_SLib:MountingHole_Pad")
 		(at 338.455 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17746,7 +17758,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
+		(lib_id "AD7768_Digitizer_SLib:MountingHole_Pad")
 		(at 338.455 31.115 0)
 		(unit 1)
 		(exclude_from_sim no)
