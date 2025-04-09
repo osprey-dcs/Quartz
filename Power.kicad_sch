@@ -143,7 +143,6 @@
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.54)
-					(hide yes)
 					(name "A"
 						(effects
 							(font
@@ -680,17 +679,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U35"
-				(at 3.81 26.67 0)
+			(property "Reference" "U"
+				(at 7.62 25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "LT8582"
-				(at 7.62 24.13 0)
+			(property "Value" ""
+				(at -16.51 19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -716,15 +714,6 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "LT8582"
 				(at 0 0 0)
 				(effects
 					(font
@@ -928,24 +917,6 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 -25.4 90)
-					(length 2.54)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -2.54 25.4 270)
 					(length 2.54)
 					(name "SWA1"
@@ -1110,7 +1081,7 @@
 				(pin passive line
 					(at 16.51 0 180)
 					(length 2.54)
-					(name "GND"
+					(name "PAD_GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1973,6 +1944,15 @@
 				)
 			)
 			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3502,8 +3482,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3579,8 +3563,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3680,7 +3663,7 @@
 		(uuid "151513d6-199a-485c-b741-1543535295be")
 	)
 	(junction
-		(at 84.455 36.83)
+		(at 85.09 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "192f551d-9d6c-46b1-b972-b6855be7e233")
@@ -3738,12 +3721,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "274ed86d-afb7-4c92-bcd6-1879aa5f3b1f")
-	)
-	(junction
-		(at 84.455 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2cbffbff-b25c-4cea-87a7-4e5e992f0d1a")
 	)
 	(junction
 		(at 224.79 95.25)
@@ -4100,6 +4077,12 @@
 		(uuid "e8cfda43-afb9-4def-b20d-611490c66683")
 	)
 	(junction
+		(at 85.09 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e95dd51c-d1fb-4486-b277-107e68c6c3b9")
+	)
+	(junction
 		(at 147.32 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4144,6 +4127,10 @@
 	(no_connect
 		(at 128.27 129.54)
 		(uuid "59fb8ee0-db61-4483-9f48-c86cbd700ac6")
+	)
+	(no_connect
+		(at 87.63 46.99)
+		(uuid "73d1883b-2365-473d-81ec-5994c32a0651")
 	)
 	(no_connect
 		(at 250.19 46.99)
@@ -5221,7 +5208,7 @@
 	)
 	(wire
 		(pts
-			(xy 84.455 36.83) (xy 97.155 36.83)
+			(xy 85.09 36.83) (xy 97.155 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5511,7 +5498,7 @@
 	)
 	(wire
 		(pts
-			(xy 84.455 53.34) (xy 100.965 53.34)
+			(xy 85.09 53.34) (xy 100.965 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5551,7 +5538,7 @@
 	)
 	(wire
 		(pts
-			(xy 84.455 40.64) (xy 84.455 43.18)
+			(xy 85.09 40.64) (xy 85.09 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5661,7 +5648,7 @@
 	)
 	(wire
 		(pts
-			(xy 84.455 36.83) (xy 84.455 40.64)
+			(xy 85.09 36.83) (xy 85.09 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5841,7 +5828,7 @@
 	)
 	(wire
 		(pts
-			(xy 84.455 50.8) (xy 84.455 53.34)
+			(xy 85.09 50.8) (xy 85.09 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6631,7 +6618,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.295 33.02) (xy 84.455 33.02)
+			(xy 74.295 33.02) (xy 85.09 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6721,7 +6708,7 @@
 	)
 	(wire
 		(pts
-			(xy 84.455 33.02) (xy 84.455 36.83)
+			(xy 85.09 33.02) (xy 85.09 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6951,7 +6938,7 @@
 	)
 	(wire
 		(pts
-			(xy 84.455 40.64) (xy 74.295 40.64)
+			(xy 74.295 40.64) (xy 85.09 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7662,77 +7649,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 134.62 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00788350-bfe0-4832-bc3b-18a83d8f067a")
-		(property "Reference" "#PWR0101"
-			(at 134.62 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 136.525 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 134.62 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53c2af39-e88a-4e47-9ed2-0ccff1d53f31")
-		)
-		(instances
-			(project "Zest_MPEX_v1p3"
-				(path "/00cb7cb7-8be2-4970-8959-a06932b2fa76/bd960755-3e45-476f-84b6-fdf0c21cce40"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-			(project "Quartz_v1p2"
-				(path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/ac1e64b2-1a26-4ac8-9188-8b2d840a4cd2"
-					(reference "#PWR0101")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -14131,7 +14047,7 @@
 	)
 	(symbol
 		(lib_id "AD7768_Digitizer_SLib:D_BAT54W")
-		(at 84.455 46.99 270)
+		(at 85.09 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14139,7 +14055,7 @@
 		(dnp no)
 		(uuid "c28e2e59-a402-455f-b41c-6d33f04dc5d3")
 		(property "Reference" "D4"
-			(at 84.455 49.53 90)
+			(at 85.09 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14148,7 +14064,7 @@
 			)
 		)
 		(property "Value" "BAT54W"
-			(at 84.455 51.435 90)
+			(at 85.09 51.435 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14157,7 +14073,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 84.455 46.99 0)
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14166,7 +14082,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 84.455 46.99 0)
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14175,7 +14091,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 84.455 46.99 0)
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14184,7 +14100,7 @@
 			)
 		)
 		(property "MPN" "BAT54W-7-F"
-			(at 84.455 46.99 90)
+			(at 85.09 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16142,9 +16058,6 @@
 		)
 		(pin "24"
 			(uuid "1611e749-e450-48bd-b70b-55102e9e4a26")
-		)
-		(pin "25"
-			(uuid "dedbf027-ea15-4c2c-b9e1-27d2cc3709af")
 		)
 		(pin "25"
 			(uuid "dedbf027-ea15-4c2c-b9e1-27d2cc3709b0")
