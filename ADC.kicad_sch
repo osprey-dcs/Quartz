@@ -9373,7 +9373,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ADR4540"
+		(property "Value" "ADR4520"
 			(at 85.725 109.22 0)
 			(effects
 				(font
@@ -9411,7 +9411,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ADR4540BRZ"
+		(property "MPN" "ADR4520BRZ"
 			(at 78.105 115.57 0)
 			(effects
 				(font

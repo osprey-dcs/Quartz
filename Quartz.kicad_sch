@@ -2212,6 +2212,12 @@
 		(uuid "9d9178d2-9385-4577-ac9d-4c8f102acd41")
 	)
 	(junction
+		(at 254 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3cbbaf7-ed35-4a64-8d6e-0beb64d0f137")
+	)
+	(junction
 		(at 288.29 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3415,7 +3421,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 110.49) (xy 243.84 110.49)
+			(xy 228.6 110.49) (xy 254 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5885,6 +5891,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 95.25) (xy 254 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed4bf23-85da-4fe4-b6bf-3f0c31cbff3a")
+	)
+	(wire
+		(pts
 			(xy 433.07 228.6) (xy 433.07 180.34)
 		)
 		(stroke
@@ -6352,6 +6368,16 @@
 			(type default)
 		)
 		(uuid "80ddd146-c41c-4b60-a162-3262e5afe2f0")
+	)
+	(wire
+		(pts
+			(xy 254 105.41) (xy 254 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817e3003-f27c-41a8-a58e-6e77143d06bd")
 	)
 	(wire
 		(pts
@@ -7392,6 +7418,16 @@
 			(type default)
 		)
 		(uuid "ac37ab2c-db56-488b-bf34-bb0fc59f375f")
+	)
+	(wire
+		(pts
+			(xy 254 110.49) (xy 257.81 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad057332-9eb9-4eb3-b2fe-70d36d8ffc16")
 	)
 	(wire
 		(pts
@@ -9212,6 +9248,16 @@
 			(type default)
 		)
 		(uuid "ebf4f79b-ad9d-4a73-b3fb-ee452d89f3fc")
+	)
+	(wire
+		(pts
+			(xy 257.81 95.25) (xy 254 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1eb70b-2290-480e-abc8-598adb681dde")
 	)
 	(wire
 		(pts
@@ -12155,7 +12201,7 @@
 	)
 	(global_label "AD7768_~{RESET}"
 		(shape input)
-		(at 243.84 110.49 0)
+		(at 257.81 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12165,7 +12211,7 @@
 		)
 		(uuid "47cdfaea-92b5-4186-b4ca-12998c275db4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.7345 110.49 0)
+			(at 274.7045 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13165,6 +13211,28 @@
 			)
 		)
 	)
+	(global_label "P1_2P5V"
+		(shape input)
+		(at 257.81 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb6948ca-79e1-49b1-aa7d-445dd2add820")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 268.9405 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "AD7768_SYNC"
 		(shape input)
 		(at 242.57 224.79 0)
@@ -13801,6 +13869,84 @@
 			(project "Quartz_v1p2"
 				(path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021"
 					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 254 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28fdca28-4587-483a-9769-ff48f7233e44")
+		(property "Reference" "R120"
+			(at 260.35 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.75k"
+			(at 260.858 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 254 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402FR-074K75L"
+			(at 254 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "110b8f80-30d0-40c5-9be2-635c2a411714")
+		)
+		(pin "2"
+			(uuid "b797e236-fc8d-456d-89ca-938b0c2acb9d")
+		)
+		(instances
+			(project "Quartz"
+				(path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021"
+					(reference "R120")
 					(unit 1)
 				)
 			)
@@ -19651,7 +19797,7 @@
 		)
 	)
 	(sheet
-		(at 521.97 25.4)
+		(at 527.685 25.4)
 		(size 12.7 321.31)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19667,7 +19813,7 @@
 		)
 		(uuid "9fe24aff-0307-4354-b185-f0174f24220c")
 		(property "Sheetname" "FMC"
-			(at 521.97 24.6884 0)
+			(at 527.685 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19676,7 +19822,7 @@
 			)
 		)
 		(property "Sheetfile" "FMC.kicad_sch"
-			(at 521.97 347.2946 0)
+			(at 527.685 347.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20050,8 +20196,8 @@
 		)
 	)
 	(sheet
-		(at 461.01 356.87)
-		(size 19.05 17.78)
+		(at 236.22 357.505)
+		(size 59.055 27.305)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -20066,7 +20212,7 @@
 		)
 		(uuid "ac1e64b2-1a26-4ac8-9188-8b2d840a4cd2")
 		(property "Sheetname" "Power"
-			(at 461.01 356.1584 0)
+			(at 236.22 356.7934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20075,7 +20221,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 461.01 375.2346 0)
+			(at 236.22 385.3946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
