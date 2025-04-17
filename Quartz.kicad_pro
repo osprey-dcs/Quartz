@@ -265,7 +265,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|2032000|393700|b060fe14-e90a-4fc5-82d8-3e901c28f588|250b6f74-f2e7-4503-b827-dd0db1c20fb1|/674e1e7f-67ba-4e85-a926-dcd5f6a22021/ac1e64b2-1a26-4ac8-9188-8b2d840a4cd2|/674e1e7f-67ba-4e85-a926-dcd5f6a22021/ac1e64b2-1a26-4ac8-9188-8b2d840a4cd2|/674e1e7f-67ba-4e85-a926-dcd5f6a22021/ac1e64b2-1a26-4ac8-9188-8b2d840a4cd2",
+        "Two Net Names for Schematic Readability"
+      ],
+      [
+        "multiple_net_names|2362200|1155700|814d9044-b940-47f4-afae-dc45ca332731|1cbe16fb-ec11-4a81-b343-54892d275039|/674e1e7f-67ba-4e85-a926-dcd5f6a22021/763a2dc6-a957-486b-a6c0-eb0ccf305601|/674e1e7f-67ba-4e85-a926-dcd5f6a22021/763a2dc6-a957-486b-a6c0-eb0ccf305601|/674e1e7f-67ba-4e85-a926-dcd5f6a22021/763a2dc6-a957-486b-a6c0-eb0ccf305601",
+        "Two Net Names for Schematic Readability"
+      ],
+      [
+        "multiple_net_names|488950|266700|325036f7-1456-48f1-b5b6-785be9d02762|9b6bb5bd-3bed-4b20-af8c-4fefba621231|/674e1e7f-67ba-4e85-a926-dcd5f6a22021/763a2dc6-a957-486b-a6c0-eb0ccf305601|/674e1e7f-67ba-4e85-a926-dcd5f6a22021/763a2dc6-a957-486b-a6c0-eb0ccf305601|/674e1e7f-67ba-4e85-a926-dcd5f6a22021/763a2dc6-a957-486b-a6c0-eb0ccf305601",
+        "Two Net Names for Schematic Readability"
+      ],
+      [
+        "pin_to_pin|3575050|958850|e7cff646-b62d-4aeb-a694-05eeeeadb4fe|1a3ce35a-1a68-4126-8c89-b22f2c230f62|/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e|/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e|/674e1e7f-67ba-4e85-a926-dcd5f6a22021/ac1e64b2-1a26-4ac8-9188-8b2d840a4cd2",
+        ""
+      ],
+      [
+        "pin_to_pin|4470400|844550|6e2c6f9f-6977-4eca-8b92-205a75e12c34|1a3ce35a-1a68-4126-8c89-b22f2c230f62|/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e|/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e|/674e1e7f-67ba-4e85-a926-dcd5f6a22021/ac1e64b2-1a26-4ac8-9188-8b2d840a4cd2",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
