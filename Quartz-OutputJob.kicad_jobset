@@ -28,11 +28,11 @@
       "description": "",
       "id": "3a8df445-eb53-4bf9-8384-8990940b7dc0",
       "settings": {
-        "bom_format_preset_name": "",
+        "bom_format_preset_name": "CSV",
         "bom_preset_name": "",
         "description": "",
         "exclude_dnp": false,
-        "field_delimiter": "",
+        "field_delimiter": ",",
         "fields_group_by": [
           "MPN"
         ],
@@ -83,11 +83,11 @@
         "keep_line_breaks": false,
         "keep_tabs": false,
         "output_filename": "Quartz-BOM.csv",
-        "ref_delimiter": "",
+        "ref_delimiter": ",",
         "ref_range_delimiter": "",
         "sort_asc": true,
         "sort_field": "${ITEM_NUMBER}",
-        "string_delimiter": ""
+        "string_delimiter": "\""
       },
       "type": "sch_export_bom"
     },
