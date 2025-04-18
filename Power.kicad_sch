@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Quartz")
-		(date "2024-03-28")
-		(rev "v1.2.1")
+		(date "2025-04-17")
+		(rev "v1.3")
 		(company "OspreyDCS")
 	)
 	(lib_symbols
@@ -8763,6 +8763,15 @@
 				(hide yes)
 			)
 		)
+		(property "MF" "Keystone Electronics"
+			(at 224.79 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9b8f0fd-3146-4698-b7e6-2178f05f81b5")
 		)
@@ -9515,6 +9524,15 @@
 				(hide yes)
 			)
 		)
+		(property "MF" "Keystone Electronics"
+			(at 385.445 234.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6f0c640c-8b48-4726-8e3d-6155cbcaf514")
 		)
@@ -9580,6 +9598,15 @@
 			)
 		)
 		(property "MPN" "5000"
+			(at 207.645 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
 			(at 207.645 209.55 0)
 			(effects
 				(font
@@ -11847,6 +11874,15 @@
 				(hide yes)
 			)
 		)
+		(property "MF" "Keystone Electronics"
+			(at 224.79 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74bf44cc-bea3-4e7a-86ff-fa09e18997aa")
 		)
@@ -11912,6 +11948,15 @@
 			)
 		)
 		(property "MPN" "5000"
+			(at 116.205 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
 			(at 116.205 31.75 0)
 			(effects
 				(font
@@ -12980,6 +13025,15 @@
 			)
 		)
 		(property "MPN" "5000"
+			(at 344.17 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
 			(at 344.17 149.86 0)
 			(effects
 				(font
@@ -15136,6 +15190,15 @@
 				(hide yes)
 			)
 		)
+		(property "MF" "Keystone Electronics"
+			(at 394.335 234.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1e766365-f72f-49f1-a968-63596f6ac977")
 		)
@@ -15594,6 +15657,15 @@
 			)
 		)
 		(property "MPN" "5000"
+			(at 342.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
 			(at 342.9 106.68 0)
 			(effects
 				(font
@@ -16098,6 +16170,15 @@
 				(hide yes)
 			)
 		)
+		(property "MF" "Keystone Electronics"
+			(at 304.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd2088c1-61e5-490f-b3ac-f409677bf4c5")
 		)
@@ -16163,6 +16244,15 @@
 			)
 		)
 		(property "MPN" "5000"
+			(at 333.375 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
 			(at 333.375 209.55 0)
 			(effects
 				(font
@@ -17058,6 +17148,15 @@
 			)
 		)
 		(property "MPN" "5000"
+			(at 87.63 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Keystone Electronics"
 			(at 87.63 209.55 0)
 			(effects
 				(font

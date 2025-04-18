@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Quartz")
-		(date "2024-03-28")
-		(rev "v1.2.1")
+		(date "2025-04-17")
+		(rev "v1.3")
 		(company "OspreyDCS")
 	)
 	(lib_symbols

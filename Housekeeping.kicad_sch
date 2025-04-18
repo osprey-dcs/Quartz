@@ -6,8 +6,8 @@
 	(paper "A2")
 	(title_block
 		(title "Quartz")
-		(date "2024-03-28")
-		(rev "v1.2.1")
+		(date "2025-04-17")
+		(rev "v1.3")
 		(company "OspreyDCS")
 	)
 	(lib_symbols
@@ -7047,12 +7047,6 @@
 		(uuid "3a6eace8-e2cb-484e-8488-a99c8e02f043")
 	)
 	(junction
-		(at 495.935 288.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e1040a5-9745-4272-bcca-12ee47f4432f")
-	)
-	(junction
 		(at 375.92 383.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8993,16 +8987,6 @@
 			(type default)
 		)
 		(uuid "17567c57-bf87-41f0-996c-d215083dc807")
-	)
-	(wire
-		(pts
-			(xy 495.935 288.29) (xy 497.84 288.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17f9b331-8240-4c2f-ba89-bef2dd19ef82")
 	)
 	(wire
 		(pts
@@ -11226,7 +11210,7 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 288.29) (xy 495.935 288.29)
+			(xy 491.49 288.29) (xy 497.84 288.29)
 		)
 		(stroke
 			(width 0)
@@ -31448,72 +31432,6 @@
 			(project "Quartz"
 				(path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
 					(reference "C132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 495.935 288.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d6043ad-faea-4838-9a05-6aa856e105c5")
-		(property "Reference" "#FLG014"
-			(at 495.935 286.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 495.935 284.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 495.935 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 495.935 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 495.935 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db7ced06-c5a6-4abc-b131-321e8683a696")
-		)
-		(instances
-			(project "Quartz"
-				(path "/674e1e7f-67ba-4e85-a926-dcd5f6a22021/db3c7ba2-982f-432b-8742-662861d58c3e"
-					(reference "#FLG014")
 					(unit 1)
 				)
 			)
